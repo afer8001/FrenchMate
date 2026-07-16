@@ -1,1 +1,26 @@
+[
+  {
+    "word":"bonjour",
+    "meaning":"سلام"
+  },
 
+  {
+    "word":"chat",
+    "meaning":"گربه"
+  },
+
+  {
+    "word":"chien",
+    "meaning":"سگ"
+  },
+
+  {
+    "word":"manger",
+    "meaning":"خوردن"
+  },
+
+  {
+    "word":"aller",
+    "meaning":"رفتن"
+  }
+]
