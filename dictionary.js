@@ -201,6 +201,44 @@ ${found.word}
 
 }
 
+function manualSearch(){
+
+const word =
+document
+.getElementById("searchWord")
+.value
+.toLowerCase();
+
+const found =
+words.find(
+item =>
+item.word.toLowerCase() === word
+);
+
+if(found){
+
+showWordPage(found);
+
+}
+else{
+
+document
+.getElementById("content")
+.innerHTML = `
+
+<button id="homeBtn">
+🏠 Home
+</button>
+
+<h2>
+Word Not Found
+</h2>
+
+`;
+
+}
+
+}
 
 document.addEventListener(
 "click",
@@ -212,6 +250,20 @@ document
 .getElementById("content")
 .innerHTML =
 homePage;
+
+}
+
+});
+
+document
+.getElementById("searchWord")
+.addEventListener(
+"keydown",
+function(event){
+
+if(event.key === "Enter"){
+
+manualSearch();
 
 }
 
