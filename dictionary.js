@@ -12,7 +12,40 @@ const homePage = `
 Search a word to start learning French.
 </p>
 
+<hr>
+
+<div class="feature-card">
+
+<h2>📝 Grammar</h2>
+
+<p>
+French grammar lessons coming soon.
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h2>🔄 Conjugation</h2>
+
+<p>
+French verb conjugator coming soon.
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h2>🎯 Quiz</h2>
+
+<p>
+Interactive quizzes coming soon.
+</p>
+
+</div>
+
 `;
+
 fetch("dictionary.json")
 .then(response => response.json())
 .then(data => {
