@@ -1,26 +1,27 @@
 [
-  {
-    "word":"bonjour",
-    "meaning":"سلام"
-  },
-
-  {
-    "word":"chat",
-    "meaning":"گربه"
-  },
-
-  {
-    "word":"chien",
-    "meaning":"سگ"
-  },
-
-  {
-    "word":"manger",
-    "meaning":"خوردن"
-  },
-
-  {
-    "word":"aller",
-    "meaning":"رفتن"
-  }
+  {"word":"bonjour","meaning":"سلام"},
+  {"word":"salut","meaning":"سلام"},
+  {"word":"merci","meaning":"متشکرم"},
+  {"word":"oui","meaning":"بله"},
+  {"word":"non","meaning":"خیر"},
+  {"word":"chat","meaning":"گربه"},
+  {"word":"chien","meaning":"سگ"},
+  {"word":"manger","meaning":"خوردن"},
+  {"word":"boire","meaning":"نوشیدن"},
+  {"word":"aller","meaning":"رفتن"},
+  {"word":"venir","meaning":"آمدن"},
+  {"word":"maison","meaning":"خانه"},
+  {"word":"école","meaning":"مدرسه"},
+  {"word":"livre","meaning":"کتاب"},
+  {"word":"stylo","meaning":"خودکار"},
+  {"word":"ami","meaning":"دوست"},
+  {"word":"famille","meaning":"خانواده"},
+  {"word":"travail","meaning":"کار"},
+  {"word":"voiture","meaning":"ماشین"},
+  {"word":"eau","meaning":"آب"},
+  {"word":"pain","meaning":"نان"},
+  {"word":"fromage","meaning":"پنیر"},
+  {"word":"jour","meaning":"روز"},
+  {"word":"nuit","meaning":"شب"},
+  {"word":"temps","meaning":"زمان"}
 ]
