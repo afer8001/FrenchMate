@@ -23,13 +23,15 @@ href="style.css">
 
         <h2>FrenchMate</h2>
 
-        <input
-        id="quickSearch"
-        type="text"
-        placeholder="Search French Word">
+<input
+id="searchWord"
+type="text"
+placeholder="Search French Word"
+oninput="showSuggestions()">
 
         <div id="suggestions"></div>
 
+        
         <button>
         📖 Dictionary
         </button>
@@ -59,7 +61,7 @@ href="style.css">
     </div>
 
 </div>
-
+<script src="dictionary.js"></script>
 <script src="app.js"></script>
 
 </body>
