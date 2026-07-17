@@ -251,7 +251,9 @@ ${found.word}
 </button>
 </h1>
 
-<div class="word-card">
+<div class="entry-card">
+
+<div class="info-row">
 
 <h3>معنای فارسی</h3>
 
@@ -261,7 +263,7 @@ ${found.meaning || "-"}
 
 </div>
 
-<div class="word-card">
+<div class="info-row">
 
 <h3>Type</h3>
 
@@ -271,13 +273,15 @@ ${found.type || "-"}
 
 </div>
 
-<div class="word-card">
+<div class="info-row">
 
 <h3>Definition</h3>
 
 <p>
 ${found.definition_fr || "-"}
 </p>
+
+</div>
 
 </div>
 
