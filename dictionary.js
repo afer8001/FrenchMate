@@ -136,3 +136,25 @@ suggestions.appendChild(div);
 });
 
 }
+
+window.onload = () => {
+
+const params =
+new URLSearchParams(
+window.location.search
+);
+
+const word =
+params.get("word");
+
+if(word){
+
+document
+.getElementById("searchWord")
+.value = word;
+
+searchWord();
+
+}
+
+};
