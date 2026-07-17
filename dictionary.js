@@ -10,6 +10,8 @@ fetch("dictionary.json")
 
 function speakFrench(text){
 
+speechSynthesis.cancel();
+
 const utterance =
 new SpeechSynthesisUtterance(text);
 
@@ -116,6 +118,8 @@ item.word;
 
 suggestions.innerHTML = "";
 
+    searchWord();
+    
 };
 
 suggestions.appendChild(div);
