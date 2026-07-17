@@ -8,6 +8,17 @@ fetch("dictionary.json")
 
 });
 
+function speakFrench(text){
+
+const utterance =
+new SpeechSynthesisUtterance(text);
+
+utterance.lang = "fr-FR";
+
+speechSynthesis.speak(utterance);
+
+}
+
 function searchWord(){
 
     const word =
@@ -29,7 +40,10 @@ function searchWord(){
     if(found){
 
 result.innerHTML = `
-<h2>${found.word}</h2>
+<h2>
+${found.word}
+<button onclick="speakFrench('${found.word}')">🔊</button>
+</h2>
 
 <p><strong>نوع:</strong> ${found.type}</p>
 
