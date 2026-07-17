@@ -148,3 +148,30 @@ font-weight:700;
 padding:10px;
 
 }
+
+#suggestions{
+
+display:flex;
+flex-direction:column;
+
+margin-top:-10px;
+
+}
+
+.suggestion{
+
+padding:10px;
+
+background:white;
+
+border:1px solid #e2e8f0;
+
+cursor:pointer;
+
+}
+
+.suggestion:hover{
+
+background:#f1f5f9;
+
+}
