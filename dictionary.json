@@ -1,14 +1,93 @@
 [
-  {"word":"bonjour","meaning":"سلام"},
-  {"word":"salut","meaning":"سلام"},
-  {"word":"merci","meaning":"متشکرم"},
-  {"word":"oui","meaning":"بله"},
-  {"word":"non","meaning":"خیر"},
-  {"word":"chat","meaning":"گربه"},
-  {"word":"chien","meaning":"سگ"},
-  {"word":"manger","meaning":"خوردن"},
-  {"word":"boire","meaning":"نوشیدن"},
-  {"word":"aller","meaning":"رفتن"},
+  {
+    "word":"bonjour",
+    "meaning":"سلام",
+    "type":"interjection",
+    "pronunciation":"بُنژور",
+    "example":"Bonjour Marie !",
+    "translation":"سلام ماری!"
+  },
+
+  {
+    "word":"salut",
+    "meaning":"سلام",
+    "type":"interjection",
+    "pronunciation":"سَلو",
+    "example":"Salut Paul !",
+    "translation":"سلام پل!"
+  },
+
+  {
+    "word":"merci",
+    "meaning":"متشکرم",
+    "type":"interjection",
+    "pronunciation":"مِرسی",
+    "example":"Merci beaucoup.",
+    "translation":"خیلی ممنون."
+  },
+
+  {
+    "word":"oui",
+    "meaning":"بله",
+    "type":"adverb",
+    "pronunciation":"وی",
+    "example":"Oui, je comprends.",
+    "translation":"بله، متوجه می‌شوم."
+  },
+
+  {
+    "word":"non",
+    "meaning":"خیر",
+    "type":"adverb",
+    "pronunciation":"نون",
+    "example":"Non, merci.",
+    "translation":"نه، ممنون."
+  },
+
+  {
+    "word":"chat",
+    "meaning":"گربه",
+    "type":"noun",
+    "pronunciation":"شا",
+    "example":"Le chat dort.",
+    "translation":"گربه خوابیده است."
+  },
+
+  {
+    "word":"chien",
+    "meaning":"سگ",
+    "type":"noun",
+    "pronunciation":"شیَن",
+    "example":"Le chien court.",
+    "translation":"سگ می‌دود."
+  },
+
+  {
+    "word":"manger",
+    "meaning":"خوردن",
+    "type":"verb",
+    "pronunciation":"مانژه",
+    "example":"Je vais manger.",
+    "translation":"من می‌خواهم غذا بخورم."
+  },
+
+  {
+    "word":"boire",
+    "meaning":"نوشیدن",
+    "type":"verb",
+    "pronunciation":"بوار",
+    "example":"Je vais boire de l'eau.",
+    "translation":"من می‌خواهم آب بنوشم."
+  },
+
+  {
+    "word":"aller",
+    "meaning":"رفتن",
+    "type":"verb",
+    "pronunciation":"آله",
+    "example":"Je vais à l'école.",
+    "translation":"من به مدرسه می‌روم."
+  }
   {"word":"venir","meaning":"آمدن"},
   {"word":"maison","meaning":"خانه"},
   {"word":"école","meaning":"مدرسه"},
