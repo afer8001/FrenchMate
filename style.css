@@ -7,15 +7,17 @@ font-family:'Segoe UI',sans-serif;
 
 body{
 
-min-height:100vh;
+height:100vh;
 
-display:flex;
-justify-content:center;
-align-items:center;
+margin:0;
 
-background:#f4f7fb;
+background:
 
-padding:20px;
+linear-gradient(
+135deg,
+#f5f7fb,
+#eef2ff
+);
 
 }
 
@@ -237,5 +239,42 @@ padding:4px 8px;
 font-size:12px;
 
 border-radius:6px;
+
+}
+.app{
+
+display:flex;
+
+height:100vh;
+
+}
+
+.sidebar{
+
+width:320px;
+
+background:white;
+
+padding:20px;
+
+border-right:1px solid #ddd;
+
+display:flex;
+
+flex-direction:column;
+
+gap:10px;
+
+overflow-y:auto;
+
+}
+
+#content{
+
+flex:1;
+
+padding:40px;
+
+overflow-y:auto;
 
 }
