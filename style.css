@@ -241,40 +241,24 @@ font-size:12px;
 border-radius:6px;
 
 }
-.app{
-
+.dashboard-page .app{
 display:flex;
-
 height:100vh;
-
 }
 
-.sidebar{
-
+.dashboard-page .sidebar{
 width:320px;
-
 background:white;
-
 padding:20px;
-
 border-right:1px solid #ddd;
-
 display:flex;
-
 flex-direction:column;
-
 gap:10px;
-
 overflow-y:auto;
-
 }
 
-#content{
-
+.dashboard-page #content{
 flex:1;
-
 padding:40px;
-
 overflow-y:auto;
-
 }
