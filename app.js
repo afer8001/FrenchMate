@@ -92,3 +92,32 @@ window.location.pathname.includes(
     "Welcome " + user;
 
 }
+
+if(document.querySelector(".bg-shapes")){
+
+const shapes =
+document.querySelectorAll(".shape");
+
+shapes.forEach(shape=>{
+
+const size =
+20 + Math.random()*80;
+
+shape.style.width =
+size + "px";
+
+shape.style.height =
+size + "px";
+
+shape.style.left =
+Math.random()*100 + "%";
+
+shape.style.animationDuration =
+10 + Math.random()*20 + "s";
+
+shape.style.animationDelay =
+Math.random()*10 + "s";
+
+});
+
+}
