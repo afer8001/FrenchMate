@@ -120,15 +120,13 @@ item.word;
 
 div.onclick = () => {
 
-document
-.getElementById("searchWord")
-.value =
+document.getElementById("searchWord").value =
 item.word;
 
 suggestions.innerHTML = "";
 
-    searchWord();
-    
+showWordPage(item);
+
 };
 
 suggestions.appendChild(div);
