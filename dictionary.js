@@ -1,5 +1,18 @@
 let words = [];
 
+const homePage = `
+
+<button id="homeBtn">
+🏠 Home
+</button>
+
+<h1>Welcome To FrenchMate</h1>
+
+<p>
+Search a word to start learning French.
+</p>
+
+`;
 fetch("dictionary.json")
 .then(response => response.json())
 .then(data => {
@@ -181,3 +194,18 @@ ${found.word}
 `;
 
 }
+
+document.addEventListener(
+"click",
+function(event){
+
+if(event.target.id === "homeBtn"){
+
+document
+.getElementById("content")
+.innerHTML =
+homePage;
+
+}
+
+});
