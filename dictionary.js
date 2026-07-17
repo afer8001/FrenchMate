@@ -253,7 +253,7 @@ ${found.word}
 
 <div class="word-card">
 
-<h3>معنی</h3>
+<h3>معنای فارسی</h3>
 
 <p>
 ${found.meaning || "-"}
@@ -263,7 +263,7 @@ ${found.meaning || "-"}
 
 <div class="word-card">
 
-<h3>نوع کلمه</h3>
+<h3>Type</h3>
 
 <p>
 ${found.type || "-"}
@@ -273,7 +273,7 @@ ${found.type || "-"}
 
 <div class="word-card">
 
-<h3>تعریف فرانسوی</h3>
+<h3>Definition</h3>
 
 <p>
 ${found.definition_fr || "-"}
