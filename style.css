@@ -380,6 +380,20 @@ margin-bottom:10px;
 
 }
 
+.example-box p{
+
+font-size:21px;
+
+font-weight:500;
+
+color:#0f172a;
+
+line-height:1.9;
+
+text-align:center;
+
+}
+
 .word-title{
 font-size:72px;
 font-weight:800;
