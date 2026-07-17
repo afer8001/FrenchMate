@@ -1,51 +1,44 @@
 *{
-
 margin:0;
 padding:0;
 box-sizing:border-box;
-
-font-family:Arial;
-
+font-family:'Segoe UI',sans-serif;
 }
 
 body{
 
-height:100vh;
+min-height:100vh;
 
 display:flex;
-
 justify-content:center;
 align-items:center;
 
-background:
+background:#f4f7fb;
 
-linear-gradient(
-135deg,
-#002654,
-#ffffff,
-#ed2939
-);
+padding:20px;
 
 }
 
 .login-box{
 
-width:350px;
+width:420px;
 
 background:white;
 
-padding:30px;
+padding:35px;
 
 border-radius:20px;
 
 box-shadow:
-0 10px 30px rgba(0,0,0,0.2);
+0 10px 30px rgba(15,23,42,0.08);
 
 display:flex;
 
 flex-direction:column;
 
-gap:15px;
+gap:18px;
+
+border:1px solid #e2e8f0;
 
 }
 
@@ -53,7 +46,11 @@ h1{
 
 text-align:center;
 
-color:#002654;
+color:#1e293b;
+
+font-size:32px;
+
+font-weight:700;
 
 }
 
@@ -61,39 +58,62 @@ p{
 
 text-align:center;
 
-color:#666;
+color:#64748b;
 
 }
 
 input{
 
-padding:12px;
+padding:14px;
 
-border:1px solid #ddd;
+border:1px solid #cbd5e1;
 
-border-radius:10px;
+border-radius:12px;
+
+font-size:15px;
+
+outline:none;
+
+transition:0.2s;
+
+}
+
+input:focus{
+
+border-color:#2563eb;
+
+box-shadow:
+0 0 0 4px rgba(37,99,235,0.15);
 
 }
 
 button{
 
-padding:12px;
+padding:14px;
 
-background:#002654;
+background:#2563eb;
 
 color:white;
 
 border:none;
 
-border-radius:10px;
+border-radius:12px;
+
+font-size:15px;
+
+font-weight:600;
 
 cursor:pointer;
+
+transition:0.2s;
 
 }
 
 button:hover{
 
-background:#001a3a;
+background:#1d4ed8;
+
+transform:translateY(-2px);
 
 }
 
@@ -103,6 +123,28 @@ text-align:center;
 
 text-decoration:none;
 
-color:#ed2939;
+font-weight:600;
+
+color:#2563eb;
+
+}
+
+a:hover{
+
+text-decoration:underline;
+
+}
+
+#result{
+
+text-align:center;
+
+color:#0f172a;
+
+font-size:22px;
+
+font-weight:700;
+
+padding:10px;
 
 }
