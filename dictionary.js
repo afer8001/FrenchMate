@@ -158,3 +158,28 @@ searchWord();
 }
 
 };
+
+function showWordPage(found){
+
+document.getElementById("content").innerHTML = `
+
+<h1>
+${found.word}
+<button onclick="speakFrench('${found.word}')">
+🔊
+</button>
+</h1>
+
+<p><b>Type:</b> ${found.type || "-"}</p>
+
+<p><b>Pronunciation:</b> ${found.pronunciation || "-"}</p>
+
+<p><b>Meaning:</b> ${found.meaning || "-"}</p>
+
+<p><b>Example:</b> ${found.example || "-"}</p>
+
+<p><b>Translation:</b> ${found.translation || "-"}</p>
+
+`;
+
+}
