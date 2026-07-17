@@ -1,40 +1,42 @@
-const words = {
+let words = [];
 
-bonjour : "سلام",
+fetch("dictionary.json")
+.then(response => response.json())
+.then(data => {
 
-chat : "گربه",
+    words = data;
 
-chien : "سگ",
-
-manger : "خوردن",
-
-aller : "رفتن"
-
-};
+});
 
 function searchWord(){
 
-const word =
-document
-.getElementById("searchWord")
-.value
-.toLowerCase();
+    const word =
+    document
+    .getElementById("searchWord")
+    .value
+    .toLowerCase();
 
-const result =
-document
-.getElementById("result");
+    const result =
+    document
+    .getElementById("result");
 
-if(words[word]){
+    const found =
+    words.find(
+        item =>
+        item.word.toLowerCase() === word
+    );
 
-result.textContent =
-words[word];
+    if(found){
 
-}
-else{
+        result.textContent =
+        found.meaning;
 
-result.textContent =
-"Word Not Found";
+    }
+    else{
 
-}
+        result.textContent =
+        "Word Not Found";
+
+    }
 
 }
