@@ -53,7 +53,16 @@ ${found.word}
 
 <p><strong>معنی:</strong> ${found.meaning}</p>
 
-<p><strong>مثال:</strong> ${found.example}</p>
+<p>
+<strong>مثال:</strong>
+${found.example}
+
+<button
+onclick="speakFrench('${found.example}')">
+🔊
+</button>
+
+</p>
 
 <p><strong>ترجمه:</strong> ${found.translation}</p>
 `;
