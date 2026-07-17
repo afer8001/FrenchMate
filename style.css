@@ -434,3 +434,158 @@ margin-top:-15px;
 margin-bottom:40px;
 font-weight:800;
 }
+
+/* ========================= */
+/* Dictionary Professional UI */
+/* ========================= */
+
+.entry-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:
+0 8px 25px rgba(0,0,0,0.08);
+
+margin-bottom:25px;
+
+}
+
+.entry-card .info-row{
+
+padding:18px 0;
+
+border-bottom:1px solid #e5e7eb;
+
+text-align:center;
+
+}
+
+.entry-card .info-row:last-child{
+
+border-bottom:none;
+
+}
+
+.entry-card h3{
+
+font-size:16px;
+
+font-weight:700;
+
+color:#64748b;
+
+text-transform:uppercase;
+
+letter-spacing:1px;
+
+margin-bottom:10px;
+
+}
+
+.entry-card p{
+
+font-size:24px;
+
+font-weight:600;
+
+color:#111827;
+
+line-height:1.8;
+
+}
+
+/* Word Title */
+
+#content h1{
+
+font-size:88px;
+
+font-weight:800;
+
+text-align:center;
+
+color:#111827;
+
+margin-top:-25px;
+
+margin-bottom:35px;
+
+line-height:1;
+
+}
+
+#content h1 button{
+
+margin-left:10px;
+
+padding:8px 12px;
+
+font-size:18px;
+
+vertical-align:middle;
+
+}
+
+/* Examples */
+
+.example-box{
+
+background:white;
+
+padding:25px;
+
+margin-top:20px;
+
+border-radius:18px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,0.06);
+
+border-left:5px solid #2563eb;
+
+}
+
+.example-box h3{
+
+font-size:18px;
+
+font-weight:700;
+
+color:#2563eb;
+
+margin-bottom:8px;
+
+text-align:center;
+
+}
+
+.example-box p{
+
+font-size:24px;
+
+font-weight:500;
+
+color:#000;
+
+line-height:1.9;
+
+text-align:center;
+
+margin-top:4px;
+
+}
+
+/* Home Button */
+
+#homeBtn{
+
+width:130px;
+
+margin-bottom:20px;
+
+}
+  
