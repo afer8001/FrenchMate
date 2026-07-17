@@ -262,3 +262,13 @@ flex:1;
 padding:40px;
 overflow-y:auto;
 }
+
+body:not(.dashboard-page){
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
