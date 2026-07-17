@@ -174,11 +174,17 @@ function showWordPage(found){
 
 document.getElementById("content").innerHTML = `
 
+<button id="homeBtn">
+🏠 Home
+</button>
+
 <h1>
 ${found.word}
+
 <button onclick="speakFrench('${found.word}')">
 🔊
 </button>
+
 </h1>
 
 <p><b>Type:</b> ${found.type || "-"}</p>
@@ -194,6 +200,7 @@ ${found.word}
 `;
 
 }
+
 
 document.addEventListener(
 "click",
