@@ -205,6 +205,39 @@ searchWord();
 
 function showWordPage(found){
 
+let examplesHTML = "";
+
+if(found.examples){
+
+found.examples.forEach((ex,index)=>{
+
+examplesHTML += `
+
+<div class="example-box">
+
+<h3>
+Example ${index + 1}
+<button onclick="speakFrench('${ex.fr}')">
+🔊
+</button>
+</h3>
+
+<p>
+${ex.fr}
+</p>
+
+<p>
+${ex.fa}
+</p>
+
+</div>
+
+`;
+
+});
+
+}
+
 document.getElementById("content").innerHTML = `
 
 <button id="homeBtn">
@@ -213,26 +246,47 @@ document.getElementById("content").innerHTML = `
 
 <h1>
 ${found.word}
-
 <button onclick="speakFrench('${found.word}')">
 🔊
 </button>
-
 </h1>
 
-<p><b>Type:</b> ${found.type || "-"}</p>
+<div class="word-card">
 
-<p><b>Pronunciation:</b> ${found.pronunciation || "-"}</p>
+<h3>معنی</h3>
 
-<p><b>Meaning:</b> ${found.meaning || "-"}</p>
+<p>
+${found.meaning || "-"}
+</p>
 
-<p><b>Example:</b> ${found.example || "-"}</p>
+</div>
 
-<p><b>Translation:</b> ${found.translation || "-"}</p>
+<div class="word-card">
+
+<h3>نوع کلمه</h3>
+
+<p>
+${found.type || "-"}
+</p>
+
+</div>
+
+<div class="word-card">
+
+<h3>تعریف فرانسوی</h3>
+
+<p>
+${found.definition_fr || "-"}
+</p>
+
+</div>
+
+${examplesHTML}
 
 `;
 
 }
+
 
 function manualSearch(){
 
