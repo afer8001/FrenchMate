@@ -86,12 +86,20 @@ window.location.pathname.includes(
         "fm_username"
     );
 
+    const welcome =
     document.getElementById(
         "welcome"
-    ).textContent =
-    "Welcome " + user;
+    );
+
+    if(welcome){
+
+        welcome.textContent =
+        "Welcome " + user;
+
+    }
 
 }
+
 
 if(document.querySelector(".bg-shapes")){
 
