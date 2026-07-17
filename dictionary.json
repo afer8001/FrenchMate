@@ -1,12 +1,33 @@
 [
-  {
-    "word":"bonjour",
-    "meaning":"سلام",
-    "type":"interjection",
-    "pronunciation":"بُنژور",
-    "example":"Bonjour Marie !",
-    "translation":"سلام ماری!"
-  },
+ {
+  "word":"bonjour",
+
+  "meaning":"سلام",
+
+  "type":"interjection",
+
+  "definition_fr":
+  "Formule utilisée pour saluer une personne pendant la journée.",
+
+  "examples":[
+
+    {
+      "fr":"Bonjour Marie !",
+      "fa":"سلام ماری!"
+    },
+
+    {
+      "fr":"Bonjour Marie, comment vas-tu aujourd'hui ?",
+      "fa":"سلام ماری، امروز حالت چطوره؟"
+    },
+
+    {
+      "fr":"Bonjour à tous, merci d'être présents ce matin.",
+      "fa":"سلام به همه، ممنون که امروز صبح حضور دارید."
+    }
+
+  ]
+},
 
   {
     "word":"salut",
