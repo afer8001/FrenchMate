@@ -28,8 +28,19 @@ function searchWord(){
 
     if(found){
 
-        result.textContent =
-        found.meaning;
+result.innerHTML = `
+<h2>${found.word}</h2>
+
+<p><strong>نوع:</strong> ${found.type}</p>
+
+<p><strong>تلفظ:</strong> ${found.pronunciation}</p>
+
+<p><strong>معنی:</strong> ${found.meaning}</p>
+
+<p><strong>مثال:</strong> ${found.example}</p>
+
+<p><strong>ترجمه:</strong> ${found.translation}</p>
+`;
 
     }
     else{
