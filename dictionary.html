@@ -21,7 +21,10 @@
 <input
 id="searchWord"
 type="text"
-placeholder="French Word">
+placeholder="French Word"
+oninput="showSuggestions()">
+
+<div id="suggestions"></div>
 
 <button onclick="searchWord()">
 
