@@ -549,7 +549,7 @@ if(found){
 
 showWordPage(found);
 
-window.scrollTo({
+document.getElementById("content").scrollTo({
 top:0,
 behavior:"smooth"
 });
@@ -557,4 +557,3 @@ behavior:"smooth"
 }
 
 }
-
