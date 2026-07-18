@@ -215,22 +215,31 @@ found.examples.forEach((ex,index)=>{
 
 examplesHTML += `
 
-<div class="example-box">
+<div class="example-item">
 
-<h3>
+<div class="example-header">
+
+<span>
 Example ${index + 1}
+</span>
+
 <button onclick="speakFrench('${ex.fr}')">
 🔊
 </button>
-</h3>
 
-<p>
+</div>
+
+<div class="example-fr">
+
 ${ex.fr}
-</p>
 
-<p>
+</div>
+
+<div class="example-fa">
+
 ${ex.fa}
-</p>
+
+</div>
 
 </div>
 
