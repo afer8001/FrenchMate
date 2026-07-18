@@ -1,154 +1,206 @@
 [
-{
-  "word": "bonjour",
-
-  "meaning": "سلام",
-
-  "english": "hello",
-
-  "antonyms":[
-"au revoir"
-]
-  
-  "type": "interjection",
-
-  "level": "A1",
-
-  "grammar": "invariable",
-
-  "definition_fr": "Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
-
-  "usage": "Utilisé pour saluer une personne dans un contexte courant et poli.",
-
-  "synonyms": [
-    "salut",
-    "coucou"
-  ],
-
-  "examples": [
-    {
-      "fr": "Bonjour Marie, comment vas-tu ?",
-      "fa": "سلام ماری، حالت چطوره؟"
-    },
-    {
-      "fr": "Je dis toujours bonjour à mes voisins.",
-      "fa": "من همیشه به همسایه‌هایم سلام می‌کنم."
-    },
-    {
-      "fr": "Bonjour tout le monde et bienvenue au cours.",
-      "fa": "سلام به همه و به کلاس خوش آمدید."
-    }
-  ],
-
-  "phrases": [
-    {
-      "fr": "bonjour à tous",
-      "fa": "سلام به همه"
-    },
-    {
-      "fr": "bonjour monsieur",
-      "fa": "سلام آقا"
-    },
-    {
-      "fr": "bonjour madame",
-      "fa": "سلام خانم"
-    }
-  ]
-},
-
   {
-    "word":"salut",
-    "meaning":"سلام",
-    "type":"interjection",
-    "pronunciation":"سَلو",
-    "example":"Salut Paul !",
-    "translation":"سلام پل!"
+    "word": "bonjour",
+    "meaning": "سلام",
+    "english": "hello",
+    "type": "interjection",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "بونژور",
+    "definition_fr": "Formule de salutation utilisée pendant la journée.",
+    "synonyms": ["salut", "coucou"],
+    "antonyms": ["au revoir"],
+    "examples": [
+      {
+        "fr": "Bonjour Marie, comment vas-tu ?",
+        "fa": "سلام ماری، حالت چطوره؟"
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "bonjour à tous",
+        "fa": "سلام به همه"
+      }
+    ]
   },
 
   {
-    "word":"merci",
-    "meaning":"متشکرم",
-    "type":"interjection",
-    "pronunciation":"مِرسی",
-    "example":"Merci beaucoup.",
-    "translation":"خیلی ممنون."
+    "word": "salut",
+    "meaning": "سلام",
+    "english": "hi",
+    "type": "interjection",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "سَلو",
+    "definition_fr": "Salutation familière.",
+    "synonyms": ["bonjour"],
+    "antonyms": ["au revoir"],
+    "examples": [
+      {
+        "fr": "Salut Paul !",
+        "fa": "سلام پل!"
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"oui",
-    "meaning":"بله",
-    "type":"adverb",
-    "pronunciation":"وی",
-    "example":"Oui, je comprends.",
-    "translation":"بله، متوجه می‌شوم."
+    "word": "merci",
+    "meaning": "متشکرم",
+    "english": "thank you",
+    "type": "interjection",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "مِرسی",
+    "definition_fr": "Expression de gratitude.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Merci beaucoup.",
+        "fa": "خیلی ممنون."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"non",
-    "meaning":"خیر",
-    "type":"adverb",
-    "pronunciation":"نون",
-    "example":"Non, merci.",
-    "translation":"نه، ممنون."
+    "word": "oui",
+    "meaning": "بله",
+    "english": "yes",
+    "type": "adverb",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "وی",
+    "definition_fr": "Réponse affirmative.",
+    "synonyms": [],
+    "antonyms": ["non"],
+    "examples": [
+      {
+        "fr": "Oui, je comprends.",
+        "fa": "بله، متوجه می‌شوم."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"chat",
-    "meaning":"گربه",
-    "type":"noun",
-    "pronunciation":"شا",
-    "example":"Le chat dort.",
-    "translation":"گربه خوابیده است."
+    "word": "non",
+    "meaning": "خیر",
+    "english": "no",
+    "type": "adverb",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "نون",
+    "definition_fr": "Réponse négative.",
+    "synonyms": [],
+    "antonyms": ["oui"],
+    "examples": [
+      {
+        "fr": "Non, merci.",
+        "fa": "نه، ممنون."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"chien",
-    "meaning":"سگ",
-    "type":"noun",
-    "pronunciation":"شیَن",
-    "example":"Le chien court.",
-    "translation":"سگ می‌دود."
+    "word": "chat",
+    "meaning": "گربه",
+    "english": "cat",
+    "type": "noun",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "شا",
+    "definition_fr": "Animal domestique félin.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Le chat dort.",
+        "fa": "گربه خوابیده است."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"manger",
-    "meaning":"خوردن",
-    "type":"verb",
-    "pronunciation":"مانژه",
-    "example":"Je vais manger.",
-    "translation":"من می‌خواهم غذا بخورم."
+    "word": "chien",
+    "meaning": "سگ",
+    "english": "dog",
+    "type": "noun",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "شیَن",
+    "definition_fr": "Animal domestique fidèle.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Le chien court.",
+        "fa": "سگ می‌دود."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"boire",
-    "meaning":"نوشیدن",
-    "type":"verb",
-    "pronunciation":"بوار",
-    "example":"Je vais boire de l'eau.",
-    "translation":"من می‌خواهم آب بنوشم."
+    "word": "maison",
+    "meaning": "خانه",
+    "english": "house",
+    "type": "noun",
+    "gender": "feminine",
+    "level": "A1",
+    "pronunciation": "مِزون",
+    "definition_fr": "Bâtiment où l'on habite.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Ma maison est grande.",
+        "fa": "خانه من بزرگ است."
+      }
+    ],
+    "phrases": []
   },
 
   {
-    "word":"aller",
-    "meaning":"رفتن",
-    "type":"verb",
-    "pronunciation":"آله",
-    "example":"Je vais à l'école.",
-    "translation":"من به مدرسه می‌روم."
+    "word": "manger",
+    "meaning": "خوردن",
+    "english": "to eat",
+    "type": "verb",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "مانژه",
+    "definition_fr": "Prendre de la nourriture.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Je vais manger.",
+        "fa": "من می‌خواهم غذا بخورم."
+      }
+    ],
+    "phrases": []
   },
-  {"word":"venir","meaning":"آمدن"},
-  {"word":"maison","meaning":"خانه"},
-  {"word":"école","meaning":"مدرسه"},
-  {"word":"livre","meaning":"کتاب"},
-  {"word":"stylo","meaning":"خودکار"},
-  {"word":"ami","meaning":"دوست"},
-  {"word":"famille","meaning":"خانواده"},
-  {"word":"travail","meaning":"کار"},
-  {"word":"voiture","meaning":"ماشین"},
-  {"word":"eau","meaning":"آب"},
-  {"word":"pain","meaning":"نان"},
-  {"word":"fromage","meaning":"پنیر"},
-  {"word":"jour","meaning":"روز"},
-  {"word":"nuit","meaning":"شب"},
-  {"word":"temps","meaning":"زمان"}
+
+  {
+    "word": "boire",
+    "meaning": "نوشیدن",
+    "english": "to drink",
+    "type": "verb",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "بوار",
+    "definition_fr": "Prendre une boisson.",
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Je vais boire de l'eau.",
+        "fa": "من می‌خواهم آب بنوشم."
+      }
+    ],
+    "phrases": []
+  }
 ]
