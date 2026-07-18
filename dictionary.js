@@ -210,6 +210,8 @@ let examplesHTML = "";
     let antonymsHTML = "";
     
     let synonymsHTML = "";
+
+    let phrasesHTML = "";
     
 if(found.examples){
 
