@@ -207,6 +207,8 @@ function showWordPage(found){
 
 let examplesHTML = "";
 
+    let synonymsHTML = "";
+    
 if(found.examples){
 
 found.examples.forEach((ex,index)=>{
