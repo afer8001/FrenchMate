@@ -2,44 +2,44 @@ let words = [];
 
 const homePage = `
 
-<button id="homeBtn">
-🏠 Home
-</button>
+<div class="hero-card">
 
-<h1>Welcome To FrenchMate</h1>
+<h1>📚 FrenchMate Dictionary</h1>
 
-<p>
-Search a word to start learning French.
-</p>
-
-<hr>
-
-<div class="feature-card">
-
-<h2>📝 Grammar</h2>
+<h2>Learn French Through Real Usage</h2>
 
 <p>
-French grammar lessons coming soon.
+Definitions • Examples • Synonyms • Phrases
 </p>
 
 </div>
 
 <div class="feature-card">
 
-<h2>🔄 Conjugation</h2>
+<h2>📖 Dictionary</h2>
 
 <p>
-French verb conjugator coming soon.
+French words with complete definitions and examples.
 </p>
 
 </div>
 
 <div class="feature-card">
 
-<h2>🎯 Quiz</h2>
+<h2>🔄 Synonyms & Antonyms</h2>
 
 <p>
-Interactive quizzes coming soon.
+Discover similar and opposite words instantly.
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h2>💬 Phrases</h2>
+
+<p>
+Learn real French expressions and daily usage.
 </p>
 
 </div>
