@@ -1,191 +1,552 @@
 [
-  {
-    "word": "bonjour",
-    "meaning": "سلام",
-    "english": "hello",
-    "pronunciation": "بونژور",
-    "type": "interjection",
-    "gender": "-",
-    "level": "A1",
-    "definition_fr": "Formule de salutation utilisée pendant la journée.",
-    "synonyms": ["salut"],
-    "antonyms": ["au revoir"],
-    "examples": [
-      {
-        "fr": "Bonjour Marie !",
-        "fa": "سلام ماری!"
-      }
-    ]
-  },
+{
+  "word":"bonjour",
+  "meaning":"سلام",
+  "english":"hello / good morning",
+  "pronunciation":"بونژور",
+  "type":"interjection",
+  "level":"A1",
+  "gender":"-",
 
-  {
-    "word": "salut",
-    "meaning": "سلام",
-    "english": "hi",
-    "pronunciation": "سَلو",
-    "type": "interjection",
-    "gender": "-",
-    "level": "A1",
-    "definition_fr": "Salutation familière.",
-    "synonyms": ["bonjour"],
-    "antonyms": ["au revoir"],
-    "examples": [
-      {
-        "fr": "Salut Paul !",
-        "fa": "سلام پل!"
-      }
-    ]
-  },
+  "definition_fr":"Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
 
-  {
-    "word": "au revoir",
-    "meaning": "خداحافظ",
-    "english": "goodbye",
-    "pronunciation": "اوغوُوار",
-    "type": "interjection",
-    "gender": "-",
-    "level": "A1",
-    "definition_fr": "Formule utilisée quand on part.",
-    "synonyms": ["adieu"],
-    "antonyms": ["bonjour", "salut"],
-    "examples": [
-      {
-        "fr": "Au revoir et à demain.",
-        "fa": "خداحافظ و تا فردا."
-      }
-    ]
-  },
+  "usage":"Utilisé dans les situations formelles et informelles pour saluer une personne pendant la journée.",
 
-  {
-    "word": "adieu",
-    "meaning": "بدرود",
-    "english": "farewell",
-    "pronunciation": "آدیو",
-    "type": "interjection",
-    "gender": "-",
-    "level": "B1",
-    "definition_fr": "Adieu définitif.",
-    "synonyms": ["au revoir"],
-    "antonyms": ["bonjour"],
-    "examples": [
-      {
-        "fr": "Adieu mon ami.",
-        "fa": "بدرود دوست من."
-      }
-    ]
-  },
+  "synonyms":[
+    "salut",
+    "coucou"
+  ],
 
-  {
-    "word": "grand",
-    "meaning": "بزرگ",
-    "english": "big",
-    "pronunciation": "گران",
-    "type": "adjective",
-    "gender": "-",
-    "level": "A1",
-    "definition_fr": "Qui a une grande taille.",
-    "synonyms": ["gros"],
-    "antonyms": ["petit"],
-    "examples": [
-      {
-        "fr": "Une grande maison.",
-        "fa": "یک خانه بزرگ."
-      }
-    ]
-  },
+  "antonyms":[
+    "au revoir"
+  ],
 
-  {
-    "word": "petit",
-    "meaning": "کوچک",
-    "english": "small",
-    "pronunciation": "پُتی",
-    "type": "adjective",
-    "gender": "-",
-    "level": "A1",
-    "definition_fr": "Qui a une petite taille.",
-    "synonyms": ["minuscule"],
-    "antonyms": ["grand"],
-    "examples": [
-      {
-        "fr": "Un petit chat.",
-        "fa": "یک گربه کوچک."
-      }
-    ]
-  },
+  "examples":[
+    {
+      "fr":"Bonjour Marie, comment vas-tu ?",
+      "fa":"سلام ماری، حالت چطوره؟"
+    },
+    {
+      "fr":"Bonjour tout le monde.",
+      "fa":"سلام به همه."
+    },
+    {
+      "fr":"Je dis toujours bonjour à mes voisins.",
+      "fa":"من همیشه به همسایه‌هایم سلام می‌کنم."
+    },
+    {
+      "fr":"Bonjour monsieur, avez-vous une minute ?",
+      "fa":"سلام آقا، یک دقیقه وقت دارید؟"
+    },
+    {
+      "fr":"Bonjour et bienvenue à notre école.",
+      "fa":"سلام و به مدرسه ما خوش آمدید."
+    }
+  ],
 
-  {
-    "word": "gros",
-    "meaning": "بزرگ / درشت",
-    "english": "large",
-    "pronunciation": "گغو",
-    "type": "adjective",
-    "gender": "-",
-    "level": "A2",
-    "definition_fr": "De grande dimension.",
-    "synonyms": ["grand"],
-    "antonyms": ["petit"],
-    "examples": [
-      {
-        "fr": "Un gros chien.",
-        "fa": "یک سگ بزرگ."
-      }
-    ]
-  },
+  "phrases":[
+    {
+      "fr":"bonjour à tous",
+      "fa":"سلام به همه"
+    },
+    {
+      "fr":"bonjour monsieur",
+      "fa":"سلام آقا"
+    },
+    {
+      "fr":"bonjour madame",
+      "fa":"سلام خانم"
+    }
+  ]
+},
 
-  {
-    "word": "minuscule",
-    "meaning": "خیلی کوچک",
-    "english": "tiny",
-    "pronunciation": "مینوسکول",
-    "type": "adjective",
-    "gender": "-",
-    "level": "B1",
-    "definition_fr": "Très petit.",
-    "synonyms": ["petit"],
-    "antonyms": ["grand"],
-    "examples": [
-      {
-        "fr": "Une minuscule fleur.",
-        "fa": "یک گل خیلی کوچک."
-      }
-    ]
-  },
+{
+  "word":"salut",
+  "meaning":"سلام",
+  "english":"hi",
+  "pronunciation":"سَلو",
+  "type":"interjection",
+  "level":"A1",
+  "gender":"-",
 
-  {
-    "word": "heureux",
-    "meaning": "خوشحال",
-    "english": "happy",
-    "pronunciation": "اُغو",
-    "type": "adjective",
-    "gender": "-",
-    "level": "A2",
-    "definition_fr": "Qui ressent de la joie.",
-    "synonyms": ["content"],
-    "antonyms": ["triste"],
-    "examples": [
-      {
-        "fr": "Je suis heureux aujourd'hui.",
-        "fa": "امروز خوشحالم."
-      }
-    ]
-  },
+  "definition_fr":"Salutation familière utilisée entre amis ou personnes proches.",
 
-  {
-    "word": "triste",
-    "meaning": "غمگین",
-    "english": "sad",
-    "pronunciation": "تریست",
-    "type": "adjective",
-    "gender": "-",
-    "level": "A2",
-    "definition_fr": "Qui ressent de la tristesse.",
-    "synonyms": [],
-    "antonyms": ["heureux"],
-    "examples": [
-      {
-        "fr": "Elle est triste.",
-        "fa": "او غمگین است."
-      }
-    ]
-  }
-]
+  "usage":"Plus informel que bonjour. Utilisé surtout entre amis.",
+
+  "synonyms":[
+    "bonjour",
+    "coucou"
+  ],
+
+  "antonyms":[
+    "au revoir"
+  ],
+
+  "examples":[
+    {
+      "fr":"Salut Paul !",
+      "fa":"سلام پل!"
+    },
+    {
+      "fr":"Salut, ça va ?",
+      "fa":"سلام، خوبی؟"
+    },
+    {
+      "fr":"Je lui ai dit salut ce matin.",
+      "fa":"امروز صبح به او سلام کردم."
+    },
+    {
+      "fr":"Salut les amis !",
+      "fa":"سلام دوستان!"
+    },
+    {
+      "fr":"Elle répond toujours par un salut chaleureux.",
+      "fa":"او همیشه با یک سلام گرم پاسخ می‌دهد."
+    }
+  ],
+
+  "phrases":[
+    {
+      "fr":"salut tout le monde",
+      "fa":"سلام به همه"
+    },
+    {
+      "fr":"salut mon ami",
+      "fa":"سلام دوست من"
+    }
+  ]
+},
+
+{
+  "word":"merci",
+  "meaning":"متشکرم",
+  "english":"thank you",
+  "pronunciation":"مِرسی",
+  "type":"interjection",
+  "level":"A1",
+  "gender":"-",
+
+  "definition_fr":"Expression utilisée pour remercier quelqu'un.",
+
+  "usage":"Employé dans toutes les situations pour exprimer la gratitude.",
+
+  "synonyms":[
+    "merci beaucoup"
+  ],
+
+  "antonyms":[
+    "de rien"
+  ],
+
+  "examples":[
+    {
+      "fr":"Merci beaucoup pour votre aide.",
+      "fa":"خیلی ممنون برای کمکتان."
+    },
+    {
+      "fr":"Merci d'être venu.",
+      "fa":"ممنون که آمدی."
+    },
+    {
+      "fr":"Je te remercie sincèrement.",
+      "fa":"صمیمانه از تو تشکر می‌کنم."
+    },
+    {
+      "fr":"Merci pour ce cadeau.",
+      "fa":"ممنون برای این هدیه."
+    },
+    {
+      "fr":"Merci, c'est très gentil.",
+      "fa":"ممنون، خیلی لطف داری."
+    }
+  ],
+
+  "phrases":[
+    {
+      "fr":"merci beaucoup",
+      "fa":"خیلی ممنون"
+    },
+    {
+      "fr":"merci bien",
+      "fa":"بسیار متشکرم"
+    }
+  ]
+},
+
+{
+  "word":"oui",
+  "meaning":"بله",
+  "english":"yes",
+  "pronunciation":"وی",
+  "type":"adverb",
+  "level":"A1",
+  "gender":"-",
+
+  "definition_fr":"Mot utilisé pour exprimer une réponse positive.",
+
+  "usage":"Réponse affirmative à une question.",
+
+  "synonyms":[
+    "certainement",
+    "absolument"
+  ],
+
+  "antonyms":[
+    "non"
+  ],
+
+  "examples":[
+    {
+      "fr":"Oui, je comprends.",
+      "fa":"بله، متوجه می‌شوم."
+    },
+    {
+      "fr":"Oui, je veux venir.",
+      "fa":"بله، می‌خواهم بیایم."
+    },
+    {
+      "fr":"Oui, c'est exact.",
+      "fa":"بله، درست است."
+    },
+    {
+      "fr":"Oui, nous sommes prêts.",
+      "fa":"بله، ما آماده‌ایم."
+    },
+    {
+      "fr":"Oui, bien sûr.",
+      "fa":"بله، البته."
+    }
+  ],
+
+  "phrases":[
+    {
+      "fr":"oui bien sûr",
+      "fa":"بله حتماً"
+    },
+    {
+      "fr":"oui monsieur",
+      "fa":"بله آقا"
+    }
+  ]
+},
+
+{
+  "word":"non",
+  "meaning":"خیر",
+  "english":"no",
+  "pronunciation":"نون",
+  "type":"adverb",
+  "level":"A1",
+  "gender":"-",
+
+  "definition_fr":"Mot utilisé pour exprimer une réponse négative.",
+
+  "usage":"Réponse négative à une question.",
+
+  "synonyms":[
+    "jamais"
+  ],
+
+  "antonyms":[
+    "oui"
+  ],
+
+  "examples":[
+    {
+      "fr":"Non, merci.",
+      "fa":"نه، ممنون."
+    },
+    {
+      "fr":"Non, je ne comprends pas.",
+      "fa":"نه، متوجه نمی‌شوم."
+    },
+    {
+      "fr":"Non, ce n'est pas possible.",
+      "fa":"نه، این امکان‌پذیر نیست."
+    },
+    {
+      "fr":"Non, je reste ici.",
+      "fa":"نه، من اینجا می‌مانم."
+    },
+    {
+      "fr":"Non, je ne suis pas d'accord.",
+      "fa":"نه، موافق نیستم."
+    }
+  ],
+
+  "phrases":[
+    {
+      "fr":"non merci",
+      "fa":"نه ممنون"
+    },
+    {
+      "fr":"non pas du tout",
+      "fa":"نه، اصلاً"
+    }
+  ]
+}
+],
+{
+  "word": "école",
+  "meaning": "مدرسه",
+  "english": "school",
+  "pronunciation": "اِکول",
+  "type": "noun",
+  "gender": "feminine",
+  "level": "A1",
+  "definition_fr": "Lieu où les élèves vont pour apprendre et suivre des cours avec des enseignants.",
+  "usage": "Utilisé pour parler d'un établissement scolaire ou de la vie scolaire.",
+  "synonyms": [
+    "établissement",
+    "institution"
+  ],
+  "antonyms": [
+    "maison"
+  ],
+  "examples": [
+    {
+      "fr": "Je vais à l'école tous les matins.",
+      "fa": "من هر صبح به مدرسه می‌روم."
+    },
+    {
+      "fr": "L'école ouvre à huit heures.",
+      "fa": "مدرسه ساعت هشت باز می‌شود."
+    },
+    {
+      "fr": "Les élèves arrivent devant l'école.",
+      "fa": "دانش‌آموزان جلوی مدرسه می‌رسند."
+    },
+    {
+      "fr": "Cette école est très moderne.",
+      "fa": "این مدرسه بسیار مدرن است."
+    },
+    {
+      "fr": "Mon frère aime son école.",
+      "fa": "برادرم مدرسه‌اش را دوست دارد."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "aller à l'école",
+      "fa": "به مدرسه رفتن"
+    },
+    {
+      "fr": "école primaire",
+      "fa": "مدرسه ابتدایی"
+    },
+    {
+      "fr": "sortir de l'école",
+      "fa": "از مدرسه خارج شدن"
+    }
+  ]
+},
+{
+  "word": "livre",
+  "meaning": "کتاب",
+  "english": "book",
+  "pronunciation": "لیور",
+  "type": "noun",
+  "gender": "masculine",
+  "level": "A1",
+  "definition_fr": "Ensemble de pages reliées contenant un texte, une histoire ou des informations.",
+  "usage": "Utilisé pour parler d'un ouvrage imprimé ou numérique.",
+  "synonyms": [
+    "ouvrage",
+    "volume"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Je lis un livre intéressant.",
+      "fa": "من یک کتاب جالب می‌خوانم."
+    },
+    {
+      "fr": "Ce livre parle de l'histoire de France.",
+      "fa": "این کتاب درباره تاریخ فرانسه است."
+    },
+    {
+      "fr": "Elle achète un livre à la librairie.",
+      "fa": "او از کتاب‌فروشی یک کتاب می‌خرد."
+    },
+    {
+      "fr": "Le livre est sur la table.",
+      "fa": "کتاب روی میز است."
+    },
+    {
+      "fr": "J'ai terminé ce livre hier.",
+      "fa": "من دیروز این کتاب را تمام کردم."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "lire un livre",
+      "fa": "کتاب خواندن"
+    },
+    {
+      "fr": "livre électronique",
+      "fa": "کتاب الکترونیکی"
+    },
+    {
+      "fr": "ouvrir un livre",
+      "fa": "کتاب را باز کردن"
+    }
+  ]
+},
+{
+  "word": "travail",
+  "meaning": "کار",
+  "english": "work",
+  "pronunciation": "تراوای",
+  "type": "noun",
+  "gender": "masculine",
+  "level": "A1",
+  "definition_fr": "Activité exercée pour accomplir une tâche ou gagner sa vie.",
+  "usage": "Utilisé pour parler de l'emploi, des tâches ou du travail en général.",
+  "synonyms": [
+    "emploi",
+    "occupation"
+  ],
+  "antonyms": [
+    "repos",
+    "vacances"
+  ],
+  "examples": [
+    {
+      "fr": "Je vais au travail en bus.",
+      "fa": "من با اتوبوس به محل کار می‌روم."
+    },
+    {
+      "fr": "Son travail est difficile.",
+      "fa": "کار او دشوار است."
+    },
+    {
+      "fr": "Nous avons beaucoup de travail aujourd'hui.",
+      "fa": "امروز کار زیادی داریم."
+    },
+    {
+      "fr": "Elle aime son travail.",
+      "fa": "او کارش را دوست دارد."
+    },
+    {
+      "fr": "Le travail commence à neuf heures.",
+      "fa": "کار ساعت نه شروع می‌شود."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "chercher du travail",
+      "fa": "دنبال کار گشتن"
+    },
+    {
+      "fr": "travail à temps plein",
+      "fa": "کار تمام وقت"
+    },
+    {
+      "fr": "lieu de travail",
+      "fa": "محل کار"
+    }
+  ]
+},
+{
+  "word": "eau",
+  "meaning": "آب",
+  "english": "water",
+  "pronunciation": "او",
+  "type": "noun",
+  "gender": "feminine",
+  "level": "A1",
+  "definition_fr": "Liquide transparent indispensable à la vie.",
+  "usage": "Utilisé pour parler de l'eau à boire, de la pluie ou des ressources naturelles.",
+  "synonyms": [],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Je bois de l'eau chaque jour.",
+      "fa": "من هر روز آب می‌نوشم."
+    },
+    {
+      "fr": "L'eau est froide.",
+      "fa": "آب سرد است."
+    },
+    {
+      "fr": "Nous avons besoin d'eau.",
+      "fa": "ما به آب نیاز داریم."
+    },
+    {
+      "fr": "L'eau de cette rivière est propre.",
+      "fa": "آب این رودخانه تمیز است."
+    },
+    {
+      "fr": "Elle verse de l'eau dans le verre.",
+      "fa": "او در لیوان آب می‌ریزد."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "verre d'eau",
+      "fa": "لیوان آب"
+    },
+    {
+      "fr": "eau potable",
+      "fa": "آب آشامیدنی"
+    },
+    {
+      "fr": "bouteille d'eau",
+      "fa": "بطری آب"
+    }
+  ]
+},
+{
+  "word": "ami",
+  "meaning": "دوست",
+  "english": "friend",
+  "pronunciation": "آمی",
+  "type": "noun",
+  "gender": "masculine",
+  "level": "A1",
+  "definition_fr": "Personne avec qui on partage une relation d'affection et de confiance.",
+  "usage": "Utilisé pour parler d'un ami proche ou d'une relation amicale.",
+  "synonyms": [
+    "copain",
+    "camarade"
+  ],
+  "antonyms": [
+    "ennemi"
+  ],
+  "examples": [
+    {
+      "fr": "Mon ami habite à Paris.",
+      "fa": "دوست من در پاریس زندگی می‌کند."
+    },
+    {
+      "fr": "J'ai beaucoup d'amis.",
+      "fa": "من دوستان زیادی دارم."
+    },
+    {
+      "fr": "Cet ami est très gentil.",
+      "fa": "این دوست بسیار مهربان است."
+    },
+    {
+      "fr": "Je parle avec mon ami chaque semaine.",
+      "fa": "من هر هفته با دوستم صحبت می‌کنم."
+    },
+    {
+      "fr": "Un bon ami aide toujours.",
+      "fa": "یک دوست خوب همیشه کمک می‌کند."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "meilleur ami",
+      "fa": "بهترین دوست"
+    },
+    {
+      "fr": "ami proche",
+      "fa": "دوست صمیمی"
+    },
+    {
+      "fr": "se faire des amis",
+      "fa": "دوست پیدا کردن"
+    }
+  ]
+},
