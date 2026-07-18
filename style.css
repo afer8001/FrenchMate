@@ -580,7 +580,7 @@ flex-wrap:wrap;
 
 .shortcut-card a{
 
-background:#eef2ff;
+background:#8B0000;
 
 padding:12px 18px;
 
@@ -590,11 +590,12 @@ text-decoration:none;
 
 font-weight:700;
 
-color:#2563eb;
+color:white;
 
 transition:.2s;
 
 }
+
 
 .shortcut-card a:hover{
 
