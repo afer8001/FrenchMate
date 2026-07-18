@@ -207,6 +207,8 @@ function showWordPage(found){
 
 let examplesHTML = "";
 
+    let antonymsHTML = "";
+    
     let synonymsHTML = "";
     
 if(found.examples){
