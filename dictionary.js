@@ -240,6 +240,18 @@ ${ex.fa}
 
 }
 
+    if(found.synonyms){
+
+found.synonyms.forEach(item=>{
+
+synonymsHTML += `
+<li>${item}</li>
+`;
+
+});
+
+}
+    
 document.getElementById("content").innerHTML = `
 
 <button id="homeBtn">
