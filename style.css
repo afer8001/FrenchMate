@@ -606,3 +606,45 @@ background:#6B0000;
 transform:translateY(-2px);
 
 }
+
+.hero-card{
+
+background:white;
+padding:40px;
+border-radius:20px;
+text-align:center;
+margin-bottom:25px;
+
+box-shadow:0 6px 16px rgba(0,0,0,.05);
+
+}
+
+.hero-card h1{
+
+font-size:52px;
+margin-bottom:12px;
+
+color:#8B0000;
+
+}
+
+.hero-card h2{
+
+font-size:24px;
+font-weight:600;
+
+margin-bottom:15px;
+
+color:#475569;
+
+}
+
+.hero-card p{
+
+font-size:18px;
+
+color:#64748b;
+
+letter-spacing:1px;
+
+}
