@@ -6,26 +6,21 @@
 
   "type":"interjection",
 
-  "definition_fr":
-  "Formule utilisée pour saluer une personne pendant la journée.",
+  "gender":"-",
 
-  "examples":[
+  "level":"A1",
 
+  "definition_fr":"Formule utilisée pour saluer.",
+
+  "synonyms":[
+    "salut"
+  ],
+
+  "phrases":[
     {
-      "fr":"Bonjour Marie !",
-      "fa":"سلام ماری!"
-    },
-
-    {
-      "fr":"Bonjour Marie, comment vas-tu aujourd'hui ?",
-      "fa":"سلام ماری، امروز حالت چطوره؟"
-    },
-
-    {
-      "fr":"Bonjour à tous, merci d'être présents ce matin.",
-      "fa":"سلام به همه، ممنون که امروز صبح حضور دارید."
+      "fr":"bonjour tout le monde",
+      "fa":"سلام به همه"
     }
-
   ]
 },
 
