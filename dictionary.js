@@ -268,7 +268,11 @@ antonymsHTML += `
 found.synonyms.forEach(item=>{
 
 synonymsHTML += `
-<li>${item}</li>
+<li>
+<a href="#" onclick="openWord('${item}')">
+${item}
+</a>
+</li>
 `;
 
 });
@@ -494,4 +498,24 @@ manualSearch();
 }
 
 });
+
+function openWord(word){
+
+const found = words.find(
+item =>
+item.word.toLowerCase() === word.toLowerCase()
+);
+
+if(found){
+
+showWordPage(found);
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+}
+
+}
 
