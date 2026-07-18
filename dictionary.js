@@ -251,6 +251,18 @@ ${ex.fa}
 
 }
 
+    if(found.antonyms){
+
+found.antonyms.forEach(item=>{
+
+antonymsHTML += `
+<li>${item}</li>
+`;
+
+});
+
+}
+    
     if(found.synonyms){
 
 found.synonyms.forEach(item=>{
