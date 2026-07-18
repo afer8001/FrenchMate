@@ -321,6 +321,18 @@ ${found.definition_fr || "-"}
 
 ${examplesHTML}
 
+<div class="word-card">
+
+<h3>Synonyms</h3>
+
+<ul>
+
+${synonymsHTML}
+
+</ul>
+
+</div>
+
 `;
 
 }
