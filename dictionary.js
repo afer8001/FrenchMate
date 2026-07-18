@@ -253,6 +253,40 @@ ${ex.fa}
 
 }
 
+    if(found.phrases){
+
+found.phrases.forEach(item=>{
+
+phrasesHTML += `
+
+<div class="example-item">
+
+<div class="example-header">
+
+<span>Phrase</span>
+
+<button onclick="speakFrench('${item.fr}')">
+🔊
+</button>
+
+</div>
+
+<div class="example-fr">
+${item.fr}
+</div>
+
+<div class="example-fa">
+${item.fa}
+</div>
+
+</div>
+
+`;
+
+});
+
+}
+    
    if(found.antonyms){
 
 found.antonyms.forEach(item=>{
