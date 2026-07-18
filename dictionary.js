@@ -289,16 +289,6 @@ ${found.type || "-"}
 
 <div class="info-row">
 
-<h3>Gender</h3>
-
-<p>
-${found.gender || "-"}
-</p>
-
-</div>
-
-<div class="info-row">
-
 <h3>Level</h3>
 
 <p>
