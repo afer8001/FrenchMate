@@ -299,11 +299,21 @@ ${found.definition_fr || "-"}
 
 </div>
 
+<div class="section-card">
+
+<h2>
+📖 Examples
+</h2>
+
 ${examplesHTML}
 
-<div class="word-card">
+</div>
 
-<h3>Synonyms</h3>
+<div class="section-card">
+
+<h2>
+🔄 Synonyms
+</h2>
 
 <ul>
 
@@ -312,6 +322,7 @@ ${synonymsHTML}
 </ul>
 
 </div>
+
 
 `;
 
