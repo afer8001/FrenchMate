@@ -292,7 +292,58 @@ ${found.english || "-"}
 
 </div>
 
-<div class="dictionary-card">
+<div class="shortcut-card">
+
+<a href="#dictionary">
+📖 Dictionary
+</a>
+
+<a href="#examples">
+📝 Examples
+</a>
+
+<a href="#phrases">
+💬 Phrases
+</a>
+
+<a href="#synonyms">
+🔄 Synonyms
+</a>
+
+</div>
+
+<div id="dictionary" class="dictionary-card">
+
+<h2>
+📖 Dictionary
+</h2>
+
+<div class="dictionary-info">
+
+<p>
+<strong>Type:</strong>
+${found.type || "-"}
+</p>
+
+<p>
+<strong>Gender:</strong>
+${found.gender || "-"}
+</p>
+
+<p>
+<strong>Level:</strong>
+${found.level || "-"}
+</p>
+
+</div>
+
+<div class="dictionary-definition">
+
+<h3>Definition</h3>
+
+<p>
+${found.definition_fr || "-"}
+</p>
 
 </div>
 
