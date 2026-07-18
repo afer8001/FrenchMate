@@ -251,17 +251,22 @@ ${ex.fa}
 
 }
 
-    if(found.antonyms){
+   if(found.antonyms){
 
 found.antonyms.forEach(item=>{
 
 antonymsHTML += `
-<li>${item}</li>
+<li>
+<a href="#" onclick="openWord('${item}')">
+${item}
+</a>
+</li>
 `;
 
 });
 
 }
+    
     
     if(found.synonyms){
 
