@@ -1,25 +1,45 @@
 [
- {
-  "word":"bonjour",
+{
+  "word": "bonjour",
+  "meaning": "سلام",
+  "type": "interjection",
+  "level": "A1",
 
-  "meaning":"سلام",
+  "definition_fr": "Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
 
-  "type":"interjection",
-
-  "gender":"-",
-
-  "level":"A1",
-
-  "definition_fr":"Formule utilisée pour saluer.",
-
-  "synonyms":[
-    "salut"
+  "synonyms": [
+    "salut",
+    "coucou",
+    "bonjour à toi"
   ],
 
-  "phrases":[
+  "examples": [
     {
-      "fr":"bonjour tout le monde",
-      "fa":"سلام به همه"
+      "fr": "Bonjour Marie, comment vas-tu ?",
+      "fa": "سلام ماری، حالت چطوره؟"
+    },
+    {
+      "fr": "Je dis toujours bonjour à mes voisins.",
+      "fa": "من همیشه به همسایه‌هایم سلام می‌کنم."
+    },
+    {
+      "fr": "Bonjour tout le monde et bienvenue au cours.",
+      "fa": "سلام به همه و به کلاس خوش آمدید."
+    }
+  ],
+
+  "phrases": [
+    {
+      "fr": "bonjour à tous",
+      "fa": "سلام به همه"
+    },
+    {
+      "fr": "bonjour monsieur",
+      "fa": "سلام آقا"
+    },
+    {
+      "fr": "bonjour madame",
+      "fa": "سلام خانم"
     }
   ]
 },
