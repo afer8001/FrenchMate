@@ -267,42 +267,32 @@ document.getElementById("content").innerHTML = `
 🏠 Home
 </button>
 
+<div class="header-card">
+
 <h1>
 ${found.word}
+
 <button onclick="speakFrench('${found.word}')">
 🔊
 </button>
+
 </h1>
 
-<div class="dictionary-card">
+<div class="header-fa">
 
-<div class="meaning-section">
-
-<h3>معنای فارسی</h3>
-
-<p>
 ${found.meaning || "-"}
-</p>
 
 </div>
 
-<div class="meta-section">
+<div class="header-en">
 
-<span>${found.type || "-"}</span>
-
-<span>•</span>
-
-<span>${found.level || "-"}</span>
+${found.english || "-"}
 
 </div>
 
-<div class="definition-section">
+</div>
 
-<h3>Definition</h3>
-
-<p>
-${found.definition_fr || "-"}
-</p>
+<div class="dictionary-card">
 
 </div>
 
