@@ -446,3 +446,55 @@ color:#1e293b;
 
 }
 
+.example-item{
+
+padding:18px 0;
+
+border-bottom:1px solid #e5e7eb;
+
+}
+
+.example-item:last-child{
+
+border-bottom:none;
+
+}
+
+.example-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.example-fr{
+
+font-size:24px;
+
+font-weight:600;
+
+color:#0f172a;
+
+margin-bottom:8px;
+
+text-align:left;
+
+}
+
+.example-fa{
+
+font-size:20px;
+
+color:#64748b;
+
+text-align:left;
+
+}
+
