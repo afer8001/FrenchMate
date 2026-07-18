@@ -349,7 +349,7 @@ ${found.definition_fr || "-"}
 
 </div>
 
-<div class="section-card">
+<div id="examples" class="section-card">
 
 <h2>
 📖 Examples
