@@ -521,23 +521,34 @@ text-align:center;
 
 .header-fa{
 
-font-size:42px;
+font-size:24px;
 
 font-weight:700;
 
 color:#0f172a;
 
-margin-bottom:10px;
+text-align:right;
+
+margin-top:15px;
+
+margin-bottom:8px;
+
+direction:rtl;
 
 }
 
 .header-en{
 
-font-size:28px;
+font-size:20px;
 
 color:#64748b;
 
+text-align:right;
+
+direction:ltr;
+
 }
+
 
 
 /* ========================= */
