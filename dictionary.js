@@ -403,6 +403,20 @@ ${synonymsHTML}
 
 </div>
 
+<div id="antonyms" class="section-card">
+
+<h2>
+⚡ Antonyms
+</h2>
+
+<ul>
+
+${antonymsHTML}
+
+</ul>
+
+</div>
+
 
 `;
 
