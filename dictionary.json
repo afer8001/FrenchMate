@@ -3,23 +3,17 @@
     "word": "bonjour",
     "meaning": "سلام",
     "english": "hello",
+    "pronunciation": "بونژور",
     "type": "interjection",
     "gender": "-",
     "level": "A1",
-    "pronunciation": "بونژور",
     "definition_fr": "Formule de salutation utilisée pendant la journée.",
-    "synonyms": ["salut", "coucou"],
+    "synonyms": ["salut"],
     "antonyms": ["au revoir"],
     "examples": [
       {
-        "fr": "Bonjour Marie, comment vas-tu ?",
-        "fa": "سلام ماری، حالت چطوره؟"
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "bonjour à tous",
-        "fa": "سلام به همه"
+        "fr": "Bonjour Marie !",
+        "fa": "سلام ماری!"
       }
     ]
   },
@@ -28,10 +22,10 @@
     "word": "salut",
     "meaning": "سلام",
     "english": "hi",
+    "pronunciation": "سَلو",
     "type": "interjection",
     "gender": "-",
     "level": "A1",
-    "pronunciation": "سَلو",
     "definition_fr": "Salutation familière.",
     "synonyms": ["bonjour"],
     "antonyms": ["au revoir"],
@@ -40,167 +34,158 @@
         "fr": "Salut Paul !",
         "fa": "سلام پل!"
       }
-    ],
-    "phrases": []
+    ]
   },
 
   {
-    "word": "merci",
-    "meaning": "متشکرم",
-    "english": "thank you",
+    "word": "au revoir",
+    "meaning": "خداحافظ",
+    "english": "goodbye",
+    "pronunciation": "اوغوُوار",
     "type": "interjection",
     "gender": "-",
     "level": "A1",
-    "pronunciation": "مِرسی",
-    "definition_fr": "Expression de gratitude.",
-    "synonyms": [],
-    "antonyms": [],
+    "definition_fr": "Formule utilisée quand on part.",
+    "synonyms": ["adieu"],
+    "antonyms": ["bonjour", "salut"],
     "examples": [
       {
-        "fr": "Merci beaucoup.",
-        "fa": "خیلی ممنون."
+        "fr": "Au revoir et à demain.",
+        "fa": "خداحافظ و تا فردا."
       }
-    ],
-    "phrases": []
+    ]
   },
 
   {
-    "word": "oui",
-    "meaning": "بله",
-    "english": "yes",
-    "type": "adverb",
+    "word": "adieu",
+    "meaning": "بدرود",
+    "english": "farewell",
+    "pronunciation": "آدیو",
+    "type": "interjection",
+    "gender": "-",
+    "level": "B1",
+    "definition_fr": "Adieu définitif.",
+    "synonyms": ["au revoir"],
+    "antonyms": ["bonjour"],
+    "examples": [
+      {
+        "fr": "Adieu mon ami.",
+        "fa": "بدرود دوست من."
+      }
+    ]
+  },
+
+  {
+    "word": "grand",
+    "meaning": "بزرگ",
+    "english": "big",
+    "pronunciation": "گران",
+    "type": "adjective",
     "gender": "-",
     "level": "A1",
-    "pronunciation": "وی",
-    "definition_fr": "Réponse affirmative.",
-    "synonyms": [],
-    "antonyms": ["non"],
+    "definition_fr": "Qui a une grande taille.",
+    "synonyms": ["gros"],
+    "antonyms": ["petit"],
     "examples": [
       {
-        "fr": "Oui, je comprends.",
-        "fa": "بله، متوجه می‌شوم."
+        "fr": "Une grande maison.",
+        "fa": "یک خانه بزرگ."
       }
-    ],
-    "phrases": []
+    ]
   },
 
   {
-    "word": "non",
-    "meaning": "خیر",
-    "english": "no",
-    "type": "adverb",
+    "word": "petit",
+    "meaning": "کوچک",
+    "english": "small",
+    "pronunciation": "پُتی",
+    "type": "adjective",
     "gender": "-",
     "level": "A1",
-    "pronunciation": "نون",
-    "definition_fr": "Réponse négative.",
-    "synonyms": [],
-    "antonyms": ["oui"],
+    "definition_fr": "Qui a une petite taille.",
+    "synonyms": ["minuscule"],
+    "antonyms": ["grand"],
     "examples": [
       {
-        "fr": "Non, merci.",
-        "fa": "نه، ممنون."
+        "fr": "Un petit chat.",
+        "fa": "یک گربه کوچک."
       }
-    ],
-    "phrases": []
+    ]
   },
 
   {
-    "word": "chat",
-    "meaning": "گربه",
-    "english": "cat",
-    "type": "noun",
-    "gender": "masculine",
-    "level": "A1",
-    "pronunciation": "شا",
-    "definition_fr": "Animal domestique félin.",
-    "synonyms": [],
-    "antonyms": [],
-    "examples": [
-      {
-        "fr": "Le chat dort.",
-        "fa": "گربه خوابیده است."
-      }
-    ],
-    "phrases": []
-  },
-
-  {
-    "word": "chien",
-    "meaning": "سگ",
-    "english": "dog",
-    "type": "noun",
-    "gender": "masculine",
-    "level": "A1",
-    "pronunciation": "شیَن",
-    "definition_fr": "Animal domestique fidèle.",
-    "synonyms": [],
-    "antonyms": [],
-    "examples": [
-      {
-        "fr": "Le chien court.",
-        "fa": "سگ می‌دود."
-      }
-    ],
-    "phrases": []
-  },
-
-  {
-    "word": "maison",
-    "meaning": "خانه",
-    "english": "house",
-    "type": "noun",
-    "gender": "feminine",
-    "level": "A1",
-    "pronunciation": "مِزون",
-    "definition_fr": "Bâtiment où l'on habite.",
-    "synonyms": [],
-    "antonyms": [],
-    "examples": [
-      {
-        "fr": "Ma maison est grande.",
-        "fa": "خانه من بزرگ است."
-      }
-    ],
-    "phrases": []
-  },
-
-  {
-    "word": "manger",
-    "meaning": "خوردن",
-    "english": "to eat",
-    "type": "verb",
+    "word": "gros",
+    "meaning": "بزرگ / درشت",
+    "english": "large",
+    "pronunciation": "گغو",
+    "type": "adjective",
     "gender": "-",
-    "level": "A1",
-    "pronunciation": "مانژه",
-    "definition_fr": "Prendre de la nourriture.",
-    "synonyms": [],
-    "antonyms": [],
+    "level": "A2",
+    "definition_fr": "De grande dimension.",
+    "synonyms": ["grand"],
+    "antonyms": ["petit"],
     "examples": [
       {
-        "fr": "Je vais manger.",
-        "fa": "من می‌خواهم غذا بخورم."
+        "fr": "Un gros chien.",
+        "fa": "یک سگ بزرگ."
       }
-    ],
-    "phrases": []
+    ]
   },
 
   {
-    "word": "boire",
-    "meaning": "نوشیدن",
-    "english": "to drink",
-    "type": "verb",
+    "word": "minuscule",
+    "meaning": "خیلی کوچک",
+    "english": "tiny",
+    "pronunciation": "مینوسکول",
+    "type": "adjective",
     "gender": "-",
-    "level": "A1",
-    "pronunciation": "بوار",
-    "definition_fr": "Prendre une boisson.",
-    "synonyms": [],
-    "antonyms": [],
+    "level": "B1",
+    "definition_fr": "Très petit.",
+    "synonyms": ["petit"],
+    "antonyms": ["grand"],
     "examples": [
       {
-        "fr": "Je vais boire de l'eau.",
-        "fa": "من می‌خواهم آب بنوشم."
+        "fr": "Une minuscule fleur.",
+        "fa": "یک گل خیلی کوچک."
       }
-    ],
-    "phrases": []
+    ]
+  },
+
+  {
+    "word": "heureux",
+    "meaning": "خوشحال",
+    "english": "happy",
+    "pronunciation": "اُغو",
+    "type": "adjective",
+    "gender": "-",
+    "level": "A2",
+    "definition_fr": "Qui ressent de la joie.",
+    "synonyms": ["content"],
+    "antonyms": ["triste"],
+    "examples": [
+      {
+        "fr": "Je suis heureux aujourd'hui.",
+        "fa": "امروز خوشحالم."
+      }
+    ]
+  },
+
+  {
+    "word": "triste",
+    "meaning": "غمگین",
+    "english": "sad",
+    "pronunciation": "تریست",
+    "type": "adjective",
+    "gender": "-",
+    "level": "A2",
+    "definition_fr": "Qui ressent de la tristesse.",
+    "synonyms": [],
+    "antonyms": ["heureux"],
+    "examples": [
+      {
+        "fr": "Elle est triste.",
+        "fa": "او غمگین است."
+      }
+    ]
   }
 ]
