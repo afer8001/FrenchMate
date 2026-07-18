@@ -290,6 +290,10 @@ ${found.english || "-"}
 
 </div>
 
+<div class="header-pronunciation">
+🔊 ${found.pronunciation || "-"}
+</div>
+
 </div>
 
 <div class="shortcut-card">
