@@ -396,9 +396,7 @@ ${examplesHTML}
 💬 Phrases
 </h2>
 
-<p>
-Coming Soon...
-</p>
+${phrasesHTML}
 
 </div>
 
