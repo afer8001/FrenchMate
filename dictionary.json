@@ -1,397 +1,3 @@
-[
-{
-  "word":"bonjour",
-  "meaning":"سلام",
-  "english":"hello / good morning",
-  "pronunciation":"بونژور",
-  "type":"interjection",
-  "level":"A1",
-  "gender":"-",
-
-  "definition_fr":"Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
-
-  "usage":"Utilisé dans les situations formelles et informelles pour saluer une personne pendant la journée.",
-
-  "synonyms":[
-    "salut",
-    "coucou"
-  ],
-
-  "antonyms":[
-    "au revoir"
-  ],
-
-  "examples":[
-    {
-      "fr":"Bonjour Marie, comment vas-tu ?",
-      "fa":"سلام ماری، حالت چطوره؟"
-    },
-    {
-      "fr":"Bonjour tout le monde.",
-      "fa":"سلام به همه."
-    },
-    {
-      "fr":"Je dis toujours bonjour à mes voisins.",
-      "fa":"من همیشه به همسایه‌هایم سلام می‌کنم."
-    },
-    {
-      "fr":"Bonjour monsieur, avez-vous une minute ?",
-      "fa":"سلام آقا، یک دقیقه وقت دارید؟"
-    },
-    {
-      "fr":"Bonjour et bienvenue à notre école.",
-      "fa":"سلام و به مدرسه ما خوش آمدید."
-    }
-  ],
-
-  "phrases":[
-    {
-      "fr":"bonjour à tous",
-      "fa":"سلام به همه"
-    },
-    {
-      "fr":"bonjour monsieur",
-      "fa":"سلام آقا"
-    },
-    {
-      "fr":"bonjour madame",
-      "fa":"سلام خانم"
-    }
-  ]
-},
-
-{
-  "word":"salut",
-  "meaning":"سلام",
-  "english":"hi",
-  "pronunciation":"سَلو",
-  "type":"interjection",
-  "level":"A1",
-  "gender":"-",
-
-  "definition_fr":"Salutation familière utilisée entre amis ou personnes proches.",
-
-  "usage":"Plus informel que bonjour. Utilisé surtout entre amis.",
-
-  "synonyms":[
-    "bonjour",
-    "coucou"
-  ],
-
-  "antonyms":[
-    "au revoir"
-  ],
-
-  "examples":[
-    {
-      "fr":"Salut Paul !",
-      "fa":"سلام پل!"
-    },
-    {
-      "fr":"Salut, ça va ?",
-      "fa":"سلام، خوبی؟"
-    },
-    {
-      "fr":"Je lui ai dit salut ce matin.",
-      "fa":"امروز صبح به او سلام کردم."
-    },
-    {
-      "fr":"Salut les amis !",
-      "fa":"سلام دوستان!"
-    },
-    {
-      "fr":"Elle répond toujours par un salut chaleureux.",
-      "fa":"او همیشه با یک سلام گرم پاسخ می‌دهد."
-    }
-  ],
-
-  "phrases":[
-    {
-      "fr":"salut tout le monde",
-      "fa":"سلام به همه"
-    },
-    {
-      "fr":"salut mon ami",
-      "fa":"سلام دوست من"
-    }
-  ]
-},
-
-{
-  "word":"merci",
-  "meaning":"متشکرم",
-  "english":"thank you",
-  "pronunciation":"مِرسی",
-  "type":"interjection",
-  "level":"A1",
-  "gender":"-",
-
-  "definition_fr":"Expression utilisée pour remercier quelqu'un.",
-
-  "usage":"Employé dans toutes les situations pour exprimer la gratitude.",
-
-  "synonyms":[
-    "merci beaucoup"
-  ],
-
-  "antonyms":[
-    "de rien"
-  ],
-
-  "examples":[
-    {
-      "fr":"Merci beaucoup pour votre aide.",
-      "fa":"خیلی ممنون برای کمکتان."
-    },
-    {
-      "fr":"Merci d'être venu.",
-      "fa":"ممنون که آمدی."
-    },
-    {
-      "fr":"Je te remercie sincèrement.",
-      "fa":"صمیمانه از تو تشکر می‌کنم."
-    },
-    {
-      "fr":"Merci pour ce cadeau.",
-      "fa":"ممنون برای این هدیه."
-    },
-    {
-      "fr":"Merci, c'est très gentil.",
-      "fa":"ممنون، خیلی لطف داری."
-    }
-  ],
-
-  "phrases":[
-    {
-      "fr":"merci beaucoup",
-      "fa":"خیلی ممنون"
-    },
-    {
-      "fr":"merci bien",
-      "fa":"بسیار متشکرم"
-    }
-  ]
-},
-
-{
-  "word":"oui",
-  "meaning":"بله",
-  "english":"yes",
-  "pronunciation":"وی",
-  "type":"adverb",
-  "level":"A1",
-  "gender":"-",
-
-  "definition_fr":"Mot utilisé pour exprimer une réponse positive.",
-
-  "usage":"Réponse affirmative à une question.",
-
-  "synonyms":[
-    "certainement",
-    "absolument"
-  ],
-
-  "antonyms":[
-    "non"
-  ],
-
-  "examples":[
-    {
-      "fr":"Oui, je comprends.",
-      "fa":"بله، متوجه می‌شوم."
-    },
-    {
-      "fr":"Oui, je veux venir.",
-      "fa":"بله، می‌خواهم بیایم."
-    },
-    {
-      "fr":"Oui, c'est exact.",
-      "fa":"بله، درست است."
-    },
-    {
-      "fr":"Oui, nous sommes prêts.",
-      "fa":"بله، ما آماده‌ایم."
-    },
-    {
-      "fr":"Oui, bien sûr.",
-      "fa":"بله، البته."
-    }
-  ],
-
-  "phrases":[
-    {
-      "fr":"oui bien sûr",
-      "fa":"بله حتماً"
-    },
-    {
-      "fr":"oui monsieur",
-      "fa":"بله آقا"
-    }
-  ]
-},
-
-{
-  "word":"non",
-  "meaning":"خیر",
-  "english":"no",
-  "pronunciation":"نون",
-  "type":"adverb",
-  "level":"A1",
-  "gender":"-",
-
-  "definition_fr":"Mot utilisé pour exprimer une réponse négative.",
-
-  "usage":"Réponse négative à une question.",
-
-  "synonyms":[
-    "jamais"
-  ],
-
-  "antonyms":[
-    "oui"
-  ],
-
-  "examples":[
-    {
-      "fr":"Non, merci.",
-      "fa":"نه، ممنون."
-    },
-    {
-      "fr":"Non, je ne comprends pas.",
-      "fa":"نه، متوجه نمی‌شوم."
-    },
-    {
-      "fr":"Non, ce n'est pas possible.",
-      "fa":"نه، این امکان‌پذیر نیست."
-    },
-    {
-      "fr":"Non, je reste ici.",
-      "fa":"نه، من اینجا می‌مانم."
-    },
-    {
-      "fr":"Non, je ne suis pas d'accord.",
-      "fa":"نه، موافق نیستم."
-    }
-  ],
-
-  "phrases":[
-    {
-      "fr":"non merci",
-      "fa":"نه ممنون"
-    },
-    {
-      "fr":"non pas du tout",
-      "fa":"نه، اصلاً"
-    }
-  ]
-}
-],
-{
-  "word": "école",
-  "meaning": "مدرسه",
-  "english": "school",
-  "pronunciation": "اِکول",
-  "type": "noun",
-  "gender": "feminine",
-  "level": "A1",
-  "definition_fr": "Lieu où les élèves vont pour apprendre et suivre des cours avec des enseignants.",
-  "usage": "Utilisé pour parler d'un établissement scolaire ou de la vie scolaire.",
-  "synonyms": [
-    "établissement",
-    "institution"
-  ],
-  "antonyms": [
-    "maison"
-  ],
-  "examples": [
-    {
-      "fr": "Je vais à l'école tous les matins.",
-      "fa": "من هر صبح به مدرسه می‌روم."
-    },
-    {
-      "fr": "L'école ouvre à huit heures.",
-      "fa": "مدرسه ساعت هشت باز می‌شود."
-    },
-    {
-      "fr": "Les élèves arrivent devant l'école.",
-      "fa": "دانش‌آموزان جلوی مدرسه می‌رسند."
-    },
-    {
-      "fr": "Cette école est très moderne.",
-      "fa": "این مدرسه بسیار مدرن است."
-    },
-    {
-      "fr": "Mon frère aime son école.",
-      "fa": "برادرم مدرسه‌اش را دوست دارد."
-    }
-  ],
-  "phrases": [
-    {
-      "fr": "aller à l'école",
-      "fa": "به مدرسه رفتن"
-    },
-    {
-      "fr": "école primaire",
-      "fa": "مدرسه ابتدایی"
-    },
-    {
-      "fr": "sortir de l'école",
-      "fa": "از مدرسه خارج شدن"
-    }
-  ]
-},
-{
-  "word": "livre",
-  "meaning": "کتاب",
-  "english": "book",
-  "pronunciation": "لیور",
-  "type": "noun",
-  "gender": "masculine",
-  "level": "A1",
-  "definition_fr": "Ensemble de pages reliées contenant un texte, une histoire ou des informations.",
-  "usage": "Utilisé pour parler d'un ouvrage imprimé ou numérique.",
-  "synonyms": [
-    "ouvrage",
-    "volume"
-  ],
-  "antonyms": [],
-  "examples": [
-    {
-      "fr": "Je lis un livre intéressant.",
-      "fa": "من یک کتاب جالب می‌خوانم."
-    },
-    {
-      "fr": "Ce livre parle de l'histoire de France.",
-      "fa": "این کتاب درباره تاریخ فرانسه است."
-    },
-    {
-      "fr": "Elle achète un livre à la librairie.",
-      "fa": "او از کتاب‌فروشی یک کتاب می‌خرد."
-    },
-    {
-      "fr": "Le livre est sur la table.",
-      "fa": "کتاب روی میز است."
-    },
-    {
-      "fr": "J'ai terminé ce livre hier.",
-      "fa": "من دیروز این کتاب را تمام کردم."
-    }
-  ],
-  "phrases": [
-    {
-      "fr": "lire un livre",
-      "fa": "کتاب خواندن"
-    },
-    {
-      "fr": "livre électronique",
-      "fa": "کتاب الکترونیکی"
-    },
-    {
-      "fr": "ouvrir un livre",
-      "fa": "کتاب را باز کردن"
-    }
-  ]
-},
 {
   "word": "travail",
   "meaning": "کار",
@@ -401,152 +7,1009 @@
   "gender": "masculine",
   "level": "A1",
   "definition_fr": "Activité exercée pour accomplir une tâche ou gagner sa vie.",
-  "usage": "Utilisé pour parler de l'emploi, des tâches ou du travail en général.",
+  "usage": "Utilisé pour parler d'un emploi, d'une profession ou d'une tâche à accomplir.",
   "synonyms": [
     "emploi",
-    "occupation"
+    "métier"
   ],
   "antonyms": [
-    "repos",
-    "vacances"
+    "vacances",
+    "repos"
   ],
   "examples": [
     {
-      "fr": "Je vais au travail en bus.",
-      "fa": "من با اتوبوس به محل کار می‌روم."
+      "fr": "Je vais au travail à huit heures.",
+      "fa": "من ساعت هشت به محل کار می‌روم."
     },
     {
-      "fr": "Son travail est difficile.",
-      "fa": "کار او دشوار است."
+      "fr": "Mon travail est intéressant.",
+      "fa": "کار من جالب است."
     },
     {
-      "fr": "Nous avons beaucoup de travail aujourd'hui.",
-      "fa": "امروز کار زیادی داریم."
+      "fr": "Elle cherche un nouveau travail.",
+      "fa": "او به دنبال یک کار جدید است."
     },
     {
-      "fr": "Elle aime son travail.",
-      "fa": "او کارش را دوست دارد."
+      "fr": "Le travail commence demain.",
+      "fa": "کار از فردا شروع می‌شود."
     },
     {
-      "fr": "Le travail commence à neuf heures.",
-      "fa": "کار ساعت نه شروع می‌شود."
+      "fr": "Après le travail, je rentre à la maison.",
+      "fa": "بعد از کار به خانه برمی‌گردم."
     }
   ],
   "phrases": [
     {
+      "fr": "aller au travail",
+      "fa": "به سر کار رفتن"
+    },
+    {
       "fr": "chercher du travail",
       "fa": "دنبال کار گشتن"
+    }
+  ]
+},
+
+{
+  "word": "temps",
+  "meaning": "زمان",
+  "english": "time",
+  "pronunciation": "تان",
+  "type": "noun",
+  "gender": "masculine",
+  "level": "A1",
+  "definition_fr": "Durée dans laquelle se déroulent les événements.",
+  "usage": "Utilisé pour parler du temps qui passe ou de la durée.",
+  "synonyms": [
+    "durée",
+    "moment"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Je n'ai pas le temps.",
+      "fa": "من وقت ندارم."
     },
     {
-      "fr": "travail à temps plein",
-      "fa": "کار تمام وقت"
+      "fr": "Le temps passe vite.",
+      "fa": "زمان سریع می‌گذرد."
     },
     {
-      "fr": "lieu de travail",
-      "fa": "محل کار"
+      "fr": "Nous avons beaucoup de temps.",
+      "fa": "ما زمان زیادی داریم."
+    },
+    {
+      "fr": "Prends ton temps.",
+      "fa": "عجله نکن."
+    },
+    {
+      "fr": "Quel temps fait-il aujourd'hui ?",
+      "fa": "امروز هوا چطور است؟"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "avoir le temps",
+      "fa": "وقت داشتن"
+    },
+    {
+      "fr": "prendre son temps",
+      "fa": "آرام و بدون عجله انجام دادن"
+    }
+  ]
+},
+
+{
+  "word": "ville",
+  "meaning": "شهر",
+  "english": "city",
+  "pronunciation": "ویل",
+  "type": "noun",
+  "gender": "feminine",
+  "level": "A1",
+  "definition_fr": "Grande agglomération où vivent de nombreuses personnes.",
+  "usage": "Utilisé pour parler d'une ville ou d'un centre urbain.",
+  "synonyms": [
+    "cité"
+  ],
+  "antonyms": [
+    "campagne"
+  ],
+  "examples": [
+    {
+      "fr": "Paris est une grande ville.",
+      "fa": "پاریس یک شهر بزرگ است."
+    },
+    {
+      "fr": "J'habite dans cette ville.",
+      "fa": "من در این شهر زندگی می‌کنم."
+    },
+    {
+      "fr": "La ville est très calme.",
+      "fa": "شهر بسیار آرام است."
+    },
+    {
+      "fr": "Nous visitons une nouvelle ville.",
+      "fa": "ما از یک شهر جدید بازدید می‌کنیم."
+    },
+    {
+      "fr": "Cette ville est célèbre.",
+      "fa": "این شهر مشهور است."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "centre-ville",
+      "fa": "مرکز شهر"
+    },
+    {
+      "fr": "grande ville",
+      "fa": "شهر بزرگ"
     }
   ]
 },
 {
-  "word": "eau",
-  "meaning": "آب",
-  "english": "water",
-  "pronunciation": "او",
-  "type": "noun",
-  "gender": "feminine",
+  "word": "bonjour",
+  "meaning": "سلام",
+  "english": "hello / good morning",
+  "pronunciation": "بونژور",
+  "type": "interjection",
+  "gender": "-",
   "level": "A1",
-  "definition_fr": "Liquide transparent indispensable à la vie.",
-  "usage": "Utilisé pour parler de l'eau à boire, de la pluie ou des ressources naturelles.",
+  "definition_fr": "Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
+  "usage": "Utilisé dans un contexte poli pour saluer une personne.",
+  "synonyms": [
+    "salut",
+    "coucou"
+  ],
+  "antonyms": [
+    "au revoir"
+  ],
+  "examples": [
+    {
+      "fr": "Bonjour Marie, comment vas-tu ?",
+      "fa": "سلام ماری، حالت چطوره؟"
+    },
+    {
+      "fr": "Bonjour tout le monde.",
+      "fa": "سلام به همه."
+    },
+    {
+      "fr": "Je dis toujours bonjour à mes voisins.",
+      "fa": "من همیشه به همسایه‌هایم سلام می‌کنم."
+    },
+    {
+      "fr": "Bonjour monsieur.",
+      "fa": "سلام آقا."
+    },
+    {
+      "fr": "Bonjour madame.",
+      "fa": "سلام خانم."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "bonjour à tous",
+      "fa": "سلام به همه"
+    },
+    {
+      "fr": "bonjour monsieur",
+      "fa": "سلام آقا"
+    },
+    {
+      "fr": "bonjour madame",
+      "fa": "سلام خانم"
+    }
+  ]
+},
+
+{
+  "word": "salut",
+  "meaning": "سلام",
+  "english": "hi",
+  "pronunciation": "سَلو",
+  "type": "interjection",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Salutation familière utilisée entre amis ou personnes proches.",
+  "usage": "Moins formel que bonjour.",
+  "synonyms": [
+    "bonjour",
+    "coucou"
+  ],
+  "antonyms": [
+    "au revoir"
+  ],
+  "examples": [
+    {
+      "fr": "Salut Paul !",
+      "fa": "سلام پل!"
+    },
+    {
+      "fr": "Salut les amis.",
+      "fa": "سلام دوستان."
+    },
+    {
+      "fr": "Je lui ai dit salut.",
+      "fa": "به او سلام کردم."
+    },
+    {
+      "fr": "Salut, ça va ?",
+      "fa": "سلام، خوبی؟"
+    },
+    {
+      "fr": "Elle répond toujours par salut.",
+      "fa": "او همیشه با «سلام» جواب می‌دهد."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "salut tout le monde",
+      "fa": "سلام به همه"
+    },
+    {
+      "fr": "salut mon ami",
+      "fa": "سلام دوست من"
+    }
+  ]
+},
+
+{
+  "word": "merci",
+  "meaning": "متشکرم",
+  "english": "thank you",
+  "pronunciation": "مِرسی",
+  "type": "interjection",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot utilisé pour exprimer sa gratitude.",
+  "usage": "Utilisé pour remercier quelqu'un.",
+  "synonyms": [
+    "remerciement"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Merci beaucoup.",
+      "fa": "خیلی ممنون."
+    },
+    {
+      "fr": "Merci pour ton aide.",
+      "fa": "ممنون بابت کمکت."
+    },
+    {
+      "fr": "Merci de venir.",
+      "fa": "ممنون که آمدی."
+    },
+    {
+      "fr": "Merci pour le cadeau.",
+      "fa": "ممنون بابت هدیه."
+    },
+    {
+      "fr": "Merci à tous.",
+      "fa": "از همه متشکرم."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "merci beaucoup",
+      "fa": "خیلی ممنون"
+    },
+    {
+      "fr": "merci bien",
+      "fa": "بسیار متشکرم"
+    }
+  ]
+},
+{
+  "word": "oui",
+  "meaning": "بله",
+  "english": "yes",
+  "pronunciation": "وی",
+  "type": "adverb",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot utilisé pour exprimer une réponse positive ou une affirmation.",
+  "usage": "Utilisé pour répondre positivement à une question.",
+  "synonyms": [
+    "certainement",
+    "absolument"
+  ],
+  "antonyms": [
+    "non"
+  ],
+  "examples": [
+    {
+      "fr": "Oui, je comprends.",
+      "fa": "بله، متوجه می‌شوم."
+    },
+    {
+      "fr": "Oui, c'est vrai.",
+      "fa": "بله، درست است."
+    },
+    {
+      "fr": "Oui, je veux venir.",
+      "fa": "بله، می‌خواهم بیایم."
+    },
+    {
+      "fr": "Oui, pourquoi pas ?",
+      "fa": "بله، چرا که نه؟"
+    },
+    {
+      "fr": "Oui, bien sûr.",
+      "fa": "بله، حتماً."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "oui bien sûr",
+      "fa": "بله حتماً"
+    },
+    {
+      "fr": "oui pourquoi pas",
+      "fa": "بله چرا که نه"
+    }
+  ]
+},
+
+{
+  "word": "non",
+  "meaning": "خیر",
+  "english": "no",
+  "pronunciation": "نون",
+  "type": "adverb",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot utilisé pour exprimer une réponse négative ou un refus.",
+  "usage": "Utilisé pour répondre négativement à une question.",
+  "synonyms": [
+    "jamais"
+  ],
+  "antonyms": [
+    "oui"
+  ],
+  "examples": [
+    {
+      "fr": "Non, merci.",
+      "fa": "نه، ممنون."
+    },
+    {
+      "fr": "Non, je ne sais pas.",
+      "fa": "نه، نمی‌دانم."
+    },
+    {
+      "fr": "Non, ce n'est pas possible.",
+      "fa": "نه، امکان‌پذیر نیست."
+    },
+    {
+      "fr": "Non, je suis occupé.",
+      "fa": "نه، مشغول هستم."
+    },
+    {
+      "fr": "Non, absolument pas.",
+      "fa": "نه، اصلاً."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "non merci",
+      "fa": "نه ممنون"
+    },
+    {
+      "fr": "non absolument pas",
+      "fa": "نه، اصلاً"
+    }
+  ]
+},
+
+{
+  "word": "au revoir",
+  "meaning": "خداحافظ",
+  "english": "goodbye",
+  "pronunciation": "اوغُوواغ",
+  "type": "interjection",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Formule utilisée pour prendre congé d'une personne.",
+  "usage": "Expression polie utilisée lorsqu'on quitte quelqu'un.",
+  "synonyms": [
+    "salut",
+    "à bientôt"
+  ],
+  "antonyms": [
+    "bonjour"
+  ],
+  "examples": [
+    {
+      "fr": "Au revoir et bonne journée.",
+      "fa": "خداحافظ و روز خوبی داشته باشید."
+    },
+    {
+      "fr": "Je lui ai dit au revoir.",
+      "fa": "به او خداحافظی کردم."
+    },
+    {
+      "fr": "Au revoir monsieur.",
+      "fa": "خداحافظ آقا."
+    },
+    {
+      "fr": "Au revoir tout le monde.",
+      "fa": "خداحافظ همه."
+    },
+    {
+      "fr": "Elle est partie sans dire au revoir.",
+      "fa": "او بدون خداحافظی رفت."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "au revoir monsieur",
+      "fa": "خداحافظ آقا"
+    },
+    {
+      "fr": "au revoir et à bientôt",
+      "fa": "خداحافظ و به زودی می‌بینمت"
+    }
+  ]
+},
+{
+  "word": "s'il vous plaît",
+  "meaning": "لطفاً",
+  "english": "please",
+  "pronunciation": "سیل وو پله",
+  "type": "expression",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Expression de politesse utilisée pour faire une demande ou répondre avec courtoisie.",
+  "usage": "Utilisé dans les situations formelles ou avec des inconnus.",
+  "synonyms": [
+    "je vous prie"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Un café, s'il vous plaît.",
+      "fa": "یک قهوه لطفاً."
+    },
+    {
+      "fr": "Parlez plus lentement, s'il vous plaît.",
+      "fa": "لطفاً آرام‌تر صحبت کنید."
+    },
+    {
+      "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+      "fa": "ممکن است تکرار کنید لطفاً؟"
+    },
+    {
+      "fr": "Asseyez-vous ici, s'il vous plaît.",
+      "fa": "لطفاً اینجا بنشینید."
+    },
+    {
+      "fr": "Attendez un moment, s'il vous plaît.",
+      "fa": "لطفاً یک لحظه صبر کنید."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "oui, s'il vous plaît",
+      "fa": "بله لطفاً"
+    },
+    {
+      "fr": "non, merci s'il vous plaît",
+      "fa": "نه متشکرم"
+    }
+  ]
+},
+
+{
+  "word": "pardon",
+  "meaning": "ببخشید",
+  "english": "sorry / excuse me",
+  "pronunciation": "پَغدون",
+  "type": "interjection",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot utilisé pour s'excuser ou demander à quelqu'un de répéter.",
+  "usage": "Utilisé pour attirer l'attention ou présenter des excuses.",
+  "synonyms": [
+    "excusez-moi",
+    "désolé"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Pardon, où est la gare ?",
+      "fa": "ببخشید، ایستگاه قطار کجاست؟"
+    },
+    {
+      "fr": "Pardon, je n'ai pas compris.",
+      "fa": "ببخشید، متوجه نشدم."
+    },
+    {
+      "fr": "Pardon pour le retard.",
+      "fa": "ببخشید برای تأخیر."
+    },
+    {
+      "fr": "Pardon, pouvez-vous répéter ?",
+      "fa": "ببخشید، می‌توانید تکرار کنید؟"
+    },
+    {
+      "fr": "Pardon, je me suis trompé.",
+      "fa": "ببخشید، اشتباه کردم."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "mille pardons",
+      "fa": "هزار بار ببخشید"
+    },
+    {
+      "fr": "pardon monsieur",
+      "fa": "ببخشید آقا"
+    }
+  ]
+},
+
+{
+  "word": "désolé",
+  "meaning": "متأسفم",
+  "english": "sorry",
+  "pronunciation": "دِزوله",
+  "type": "adjective",
+  "gender": "masculine",
+  "level": "A1",
+  "definition_fr": "Qui exprime un regret ou des excuses.",
+  "usage": "Utilisé pour présenter des excuses.",
+  "synonyms": [
+    "pardon",
+    "excusez-moi"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Je suis désolé.",
+      "fa": "من متأسفم."
+    },
+    {
+      "fr": "Désolé pour mon erreur.",
+      "fa": "برای اشتباهم متأسفم."
+    },
+    {
+      "fr": "Je suis vraiment désolé.",
+      "fa": "واقعاً متأسفم."
+    },
+    {
+      "fr": "Désolé du retard.",
+      "fa": "برای تأخیر متأسفم."
+    },
+    {
+      "fr": "Elle est désolée de partir.",
+      "fa": "او از رفتن متأسف است."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "je suis désolé",
+      "fa": "من متأسفم"
+    },
+    {
+      "fr": "vraiment désolé",
+      "fa": "واقعاً متأسف"
+    }
+  ]
+},
+{
+  "word": "comment",
+  "meaning": "چگونه / چطور",
+  "english": "how",
+  "pronunciation": "کُمان",
+  "type": "adverb",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot interrogatif utilisé pour demander la manière ou l'état de quelque chose.",
+  "usage": "Très fréquent dans les questions.",
   "synonyms": [],
   "antonyms": [],
   "examples": [
     {
-      "fr": "Je bois de l'eau chaque jour.",
-      "fa": "من هر روز آب می‌نوشم."
+      "fr": "Comment tu t'appelles ?",
+      "fa": "اسمت چیست؟"
     },
     {
-      "fr": "L'eau est froide.",
-      "fa": "آب سرد است."
+      "fr": "Comment vas-tu ?",
+      "fa": "حالت چطور است؟"
     },
     {
-      "fr": "Nous avons besoin d'eau.",
-      "fa": "ما به آب نیاز داریم."
+      "fr": "Comment faire cela ?",
+      "fa": "چطور این کار را انجام دهیم؟"
     },
     {
-      "fr": "L'eau de cette rivière est propre.",
-      "fa": "آب این رودخانه تمیز است."
+      "fr": "Comment est-il arrivé ici ?",
+      "fa": "او چطور به اینجا رسید؟"
     },
     {
-      "fr": "Elle verse de l'eau dans le verre.",
-      "fa": "او در لیوان آب می‌ریزد."
+      "fr": "Comment fonctionne cette machine ?",
+      "fa": "این دستگاه چگونه کار می‌کند؟"
     }
   ],
   "phrases": [
     {
-      "fr": "verre d'eau",
-      "fa": "لیوان آب"
+      "fr": "comment ça va",
+      "fa": "حالت چطور است"
     },
     {
-      "fr": "eau potable",
-      "fa": "آب آشامیدنی"
+      "fr": "comment allez-vous",
+      "fa": "حال شما چطور است"
+    }
+  ]
+},
+
+{
+  "word": "comment ça va",
+  "meaning": "حالت چطوره؟",
+  "english": "how are you",
+  "pronunciation": "کُمان سا وا",
+  "type": "expression",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Expression utilisée pour demander à quelqu'un comment il se sent.",
+  "usage": "Très courante dans les conversations quotidiennes.",
+  "synonyms": [
+    "comment vas-tu"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Bonjour Paul, comment ça va ?",
+      "fa": "سلام پل، حالت چطوره؟"
     },
     {
-      "fr": "bouteille d'eau",
-      "fa": "بطری آب"
+      "fr": "Comment ça va aujourd'hui ?",
+      "fa": "امروز حالت چطوره؟"
+    },
+    {
+      "fr": "Salut Marie, comment ça va ?",
+      "fa": "سلام ماری، خوبی؟"
+    },
+    {
+      "fr": "Merci, ça va bien.",
+      "fa": "ممنون، خوبم."
+    },
+    {
+      "fr": "Comment ça va au travail ?",
+      "fa": "اوضاع کار چطوره؟"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "ça va bien",
+      "fa": "خوبم"
+    },
+    {
+      "fr": "ça va mal",
+      "fa": "خوب نیستم"
+    }
+  ]
+},
+
+{
+  "word": "bien",
+  "meaning": "خوب",
+  "english": "good / well",
+  "pronunciation": "بیَن",
+  "type": "adverb",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Mot utilisé pour exprimer quelque chose de positif ou satisfaisant.",
+  "usage": "Très fréquent dans les réponses et descriptions.",
+  "synonyms": [
+    "excellent",
+    "parfait"
+  ],
+  "antonyms": [
+    "mal"
+  ],
+  "examples": [
+    {
+      "fr": "Je vais bien.",
+      "fa": "من خوبم."
+    },
+    {
+      "fr": "Tout va bien.",
+      "fa": "همه چیز خوب است."
+    },
+    {
+      "fr": "Tu parles bien français.",
+      "fa": "تو فرانسوی را خوب صحبت می‌کنی."
+    },
+    {
+      "fr": "Elle chante très bien.",
+      "fa": "او خیلی خوب آواز می‌خواند."
+    },
+    {
+      "fr": "Nous travaillons bien ensemble.",
+      "fa": "ما با هم خوب کار می‌کنیم."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "très bien",
+      "fa": "خیلی خوب"
+    },
+    {
+      "fr": "bien sûr",
+      "fa": "البته"
     }
   ]
 },
 {
-  "word": "ami",
-  "meaning": "دوست",
-  "english": "friend",
-  "pronunciation": "آمی",
-  "type": "noun",
-  "gender": "masculine",
+  "word": "mal",
+  "meaning": "بد",
+  "english": "bad / badly",
+  "pronunciation": "مال",
+  "type": "adverb",
+  "gender": "-",
   "level": "A1",
-  "definition_fr": "Personne avec qui on partage une relation d'affection et de confiance.",
-  "usage": "Utilisé pour parler d'un ami proche ou d'une relation amicale.",
+  "definition_fr": "Mot utilisé pour exprimer quelque chose de négatif ou d'insatisfaisant.",
+  "usage": "Opposé de « bien ».",
   "synonyms": [
-    "copain",
-    "camarade"
+    "mauvais"
   ],
   "antonyms": [
-    "ennemi"
+    "bien"
   ],
   "examples": [
     {
-      "fr": "Mon ami habite à Paris.",
-      "fa": "دوست من در پاریس زندگی می‌کند."
+      "fr": "Je vais mal aujourd'hui.",
+      "fa": "امروز حالم خوب نیست."
     },
     {
-      "fr": "J'ai beaucoup d'amis.",
-      "fa": "من دوستان زیادی دارم."
+      "fr": "Il parle mal français.",
+      "fa": "او فرانسوی را بد صحبت می‌کند."
     },
     {
-      "fr": "Cet ami est très gentil.",
-      "fa": "این دوست بسیار مهربان است."
+      "fr": "Tout va mal.",
+      "fa": "همه چیز بد پیش می‌رود."
     },
     {
-      "fr": "Je parle avec mon ami chaque semaine.",
-      "fa": "من هر هفته با دوستم صحبت می‌کنم."
+      "fr": "Elle dort mal la nuit.",
+      "fa": "او شب‌ها بد می‌خوابد."
     },
     {
-      "fr": "Un bon ami aide toujours.",
-      "fa": "یک دوست خوب همیشه کمک می‌کند."
+      "fr": "Je me sens mal.",
+      "fa": "حالم بد است."
     }
   ],
   "phrases": [
     {
-      "fr": "meilleur ami",
-      "fa": "بهترین دوست"
+      "fr": "aller mal",
+      "fa": "حال خوبی نداشتن"
     },
     {
-      "fr": "ami proche",
-      "fa": "دوست صمیمی"
-    },
-    {
-      "fr": "se faire des amis",
-      "fa": "دوست پیدا کردن"
+      "fr": "se sentir mal",
+      "fa": "حال بد داشتن"
     }
   ]
 },
+
+{
+  "word": "très bien",
+  "meaning": "خیلی خوب",
+  "english": "very well",
+  "pronunciation": "تره بیَن",
+  "type": "expression",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Expression utilisée pour montrer un très bon état ou une forte approbation.",
+  "usage": "Réponse fréquente à « Comment ça va ? »",
+  "synonyms": [
+    "excellent",
+    "parfait"
+  ],
+  "antonyms": [
+    "très mal"
+  ],
+  "examples": [
+    {
+      "fr": "Je vais très bien.",
+      "fa": "حالم خیلی خوب است."
+    },
+    {
+      "fr": "Très bien, merci.",
+      "fa": "خیلی خوب، ممنون."
+    },
+    {
+      "fr": "Tu parles très bien français.",
+      "fa": "تو فرانسوی را خیلی خوب صحبت می‌کنی."
+    },
+    {
+      "fr": "Tout va très bien.",
+      "fa": "همه چیز خیلی خوب است."
+    },
+    {
+      "fr": "Elle chante très bien.",
+      "fa": "او خیلی خوب آواز می‌خواند."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "très bien merci",
+      "fa": "خیلی خوب، ممنون"
+    },
+    {
+      "fr": "ça va très bien",
+      "fa": "خیلی خوبم"
+    }
+  ]
+},
+
+{
+  "word": "merci beaucoup",
+  "meaning": "خیلی ممنون",
+  "english": "thank you very much",
+  "pronunciation": "مِرسی بوکو",
+  "type": "expression",
+  "gender": "-",
+  "level": "A1",
+  "definition_fr": "Expression utilisée pour remercier quelqu'un avec plus d'insistance.",
+  "usage": "Version plus forte de « merci ».",
+  "synonyms": [
+    "merci bien"
+  ],
+  "antonyms": [],
+  "examples": [
+    {
+      "fr": "Merci beaucoup pour ton aide.",
+      "fa": "خیلی ممنون بابت کمکت."
+    },
+    {
+      "fr": "Merci beaucoup, monsieur.",
+      "fa": "خیلی ممنون آقا."
+    },
+    {
+      "fr": "Merci beaucoup pour le cadeau.",
+      "fa": "خیلی ممنون بابت هدیه."
+    },
+    {
+      "fr": "Merci beaucoup d'être venu.",
+      "fa": "خیلی ممنون که آمدی."
+    },
+    {
+      "fr": "Merci beaucoup à tous.",
+      "fa": "از همه خیلی ممنون."
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "merci beaucoup monsieur",
+      "fa": "خیلی ممنون آقا"
+    },
+    {
+      "fr": "merci beaucoup madame",
+      "fa": "خیلی ممنون خانم"
+    }
+  ]
+},
+{
+  "word":"voyager",
+  "meaning":"سفر کردن",
+  "english":"to travel",
+  "type":"verb",
+  "gender":"-",
+  "level":"A2",
+  "pronunciation":"وُیاژه",
+  "definition_fr":"Se déplacer d’un lieu à un autre pour découvrir, travailler ou se reposer.",
+  "usage":"Utilisé pour parler d’un voyage ou d’un déplacement important.",
+  "synonyms":["partir","se déplacer"],
+  "antonyms":["rester"],
+  "examples":[
+    {"fr":"J’aime voyager pendant les vacances.","fa":"من دوست دارم در تعطیلات سفر کنم."},
+    {"fr":"Nous voyageons en train.","fa":"ما با قطار سفر می‌کنیم."},
+    {"fr":"Elle voyage souvent seule.","fa":"او اغلب تنها سفر می‌کند."},
+    {"fr":"Ils voyagent en Europe cet été.","fa":"آن‌ها تابستان امسال در اروپا سفر می‌کنند."},
+    {"fr":"Je voudrais voyager au Canada.","fa":"دوست دارم به کانادا سفر کنم."}
+  ],
+  "phrases":[
+    {"fr":"voyager à l’étranger","fa":"سفر به خارج از کشور"},
+    {"fr":"voyager léger","fa":"سبک سفر کردن"}
+  ]
+},
+
+{
+  "word":"ville",
+  "meaning":"شهر",
+  "english":"city",
+  "type":"noun",
+  "gender":"féminin",
+  "level":"A1",
+  "pronunciation":"ویل",
+  "definition_fr":"Grande zone où vivent beaucoup de personnes.",
+  "usage":"Mot utilisé pour désigner une ville ou une agglomération.",
+  "synonyms":["cité"],
+  "antonyms":["campagne"],
+  "examples":[
+    {"fr":"Paris est une grande ville.","fa":"پاریس یک شهر بزرگ است."},
+    {"fr":"Cette ville est très calme.","fa":"این شهر خیلی آرام است."},
+    {"fr":"J’habite dans une petite ville.","fa":"من در یک شهر کوچک زندگی می‌کنم."},
+    {"fr":"La ville est pleine de touristes.","fa":"شهر پر از گردشگر است."},
+    {"fr":"Ils visitent la ville.","fa":"آن‌ها از شهر بازدید می‌کنند."}
+  ],
+  "phrases":[
+    {"fr":"centre-ville","fa":"مرکز شهر"},
+    {"fr":"grande ville","fa":"شهر بزرگ"}
+  ]
+},
+
+{
+  "word":"question",
+  "meaning":"سؤال",
+  "english":"question",
+  "type":"noun",
+  "gender":"féminin",
+  "level":"A1",
+  "pronunciation":"کِستیون",
+  "definition_fr":"Phrase utilisée pour demander une information.",
+  "usage":"Employé à l’école, au travail ou dans une conversation.",
+  "synonyms":["demande"],
+  "antonyms":["réponse"],
+  "examples":[
+    {"fr":"J’ai une question.","fa":"من یک سؤال دارم."},
+    {"fr":"La question est difficile.","fa":"سؤال سخت است."},
+    {"fr":"Pose ta question.","fa":"سؤالت را بپرس."},
+    {"fr":"Il répond à la question.","fa":"او به سؤال پاسخ می‌دهد."},
+    {"fr":"Cette question est importante.","fa":"این سؤال مهم است."}
+  ],
+  "phrases":[
+    {"fr":"poser une question","fa":"سؤال پرسیدن"},
+    {"fr":"bonne question","fa":"سؤال خوبی است"}
+  ]
+},
+
+{
+  "word":"réponse",
+  "meaning":"پاسخ",
+  "english":"answer",
+  "type":"noun",
+  "gender":"féminin",
+  "level":"A1",
+  "pronunciation":"غِپونس",
+  "definition_fr":"Information donnée après une question.",
+  "usage":"Utilisé dans toutes les conversations et exercices.",
+  "synonyms":["solution"],
+  "antonyms":["question"],
+  "examples":[
+    {"fr":"La réponse est correcte.","fa":"پاسخ درست است."},
+    {"fr":"Je connais la réponse.","fa":"من پاسخ را می‌دانم."},
+    {"fr":"Donne ta réponse.","fa":"پاسخت را بده."},
+    {"fr":"Sa réponse est intéressante.","fa":"پاسخ او جالب است."},
+    {"fr":"Nous attendons une réponse.","fa":"ما منتظر یک پاسخ هستیم."}
+  ],
+  "phrases":[
+    {"fr":"bonne réponse","fa":"پاسخ درست"},
+    {"fr":"réponse rapide","fa":"پاسخ سریع"}
+  ]
+},
+
+{
+  "word":"heure",
+  "meaning":"ساعت",
+  "english":"hour",
+  "type":"noun",
+  "gender":"féminin",
+  "level":"A1",
+  "pronunciation":"اُغ",
+  "definition_fr":"Unité de temps composée de soixante minutes.",
+  "usage":"Utilisé pour donner l’heure ou parler du temps.",
+  "synonyms":["moment"],
+  "antonyms":[],
+  "examples":[
+    {"fr":"Il est huit heures.","fa":"ساعت هشت است."},
+    {"fr":"J’attends depuis une heure.","fa":"من یک ساعت است منتظرم."},
+    {"fr":"À quelle heure arrives-tu ?","fa":"چه ساعتی می‌رسی؟"},
+    {"fr":"Nous partons dans une heure.","fa":"ما یک ساعت دیگر حرکت می‌کنیم."},
+    {"fr":"L’heure du dîner approche.","fa":"زمان شام نزدیک است."}
+  ],
+  "phrases":[
+    {"fr":"à l’heure","fa":"به موقع"},
+    {"fr":"heure de pointe","fa":"ساعت شلوغی"}
+  ]
+}
