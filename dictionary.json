@@ -1,16 +1,24 @@
 [
 {
   "word": "bonjour",
+
   "meaning": "سلام",
+
+  "english": "hello",
+
   "type": "interjection",
+
   "level": "A1",
+
+  "grammar": "invariable",
 
   "definition_fr": "Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
 
+  "usage": "Utilisé pour saluer une personne dans un contexte courant et poli.",
+
   "synonyms": [
     "salut",
-    "coucou",
-    "bonjour à toi"
+    "coucou"
   ],
 
   "examples": [
