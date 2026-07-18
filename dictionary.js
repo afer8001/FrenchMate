@@ -328,6 +328,10 @@ ${found.english || "-"}
 🔄 Synonyms
 </a>
 
+<a href="#antonyms">
+⚡ Antonyms
+</a>
+
 </div>
 
 <div id="dictionary" class="dictionary-card">
