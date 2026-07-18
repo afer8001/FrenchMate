@@ -359,7 +359,19 @@ ${examplesHTML}
 
 </div>
 
-<div class="section-card">
+<div id="phrases" class="section-card">
+
+<h2>
+💬 Phrases
+</h2>
+
+<p>
+Coming Soon...
+</p>
+
+</div>
+
+<div id="synonyms" class="section-card">
 
 <h2>
 🔄 Synonyms
