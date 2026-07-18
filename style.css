@@ -420,3 +420,29 @@ line-height:1.8;
 color:#0f172a;
 
 }
+
+.section-card{
+
+background:white;
+
+padding:30px;
+
+margin-top:25px;
+
+border-radius:20px;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,0.06);
+
+}
+
+.section-card h2{
+
+margin-bottom:20px;
+
+font-size:28px;
+
+color:#1e293b;
+
+}
+
