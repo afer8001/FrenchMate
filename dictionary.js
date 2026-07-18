@@ -277,25 +277,12 @@ ${found.meaning || "-"}
 
 </div>
 
-<div class="info-row">
+<div class="type-level">
 
-<h3>Type</h3>
-
-<p>
-${found.type || "-"}
-</p>
+${found.type || "-"} • ${found.level || "-"}
 
 </div>
 
-<div class="info-row">
-
-<h3>Level</h3>
-
-<p>
-${found.level || "-"}
-</p>
-
-</div>
 
 <div class="info-row">
 
