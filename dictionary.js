@@ -255,6 +255,44 @@ ${ex.fa}
 
 }
 
+    if(found.dictionary){
+
+found.dictionary.forEach((item,index)=>{
+
+dictionaryHTML += `
+
+<div class="dictionary-entry">
+
+<div class="dictionary-number">
+
+${index + 1}.
+
+</div>
+
+<div class="dictionary-content">
+
+<div class="dictionary-fr">
+
+${item.meaning_fr}
+
+</div>
+
+<div class="dictionary-fa">
+
+${item.meaning_fa}
+
+</div>
+
+</div>
+
+</div>
+
+`;
+
+});
+
+}
+    
     if(found.phrases){
 
 found.phrases.forEach(item=>{
