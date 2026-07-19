@@ -581,3 +581,28 @@ behavior:"smooth"
 }
 
 }
+
+function toggleFavorite(word){
+
+if(favorites.includes(word)){
+
+favorites =
+favorites.filter(
+item => item !== word
+);
+
+}
+else{
+
+favorites.push(word);
+
+}
+
+localStorage.setItem(
+"favorites",
+JSON.stringify(favorites)
+);
+
+manualSearch();
+
+}
