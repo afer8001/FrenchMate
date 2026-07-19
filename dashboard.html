@@ -2,153 +2,94 @@
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FrenchMate Dashboard</title>
-
-<link rel="stylesheet"
-href="style.css">
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="dashboard-page">
-    
+
 <div class="app">
 
-    <div class="sidebar">
+    <aside class="sidebar">
 
-        <button onclick="showFavorites()">
-
-⭐ Favorites
-
-</button>
-        
         <h2>FrenchMate</h2>
 
-<input
-id="searchWord"
-type="text"
-placeholder="Search French Word"
-oninput="showSuggestions()">
+        <button onclick="showFavorites()">
+            ⭐ Favorites
+        </button>
 
-<button onclick="manualSearch()">
-🔍 Search
-</button>
+        <input
+        id="searchWord"
+        type="text"
+        placeholder="Search French Word"
+        oninput="showSuggestions()">
 
-<div id="suggestions"></div>
-        
+        <button onclick="manualSearch()">
+            🔍 Search
+        </button>
 
-    </div>
+        <div id="suggestions"></div>
 
-<div id="content">
+    </aside>
 
-<div class="hero-card">
+    <main id="content">
 
-<h1>📚 FrenchMate Dictionary</h1>
+        <div class="hero-card">
 
-<h2>Learn French Through Real Usage</h2>
+            <h1>📚 FrenchMate Dictionary</h1>
 
-<p>
-Definitions • Examples • Synonyms • Phrases
-</p>
+            <h2>Learn French Through Real Usage</h2>
 
-</div>
+            <p>
+            Definitions • Examples • Synonyms • Phrases
+            </p>
 
-<div class="feature-card">
+        </div>
 
-<h2>📖 Dictionary</h2>
+        <div class="feature-card">
+            <h2>📖 Dictionary</h2>
+            <p>French words with complete definitions and examples.</p>
+        </div>
 
-<p>
-French words with complete definitions and examples.
-</p>
+        <div class="feature-card" onclick="showFavorites()">
+            <h2>⭐ Favorites</h2>
+            <p>Your saved favorite words.</p>
+        </div>
 
-</div>
+        <div class="feature-card">
+            <h2>🔄 Synonyms & Antonyms</h2>
+            <p>Discover similar and opposite words instantly.</p>
+        </div>
 
-    <div class="feature-card" onclick="showFavorites()">
+        <div class="feature-card">
+            <h2>💬 Phrases</h2>
+            <p>Learn real French expressions and daily usage.</p>
+        </div>
 
-<h2>⭐ Favorites</h2>
-
-<p>
-Your saved favorite words.
-</p>
-
-</div>
-    
-<div class="feature-card">
-
-<h2>🔄 Synonyms & Antonyms</h2>
-
-<p>
-Discover similar and opposite words instantly.
-</p>
+    </main>
 
 </div>
-
-<div class="feature-card">
-
-<h2>💬 Phrases</h2>
-
-<p>
-Learn real French expressions and daily usage.
-</p>
-
-</div>
-    
-
-    
-<script src="dictionary.js"></script>
-<script src="app.js"></script>
 
 <div class="bg-shapes">
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
-
-</div>
-
-</body>
-    
-
-    <div class="bg-shapes">
-
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
-
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
-
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
 </div>
-    
-</html>
-
-    </div> <!-- content -->
-</div> <!-- app -->
 
 <script src="dictionary.js"></script>
 <script src="app.js"></script>
-
-<div class="bg-shapes">
-...
-</div>
 
 </body>
 </html>
