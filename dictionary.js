@@ -212,6 +212,8 @@ let examplesHTML = "";
     let synonymsHTML = "";
 
     let phrasesHTML = "";
+
+    let dictionaryHTML = "";
     
 if(found.examples){
 
