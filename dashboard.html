@@ -21,6 +21,12 @@ href="style.css">
 
     <div class="sidebar">
 
+        <button onclick="showFavorites()">
+
+⭐ Favorites
+
+</button>
+        
         <h2>FrenchMate</h2>
 
 <input
@@ -123,3 +129,53 @@ Learn real French expressions and daily usage.
 </div>
     
 </html>
+
+    function showFavorites(){
+
+let html = `
+
+<h1>⭐ Favorites</h1>
+
+`;
+
+if(favorites.length === 0){
+
+html += `
+
+<p>
+
+No favorite words yet.
+
+</p>
+
+`;
+
+}
+else{
+
+favorites.forEach(word=>{
+
+html += `
+
+<div class="feature-card">
+
+<a href="#"
+
+onclick="openWord('${word}')">
+
+${word}
+
+</a>
+
+</div>
+
+`;
+
+});
+
+}
+
+document.getElementById("content").innerHTML = html;
+
+}
+    
