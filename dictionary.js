@@ -29,7 +29,7 @@ French words with complete definitions and examples.
 
 </div>
 
-<div class="feature-card">
+<div class="feature-card" onclick="showFavorites()">
 
 <h2>⭐ Favorites</h2>
 
