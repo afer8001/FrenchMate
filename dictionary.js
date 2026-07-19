@@ -635,3 +635,64 @@ JSON.stringify(favorites)
 manualSearch();
 
 }
+function showFavorites(){
+
+let html = `
+
+<button id="homeBtn">
+🏠 Home
+</button>
+
+<h1>⭐ Favorites</h1>
+
+`;
+
+if(favorites.length === 0){
+
+html += `
+
+<div class="feature-card">
+
+<h2>No favorite words yet.</h2>
+
+<p>
+Add words by clicking the star icon.
+</p>
+
+</div>
+
+`;
+
+}
+else{
+
+favorites.forEach(word=>{
+
+html += `
+
+<div class="feature-card">
+
+<h2>
+
+<a href="#"
+
+onclick="openWord('${word}')">
+
+${word}
+
+</a>
+
+</h2>
+
+</div>
+
+`;
+
+});
+
+}
+
+document.getElementById("content").innerHTML = html;
+
+}
+
