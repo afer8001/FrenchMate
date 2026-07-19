@@ -405,12 +405,6 @@ onclick="speakFrench('${found.word}')">
 
 </h1>
 
-<button onclick="speakFrench('${found.word}')">
-🔊
-</button>
-
-</h1>
-
 <div class="header-fa">
 
 ${found.meaning || "-"}
