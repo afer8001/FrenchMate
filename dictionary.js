@@ -1,3 +1,8 @@
+let favorites =
+JSON.parse(
+localStorage.getItem("favorites")
+) || [];
+
 let words = [];
 
 const homePage = `
