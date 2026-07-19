@@ -662,3 +662,8 @@ margin-top:8px;
 font-style:italic;
 
 }
+
+#content{
+max-width:1100px;
+margin:auto;
+}
