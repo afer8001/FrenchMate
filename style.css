@@ -944,27 +944,10 @@ padding:8px 12px;
 }
 
 }
-
 #content{
-outline:3px solid red;
-}
-
-.app{
-outline:3px solid blue;
+background: yellow;
 }
 
 body{
-outline:3px solid green;
-}
-
-body{
-outline:3px solid red;
-}
-
-.app{
-outline:3px solid blue;
-}
-
-#content{
-outline:3px solid green;
+background: red;
 }
