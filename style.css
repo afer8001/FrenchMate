@@ -893,3 +893,47 @@ border-bottom:1px solid #e5e7eb;
 
 }
   
+/* ========================= */
+/* BACKGROUND SHAPES */
+/* ========================= */
+
+.bg-shapes{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+pointer-events:none;
+z-index:-1;
+}
+
+.shape{
+position:absolute;
+bottom:-100px;
+opacity:.12;
+border-radius:12px;
+animation:floatUp linear infinite;
+}
+
+.blue{
+background:#2563eb;
+}
+
+.red{
+background:#ef4444;
+}
+
+.white{
+background:#cbd5e1;
+}
+
+@keyframes floatUp{
+0%{
+transform:translateY(0);
+}
+100%{
+transform:translateY(-120vh);
+}
+}
+  
