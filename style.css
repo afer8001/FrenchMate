@@ -107,7 +107,6 @@ flex-direction:column;
 gap:12px;
 overflow-y:auto;
 
-  min-height:100vh;
 position:sticky;
 top:0;
 box-shadow:
