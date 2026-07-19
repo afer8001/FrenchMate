@@ -374,7 +374,26 @@ document.getElementById("content").innerHTML = `
 <div class="header-card">
 
 <h1>
+
 ${found.word}
+
+<button
+onclick="toggleFavorite('${found.word}')">
+
+${favorites.includes(found.word)
+? "⭐"
+: "☆"}
+
+</button>
+
+<button
+onclick="speakFrench('${found.word}')">
+
+🔊
+
+</button>
+
+</h1>
 
 <button onclick="speakFrench('${found.word}')">
 🔊
