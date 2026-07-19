@@ -12,39 +12,80 @@
 
 </head>
 
-<body>
+<body class="dashboard-page">
 
-<div class="login-box">
+<div class="app">
 
-<h1>Dictionary</h1>
+<aside class="sidebar">
+
+<h2>FrenchMate</h2>
 
 <input
 id="searchWord"
 type="text"
-placeholder="French Word"
-oninput="showSuggestions()">
+placeholder="Search French Word">
 
-<div id="suggestions"></div>
-
-<button onclick="searchWord()">
-
-Search
-
+<button onclick="manualSearch()">
+🔍 Search
 </button>
 
-<div id="result">
-  
+</aside>
+
+<main id="content">
+
+<div class="hero-card">
+
+<h1>📚 FrenchMate Dictionary</h1>
+
+<h2>New Search Engine</h2>
+
+<p>
+Ready...
+</p>
+
 </div>
 
-<a href="dashboard.html">
-
-Back To Dashboard
-
-</a>
+</main>
 
 </div>
 
-<script src="dictionary.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/search.js"></script>
+<script src="js/render.js"></script>
+
+<script>
+
+async function manualSearch(){
+
+const word =
+document
+.getElementById("searchWord")
+.value
+.trim();
+
+const result =
+await searchWord(word);
+
+renderWord(result);
+
+}
+
+document
+.getElementById("searchWord")
+.addEventListener(
+"keydown",
+async function(event){
+
+if(event.key === "Enter"){
+
+await manualSearch();
+
+}
+
+}
+);
+
+</script>
 
 </body>
 
