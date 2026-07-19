@@ -945,3 +945,15 @@ padding:8px 12px;
 }
 
 }
+
+#content{
+outline:3px solid red;
+}
+
+.app{
+outline:3px solid blue;
+}
+
+body{
+outline:3px solid green;
+}
