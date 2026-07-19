@@ -421,38 +421,17 @@ ${found.english || "-"}
 
 <div id="dictionary" class="dictionary-card">
 
-<h2>
-📖 Dictionary
-</h2>
+<h2>📖 Dictionary</h2>
 
-<div class="dictionary-info">
+<div class="dictionary-meta">
 
-<p>
-<strong>Type:</strong>
-${found.type || "-"}
-</p>
-
-<p>
-<strong>Gender:</strong>
-${found.gender || "-"}
-</p>
-
-<p>
-<strong>Level:</strong>
+${found.type || "-"} •
+${found.gender || "-"} •
 ${found.level || "-"}
-</p>
 
 </div>
 
-<div class="dictionary-definition">
-
-<h3>Definition</h3>
-
-<p>
-${found.definition_fr || "-"}
-</p>
-
-</div>
+${dictionaryHTML}
 
 </div>
 
