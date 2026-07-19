@@ -80,10 +80,12 @@ transform:translateY(-2px);
 }
 
 a{
+text-align:center;
 text-decoration:none;
 font-weight:600;
 color:#8B0000;
 }
+
 
 /* ========================= */
 /* DASHBOARD */
@@ -91,12 +93,11 @@ color:#8B0000;
 
 .dashboard-page .app{
 display:flex;
+height:100vh;
 }
 
-/* Sidebar کوچکتر و حرفه‌ای‌تر */
-
 .sidebar{
-width:280px;
+width:320px;
 background:white;
 padding:20px;
 border-right:1px solid #e5e7eb;
@@ -104,10 +105,7 @@ display:flex;
 flex-direction:column;
 gap:12px;
 overflow-y:auto;
-
-top:0;
-box-shadow:
-0 0 20px rgba(0,0,0,.03);
+box-shadow:0 0 20px rgba(0,0,0,.03);
 }
 
 .sidebar h2{
@@ -115,16 +113,7 @@ font-size:28px;
 font-weight:800;
 text-align:center;
 margin-bottom:10px;
-color:#8B0000;
 }
-
-.sidebar button{
-width:100%;
-}
-
-/* ========================= */
-/* CONTENT */
-/* ========================= */
 
 #content{
 flex:1;
@@ -138,289 +127,230 @@ overflow-y:auto;
 
 #searchWord{
 width:100%;
-font-size:16px;
-padding:16px;
+  font-size:16px;
+padding:14px;
 }
 
 #suggestions{
 display:flex;
 flex-direction:column;
-gap:5px;
+gap:4px;
 }
 
 .suggestion{
-padding:12px;
+padding:10px;
 background:white;
 border:1px solid #e5e7eb;
 border-radius:10px;
 cursor:pointer;
 transition:.15s;
-font-weight:600;
 }
 
 .suggestion:hover{
 background:#f1f5f9;
 }
+
 /* ========================= */
 /* HOME PAGE */
 /* ========================= */
 
-.hero-card{
-
-background:white;
-
-padding:40px;
-
-border-radius:22px;
-
-text-align:center;
-
-margin-bottom:25px;
-
-box-shadow:
-0 8px 20px rgba(0,0,0,.05);
-
-}
-
-.hero-card h1{
-
-font-size:52px;
-
-margin-bottom:12px;
-
-color:#8B0000;
-
-font-weight:800;
-
-}
-
-.hero-card h2{
-
-font-size:24px;
-
-font-weight:600;
-
-margin-bottom:15px;
-
-color:#475569;
-
-}
-
-.hero-card p{
-
-font-size:18px;
-
-color:#64748b;
-
-letter-spacing:1px;
-
-}
-
-/* ========================= */
-/* FEATURE CARDS */
-/* ========================= */
-
 .feature-card{
-
 background:white;
-
-padding:24px;
-
+padding:22px;
 margin-top:18px;
-
 border-radius:18px;
-
-box-shadow:
-0 5px 15px rgba(0,0,0,.05);
-
-transition:.2s;
-
-}
-
-.feature-card:hover{
-
-transform:translateY(-3px);
-
-box-shadow:
-0 10px 20px rgba(0,0,0,.08);
-
+box-shadow:0 5px 15px rgba(0,0,0,.05);
 }
 
 .feature-card h2{
-
-font-size:24px;
-
-margin-bottom:10px;
-
-color:#1e293b;
-
-}
-
-.feature-card p{
-
-font-size:16px;
-
-line-height:1.8;
-
-color:#64748b;
-
+margin-bottom:8px;
 }
 
 /* ========================= */
-/* FAVORITES PAGE */
+/* WORD PAGE */
 /* ========================= */
 
-.favorite-card{
+#homeBtn{
+width:130px;
+margin-bottom:20px;
+}
 
+#content h1{
+font-size:90px;
+font-weight:800;
+text-align:center;
+margin-top:-20px;
+margin-bottom:35px;
+line-height:1;
+color:#111827;
+}
+
+#content h1 button{
+margin-left:12px;
+padding:8px 12px;
+font-size:18px;
+}
+
+/* Main Card */
+
+.entry-card{
 background:white;
-
-padding:20px;
-
-margin-bottom:15px;
-
-border-radius:16px;
-
-box-shadow:
-0 5px 15px rgba(0,0,0,.05);
-
-transition:.2s;
-
+border-radius:22px;
+padding:24px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+margin-bottom:25px;
 }
 
-.favorite-card:hover{
-
-transform:translateY(-2px);
-
+.info-row{
+padding:20px 0;
+border-bottom:1px solid #e5e7eb;
+text-align:center;
 }
 
-.favorite-card a{
+.info-row:last-child{
+border-bottom:none;
+}
 
-font-size:22px;
-
+.info-row h3{
+font-size:15px;
 font-weight:700;
+color:#64748b;
+letter-spacing:1px;
+text-transform:uppercase;
+margin-bottom:10px;
+}
 
-color:#8B0000;
+.info-row p{
+font-size:26px;
+font-weight:600;
+color:#111827;
+line-height:1.8;
+}
+
+/* Examples */
+
+.example-box{
+background:white;
+padding:25px;
+margin-top:20px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.05);
+border-left:5px solid #2563eb;
+}
+
+.example-box h3{
+font-size:18px;
+font-weight:700;
+color:#2563eb;
+margin-bottom:8px;
+text-align:center;
+}
+
+.example-box p{
+font-size:24px;
+font-weight:500;
+line-height:1.9;
+text-align:center;
+color:#000;
+}
+
+/* ========================= */
+/* FLOATING SHAPES */
+/* ========================= */
+
+.bg-shapes{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+pointer-events:none;
+z-index:-1;
+}
+
+.shape{
+position:absolute;
+bottom:-100px;
+border-radius:12px;
+opacity:.12;
+animation:floatUp linear infinite;
+}
+
+.blue{
+background:#2563eb;
+}
+
+.white{
+background:#cbd5e1;
+}
+
+.red{
+background:#ef4444;
+}
+
+@keyframes floatUp{
+
+0%{
+transform:translateY(0);
+}
+
+100%{
+transform:translateY(-120vh);
+}
 
 }
 
-.favorite-empty{
+/* ========================= */
+/* MOBILE */
+/* ========================= */
 
-background:white;
+@media(max-width:900px){
 
-padding:30px;
+.dashboard-page .app{
+flex-direction:column;
+}
 
-border-radius:18px;
+.sidebar{
+width:100%;
+height:auto;
+border-right:none;
+border-bottom:1px solid #e5e7eb;
+}
+
+#content{
+padding:20px;
+}
+
+#content h1{
+font-size:56px;
+}
+
+.info-row p{
+font-size:22px;
+}
+
+.example-box p{
+font-size:20px;
+}
+
+}
+
+.type-level{
 
 text-align:center;
 
-box-shadow:
-0 5px 15px rgba(0,0,0,.05);
+font-size:18px;
 
-}
+font-weight:600;
 
-.favorite-empty h2{
+margin-top:25px;
 
-margin-bottom:10px;
+margin-bottom:25px;
 
 color:#475569;
 
 }
-
-.favorite-empty p{
-
-color:#64748b;
-
-}
-/* ========================= */
-/* HEADER CARD */
-/* ========================= */
-
-.header-card{
-
-background:white;
-
-padding:35px;
-
-border-radius:22px;
-
-box-shadow:
-0 8px 20px rgba(0,0,0,.06);
-
-margin-bottom:25px;
-
-text-align:center;
-
-}
-
-.header-card h1{
-
-font-size:72px;
-
-font-weight:800;
-
-margin-bottom:10px;
-
-color:#111827;
-
-line-height:1;
-
-}
-
-.header-card h1 button{
-
-padding:8px 12px;
-
-margin-left:8px;
-
-font-size:18px;
-
-}
-
-.header-fa{
-
-font-size:22px;
-
-font-weight:700;
-
-color:#0f172a;
-
-direction:rtl;
-
-text-align:center;
-
-margin-top:10px;
-
-margin-bottom:6px;
-
-}
-
-.header-en{
-
-font-size:18px;
-
-color:#64748b;
-
-text-align:center;
-
-margin-bottom:10px;
-
-}
-
-.header-pronunciation{
-
-font-size:18px;
-
-font-style:italic;
-
-color:#64748b;
-
-text-align:center;
-
-}
-
-/* ========================= */
-/* DICTIONARY */
-/* ========================= */
 
 .dictionary-card{
 
@@ -428,162 +358,98 @@ background:white;
 
 padding:35px;
 
-border-radius:22px;
+border-radius:20px;
 
-box-shadow:
-0 8px 20px rgba(0,0,0,.06);
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
 
-margin-bottom:25px;
+margin-top:20px;
 
+  border-top:5px solid #8B0000;
+  
 }
 
-.dictionary-card h2{
-
-font-size:30px;
-
-margin-bottom:20px;
-
-color:#1e293b;
-
-}
-
-.dictionary-meta{
-
-font-size:15px;
+.meaning-section{
 
 text-align:center;
 
-color:#64748b;
-
-margin-bottom:25px;
-
-padding-bottom:15px;
+padding-bottom:25px;
 
 border-bottom:1px solid #e5e7eb;
 
 }
 
-/* هر معنی */
+.meaning-section p{
 
-.dictionary-entry{
-
-display:flex;
-
-gap:16px;
-
-padding:18px 0;
-
-border-bottom:1px solid #e5e7eb;
-
-align-items:flex-start;
-
-}
-
-.dictionary-entry:last-child{
-
-border-bottom:none;
-
-}
-
-.dictionary-number{
-
-font-size:22px;
-
-font-weight:800;
-
-color:#8B0000;
-
-min-width:35px;
-
-}
-
-.dictionary-content{
-
-flex:1;
-
-}
-
-.dictionary-fr{
-
-font-size:18px;
+font-size:28px;
 
 font-weight:700;
 
-line-height:1.7;
-
-color:#111827;
-
-margin-bottom:8px;
-
-text-align:left;
+color:#0f172a;
 
 }
 
-.dictionary-fa{
+.meta-section{
 
-font-size:16px;
+text-align:center;
 
-line-height:1.8;
+padding:25px 0;
+
+font-size:22px;
+
+font-weight:600;
 
 color:#64748b;
 
-direction:rtl;
+}
 
-text-align:right;
+.definition-section{
+
+text-align:left;
+
+padding-top:20px;
 
 }
 
-/* معنی‌ها شماره‌دار مثل French Dictionary */
+.definition-section h3{
 
-.dictionary-entry:hover{
-
-background:#f8fafc;
-
-border-radius:12px;
-
-padding-left:12px;
-
-padding-right:12px;
-
-transition:.15s;
+margin-bottom:15px;
 
 }
-/* ========================= */
-/* CONTENT SECTIONS */
-/* ========================= */
+
+.definition-section p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#0f172a;
+
+}
 
 .section-card{
 
 background:white;
 
-padding:30px;
+padding:20px;
 
 margin-top:25px;
 
-border-radius:22px;
+border-radius:20px;
 
 box-shadow:
-0 8px 20px rgba(0,0,0,.06);
+0 8px 20px rgba(0,0,0,0.06);
 
 }
 
 .section-card h2{
 
-font-size:28px;
-
 margin-bottom:20px;
+
+font-size:28px;
 
 color:#1e293b;
 
-padding-bottom:10px;
-
-border-bottom:1px solid #e5e7eb;
-
 }
-
-/* ========================= */
-/* EXAMPLES */
-/* ========================= */
 
 .example-item{
 
@@ -607,29 +473,19 @@ justify-content:space-between;
 
 align-items:center;
 
-margin-bottom:10px;
-
-font-size:14px;
-
 font-weight:700;
 
-color:#64748b;
-
-text-transform:uppercase;
-
-letter-spacing:1px;
+margin-bottom:10px;
 
 }
 
 .example-fr{
 
-font-size:20px;
+font-size:18px;
 
 font-weight:600;
 
-color:#111827;
-
-line-height:1.8;
+color:#0f172a;
 
 margin-bottom:8px;
 
@@ -639,115 +495,69 @@ text-align:left;
 
 .example-fa{
 
-font-size:17px;
-
-line-height:1.9;
+font-size:16px;
 
 color:#64748b;
 
-direction:rtl;
-
-text-align:right;
+text-align:left;
 
 }
 
+
 /* ========================= */
-/* SYNONYMS / ANTONYMS */
+/* HEADER CARD */
 /* ========================= */
 
-.section-card ul{
+.header-card{
 
-list-style:none;
+background:white;
 
-display:flex;
+padding:35px;
 
-flex-wrap:wrap;
+border-radius:20px;
 
-gap:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.06);
 
-padding-top:10px;
+margin-bottom:25px;
+
+text-align:center;
 
 }
 
-.section-card ul li a{
+.header-fa{
 
-display:inline-block;
-
-padding:10px 16px;
-
-background:#f1f5f9;
-
-border-radius:12px;
-
-font-size:16px;
-
-font-weight:600;
-
-color:#8B0000;
-
-transition:.15s;
-
-}
-
-.section-card ul li a:hover{
-
-background:#8B0000;
-
-color:white;
-
-}
-
-/* ========================= */
-/* PHRASES */
-/* ========================= */
-
-#phrases .example-fr{
-
-font-size:19px;
+font-size:18px;
 
 font-weight:700;
 
-color:#8B0000;
+color:#0f172a;
+
+text-align:right;
+
+margin-top:15px;
+
+margin-bottom:8px;
+
+direction:rtl;
 
 }
 
-#phrases .example-fa{
+.header-en{
 
-font-size:16px;
+font-size:15px;
 
-}
-/* ========================= */
-/* HEADER BUTTONS */
-/* ========================= */
+color:#64748b;
 
-.header-card h1 button{
+text-align:right;
 
-padding:8px 12px;
-
-font-size:16px;
-
-border-radius:10px;
-
-min-width:42px;
+direction:ltr;
 
 }
 
-/* دکمه ستاره */
 
-.header-card h1 button:first-of-type{
-
-background:#f59e0b;
-
-}
-
-.header-card h1 button:first-of-type:hover{
-
-background:#d97706;
-
-}
 
 /* ========================= */
-/* SHORTCUT BAR */
+/* SHORTCUT CARD */
 /* ========================= */
 
 .shortcut-card{
@@ -758,8 +568,7 @@ padding:20px;
 
 border-radius:20px;
 
-box-shadow:
-0 8px 20px rgba(0,0,0,.06);
+box-shadow:0 8px 20px rgba(0,0,0,.06);
 
 margin-bottom:25px;
 
@@ -767,7 +576,7 @@ display:flex;
 
 justify-content:center;
 
-gap:12px;
+gap:20px;
 
 flex-wrap:wrap;
 
@@ -777,11 +586,11 @@ flex-wrap:wrap;
 
 background:#8B0000;
 
-padding:10px 16px;
+padding:12px 18px;
 
 border-radius:12px;
 
-font-size:15px;
+text-decoration:none;
 
 font-weight:700;
 
@@ -791,6 +600,7 @@ transition:.2s;
 
 }
 
+
 .shortcut-card a:hover{
 
 background:#6B0000;
@@ -799,26 +609,98 @@ transform:translateY(-2px);
 
 }
 
-/* ========================= */
-/* FAVORITES PAGE */
-/* ========================= */
-
-.favorite-card{
+.hero-card{
 
 background:white;
+padding:40px;
+border-radius:20px;
+text-align:center;
+margin-bottom:25px;
 
-padding:18px;
-
-border-radius:16px;
-
-margin-bottom:12px;
-
-box-shadow:
-0 5px 15px rgba(0,0,0,.05);
+box-shadow:0 6px 16px rgba(0,0,0,.05);
 
 }
 
-.favorite-card a{
+.hero-card h1{
+
+font-size:52px;
+margin-bottom:12px;
+
+color:#8B0000;
+
+}
+
+.hero-card h2{
+
+font-size:24px;
+font-weight:600;
+
+margin-bottom:15px;
+
+color:#475569;
+
+}
+
+.hero-card p{
+
+font-size:18px;
+
+color:#64748b;
+
+letter-spacing:1px;
+
+}
+
+.header-pronunciation{
+
+font-size:18px;
+
+color:#64748b;
+
+text-align:right;
+
+margin-top:8px;
+
+font-style:italic;
+
+}
+
+#content{
+max-width:1100px;
+margin:auto;
+}
+
+.dictionary-meta{
+
+text-align:center;
+
+color:#64748b;
+
+font-size:15px;
+
+margin-bottom:25px;
+
+}
+
+.dictionary-entry{
+
+display:flex;
+
+gap:15px;
+
+padding:18px 0;
+
+border-bottom:1px solid #e5e7eb;
+
+}
+
+.dictionary-entry:last-child{
+
+border-bottom:none;
+
+}
+
+.dictionary-number{
 
 font-size:20px;
 
@@ -826,111 +708,60 @@ font-weight:700;
 
 color:#8B0000;
 
-}
-
-.favorite-card:hover{
-
-transform:translateY(-2px);
-
-transition:.15s;
+min-width:35px;
 
 }
 
-/* ========================= */
-/* SCROLLBAR */
-/* ========================= */
+.dictionary-content{
 
-::-webkit-scrollbar{
-
-width:10px;
+flex:1;
 
 }
 
-::-webkit-scrollbar-track{
+.dictionary-fr{
 
-background:#f1f5f9;
+font-size:18px;
 
-}
+font-weight:700;
 
-::-webkit-scrollbar-thumb{
+color:#111827;
 
-background:#8B0000;
+margin-bottom:8px;
 
-border-radius:20px;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-background:#6B0000;
+line-height:1.6;
 
 }
 
-/* ========================= */
-/* MOBILE */
-/* ========================= */
+.dictionary-fa{
 
-@media(max-width:900px){
+font-size:16px;
 
-.dashboard-page .app{
+color:#64748b;
 
-flex-direction:column;
+line-height:1.7;
+
+direction:rtl;
+
+text-align:right;
 
 }
 
-.sidebar{
+h1 button{
+
+margin-left:8px;
+
+font-size:18px;
+
+padding:6px 10px;
+
+border-radius:10px;
+
+}
+
+.sidebar button{
 
 width:100%;
 
-height:auto;
-
-border-right:none;
-
-border-bottom:1px solid #e5e7eb;
+margin-bottom:10px;
 
 }
-  
-/* ========================= */
-/* BACKGROUND SHAPES */
-/* ========================= */
-
-.bg-shapes{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-overflow:hidden;
-pointer-events:none;
-z-index:-1;
-}
-
-.shape{
-position:absolute;
-bottom:-100px;
-opacity:.12;
-border-radius:12px;
-animation:floatUp linear infinite;
-}
-
-.blue{
-background:#2563eb;
-}
-
-.red{
-background:#ef4444;
-}
-
-.white{
-background:#cbd5e1;
-}
-
-@keyframes floatUp{
-0%{
-transform:translateY(0);
-}
-100%{
-transform:translateY(-120vh);
-}
-}
-  
