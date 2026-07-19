@@ -657,8 +657,7 @@ Add words by clicking the star icon.
 
 `;
 
-}
-else{
+}else{
 
 favorites.forEach(word=>{
 
@@ -669,7 +668,6 @@ html += `
 <h2>
 
 <a href="#"
-
 onclick="openWord('${word}')">
 
 ${word}
@@ -689,4 +687,3 @@ ${word}
 document.getElementById("content").innerHTML = html;
 
 }
-
