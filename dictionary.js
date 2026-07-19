@@ -31,6 +31,16 @@ French words with complete definitions and examples.
 
 <div class="feature-card">
 
+<h2>⭐ Favorites</h2>
+
+<p>
+Your saved favorite words.
+</p>
+
+</div>
+
+<div class="feature-card">
+
 <h2>🔄 Synonyms & Antonyms</h2>
 
 <p>
