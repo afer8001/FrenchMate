@@ -913,3 +913,25 @@ background:#f1f5f9;
 
 background:#f1f5f9;
 }
+
+.favorite-btn{
+
+margin-left:12px;
+
+padding:6px 10px;
+
+font-size:18px;
+
+border-radius:10px;
+
+background:#f59e0b;
+
+cursor:pointer;
+
+}
+
+.favorite-btn:hover{
+
+background:#d97706;
+
+}
