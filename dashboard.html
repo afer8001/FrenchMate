@@ -88,3 +88,41 @@ Dictionary A-Z Database System
 </body>
 
 </html>
+<script src="js/loader.js"></script>
+<script src="js/search.js"></script>
+<script src="js/render.js"></script>
+
+<script>
+
+async function manualSearch(){
+
+const word =
+document
+.getElementById("searchWord")
+.value
+.trim();
+
+const result =
+await searchWord(word);
+
+renderWord(result);
+
+}
+
+document
+.getElementById("searchWord")
+.addEventListener(
+"keydown",
+async function(e){
+
+if(e.key==="Enter"){
+
+await manualSearch();
+
+}
+
+}
+);
+
+</script>
+
