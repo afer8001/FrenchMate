@@ -142,8 +142,20 @@ document.getElementById("content").innerHTML=`
 
 <div class="header-card">
 
-<h1>${found.word}</h1>
+<h1>
 
+${found.word}
+
+<button
+onclick="toggleFavorite('${found.word}')">
+
+${isFavorite(found.word)
+? "⭐"
+: "☆"}
+
+</button>
+
+</h1>
 <div class="header-fa">
 ${found.meaning || "-"}
 </div>
