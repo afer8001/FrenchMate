@@ -14,7 +14,10 @@ document
 box.innerHTML = "";
 
 if(input.length < 1){
+
+box.style.display = "none";
 return;
+
 }
 
 const firstLetter =
@@ -29,6 +32,15 @@ item.word
 .toLowerCase()
 .startsWith(input)
 );
+
+if(matches.length === 0){
+
+box.style.display = "none";
+return;
+
+}
+
+box.style.display = "flex";
 
 matches
 .slice(0,10)
@@ -51,6 +63,7 @@ document.getElementById(
 item.word;
 
 box.innerHTML = "";
+box.style.display = "none";
 
 manualSearch();
 
