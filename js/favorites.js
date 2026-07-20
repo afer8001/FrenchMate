@@ -29,7 +29,20 @@ localStorage.setItem(
 JSON.stringify(favorites)
 );
 
-  manualSearch();
+const btn =
+document.getElementById(
+"favoriteBtn"
+);
+
+if(btn){
+
+btn.textContent =
+isFavorite(word)
+? "⭐"
+: "☆";
+
+}
+  
   
 }
 
