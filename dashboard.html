@@ -16,101 +16,89 @@
 
 <div class="app">
 
-<aside class="sidebar">
+    <aside class="sidebar">
 
-<h2>FrenchMate</h2>
+        <h2>FrenchMate</h2>
 
-<button onclick="showFavorites()">
-⭐ Favorites
-</button>
+        <button onclick="showFavorites()">
+            ⭐ Favorites
+        </button>
 
-<input
-id="searchWord"
-type="text"
-placeholder="Search French Word"
-oninput="showSuggestions()">
-  
+        <input
+        id="searchWord"
+        type="text"
+        placeholder="Search French Word"
+        oninput="showSuggestions()">
 
-<button onclick="manualSearch()">
-  <div id="suggestions"></div>
-  
-🔍 Search
-</button>
+        <div id="suggestions"></div>
 
-<div id="suggestions"></div>
+        <button onclick="manualSearch()">
+            🔍 Search
+        </button>
 
-</aside>
+    </aside>
 
-<main id="content">
+    <main id="content">
 
-<div class="hero-card">
+        <div class="hero-card">
 
-<h1>📚 FrenchMate Dictionary</h1>
+            <h1>📚 FrenchMate Dictionary</h1>
 
-<h2>New Search Engine</h2>
+            <h2>New Search Engine</h2>
 
-<p>
-Dictionary A-Z Database System
-</p>
+            <p>
+            Dictionary A-Z Database System
+            </p>
 
-</div>
+        </div>
 
-</main>
+    </main>
 
 </div>
 
 <div class="bg-shapes">
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
-<div class="shape blue"></div>
-<div class="shape red"></div>
-<div class="shape white"></div>
+    <div class="shape blue"></div>
+    <div class="shape red"></div>
+    <div class="shape white"></div>
 
 </div>
 
 <script src="js/engine.js"></script>
 
 <script src="js/loader.js"></script>
-
-<script src="js/search.js"></script>
-
-<script src="js/render.js"></script>
-
-<script src="js/favorites.js"></script>
-
-<script src="js/speech.js"></script>
-
-<script src="js/router.js"></script>
-
-</body>
-
-</html>
-<script src="js/loader.js"></script>
 <script src="js/search.js"></script>
 <script src="js/render.js"></script>
 <script src="js/suggestions.js"></script>
+
+<script src="js/favorites.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/router.js"></script>
 
 <script>
 
 async function manualSearch(){
 
-const word =
-document
-.getElementById("searchWord")
-.value
-.trim();
+    const word =
+    document
+    .getElementById("searchWord")
+    .value
+    .trim();
 
-const result =
-await searchWord(word);
+    if(!word) return;
 
-renderWord(result);
+    const result =
+    await searchWord(word);
+
+    renderWord(result);
 
 }
 
@@ -120,14 +108,16 @@ document
 "keydown",
 async function(e){
 
-if(e.key==="Enter"){
+    if(e.key === "Enter"){
 
-await manualSearch();
+        await manualSearch();
 
-}
+    }
 
 }
 );
 
 </script>
 
+</body>
+</html>
