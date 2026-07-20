@@ -1,8 +1,37 @@
 [
   {
-    "word":"bonjour",
-    "meaning":"سلام",
-    "english":"hello",
-    "pronunciation":"بونژور"
+    "word": "bonjour",
+    "meaning": "سلام",
+    "english": "hello, good morning",
+    "type": "interjection",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "بونژور",
+    "usage": "Salutation utilisée pendant la journée.",
+    "dictionary": [
+      {
+        "type": "interjection",
+        "meaning_fr": "Formule de salutation.",
+        "meaning_fa": "عبارت سلام و احوالپرسی."
+      }
+    ],
+    "synonyms": [
+      "salut"
+    ],
+    "antonyms": [
+      "au revoir"
+    ],
+    "examples": [
+      {
+        "fr": "Bonjour tout le monde.",
+        "fa": "سلام به همه."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "bonjour monsieur",
+        "fa": "سلام آقا"
+      }
+    ]
   }
 ]
