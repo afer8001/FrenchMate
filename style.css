@@ -887,3 +887,24 @@ color:#64748b;
 line-height:1.8;
 
 }
+
+#suggestions{
+display:flex;
+flex-direction:column;
+gap:4px;
+margin-top:6px;
+}
+
+.suggestion{
+padding:10px;
+background:white;
+border:1px solid #e5e7eb;
+border-radius:10px;
+cursor:pointer;
+transition:.15s;
+font-weight:600;
+}
+
+.suggestion:hover{
+background:#f1f5f9;
+}
