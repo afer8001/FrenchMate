@@ -13,6 +13,10 @@ try{
 const response =
 await fetch(`data/${letter}.json`);
 
+if(!response.ok){
+return [];
+}
+
 const data =
 await response.json();
 
