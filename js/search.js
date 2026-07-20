@@ -8,12 +8,9 @@ word[0].toLowerCase();
 const words =
 await loadLetter(firstLetter);
 
-const found =
-words.find(
+return words.find(
 item =>
 item.word.toLowerCase() === word.toLowerCase()
 );
-
-return found || null;
 
 }
