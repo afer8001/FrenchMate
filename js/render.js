@@ -147,6 +147,7 @@ document.getElementById("content").innerHTML=`
 ${found.word}
 
 <button
+id="favoriteBtn"
 onclick="toggleFavorite('${found.word}')">
 
 ${isFavorite(found.word)
@@ -156,6 +157,7 @@ ${isFavorite(found.word)
 </button>
 
 </h1>
+
 <div class="header-fa">
 ${found.meaning || "-"}
 </div>
