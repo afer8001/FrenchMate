@@ -2,94 +2,89 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>FrenchMate Dashboard</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body class="dashboard-page">
 
 <div class="app">
 
-    <aside class="sidebar">
+<aside class="sidebar">
 
-        <h2>FrenchMate</h2>
+<h2>FrenchMate</h2>
 
-        <button onclick="showFavorites()">
-            ⭐ Favorites
-        </button>
+<button onclick="showFavorites()">
+⭐ Favorites
+</button>
 
-        <input
-        id="searchWord"
-        type="text"
-        placeholder="Search French Word"
-        oninput="showSuggestions()">
+<input
+id="searchWord"
+type="text"
+placeholder="Search French Word">
 
-        <button onclick="manualSearch()">
-            🔍 Search
-        </button>
+<button onclick="manualSearch()">
+🔍 Search
+</button>
 
-        <div id="suggestions"></div>
+<div id="suggestions"></div>
 
-    </aside>
+</aside>
 
-    <main id="content">
+<main id="content">
 
-        <div class="hero-card">
+<div class="hero-card">
 
-            <h1>📚 FrenchMate Dictionary</h1>
+<h1>📚 FrenchMate Dictionary</h1>
 
-            <h2>Learn French Through Real Usage</h2>
+<h2>New Search Engine</h2>
 
-            <p>
-            Definitions • Examples • Synonyms • Phrases
-            </p>
+<p>
+Dictionary A-Z Database System
+</p>
 
-        </div>
+</div>
 
-        <div class="feature-card">
-            <h2>📖 Dictionary</h2>
-            <p>French words with complete definitions and examples.</p>
-        </div>
-
-        <div class="feature-card" onclick="showFavorites()">
-            <h2>⭐ Favorites</h2>
-            <p>Your saved favorite words.</p>
-        </div>
-
-        <div class="feature-card">
-            <h2>🔄 Synonyms & Antonyms</h2>
-            <p>Discover similar and opposite words instantly.</p>
-        </div>
-
-        <div class="feature-card">
-            <h2>💬 Phrases</h2>
-            <p>Learn real French expressions and daily usage.</p>
-        </div>
-
-    </main>
+</main>
 
 </div>
 
 <div class="bg-shapes">
 
-    <div class="shape blue"></div>
-    <div class="shape red"></div>
-    <div class="shape white"></div>
+<div class="shape blue"></div>
+<div class="shape red"></div>
+<div class="shape white"></div>
 
-    <div class="shape blue"></div>
-    <div class="shape red"></div>
-    <div class="shape white"></div>
+<div class="shape blue"></div>
+<div class="shape red"></div>
+<div class="shape white"></div>
 
-    <div class="shape blue"></div>
-    <div class="shape red"></div>
-    <div class="shape white"></div>
+<div class="shape blue"></div>
+<div class="shape red"></div>
+<div class="shape white"></div>
 
 </div>
 
-<script src="dictionary.js"></script>
-<script src="app.js"></script>
+<script src="js/engine.js"></script>
+
+<script src="js/loader.js"></script>
+
+<script src="js/search.js"></script>
+
+<script src="js/render.js"></script>
+
+<script src="js/favorites.js"></script>
+
+<script src="js/speech.js"></script>
+
+<script src="js/router.js"></script>
 
 </body>
+
 </html>
