@@ -135,6 +135,10 @@ padding:14px;
 display:flex;
 flex-direction:column;
 gap:4px;
+
+height:52px;
+overflow:hidden;
+margin-top:8px;
 }
 
 .suggestion{
