@@ -5,12 +5,15 @@ if(!word) return null;
 const firstLetter =
 word[0].toLowerCase();
 
-const words =
 await loadLetter(firstLetter);
 
-return words.find(
+const found =
+FrenchMate.loadedWords.find(
 item =>
-item.word.toLowerCase() === word.toLowerCase()
+item.word.toLowerCase() ===
+word.toLowerCase()
 );
+
+return found || null;
 
 }
