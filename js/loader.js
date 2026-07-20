@@ -1,26 +1,16 @@
-const loadedLetters = {};
-
 async function loadLetter(letter){
 
 letter = letter.toLowerCase();
-
-if(loadedLetters[letter]){
-return loadedLetters[letter];
-}
 
 try{
 
 const response =
 await fetch(`data/${letter}.json`);
 
-if(!response.ok){
-return [];
-}
-
 const data =
 await response.json();
 
-loadedLetters[letter] = data;
+FrenchMate.loadedWords = data;
 
 return data;
 
@@ -28,6 +18,8 @@ return data;
 catch(error){
 
 console.error(error);
+
+FrenchMate.loadedWords = [];
 
 return [];
 
