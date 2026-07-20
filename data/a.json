@@ -1,1 +1,37 @@
-
+[
+  {
+    "word": "abandon",
+    "meaning": "ترک کردن",
+    "english": "to leave, to give up",
+    "type": "verb",
+    "gender": "-",
+    "level": "A2",
+    "pronunciation": "اباندون",
+    "usage": "Quitter quelque chose ou quelqu'un définitivement.",
+    "dictionary": [
+      {
+        "type": "verb",
+        "meaning_fr": "Quitter définitivement quelqu'un ou quelque chose.",
+        "meaning_fa": "برای همیشه چیزی یا کسی را ترک کردن."
+      }
+    ],
+    "synonyms": [
+      "quitter"
+    ],
+    "antonyms": [
+      "garder"
+    ],
+    "examples": [
+      {
+        "fr": "Il a abandonné son projet.",
+        "fa": "او پروژه‌اش را رها کرد."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "abandonner une idée",
+        "fa": "از یک ایده صرف نظر کردن"
+      }
+    ]
+  }
+]
