@@ -29,6 +29,8 @@ localStorage.setItem(
 JSON.stringify(favorites)
 );
 
+  manualSearch();
+  
 }
 
 function showFavorites(){
