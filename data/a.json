@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "word": "bonjour",
+    "meaning": "سلام",
+    "english": "hello, good morning, good afternoon",
+    "type": "interjection / noun",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "بونژور",
+    "usage": "Salutation très fréquente utilisée pendant la journée dans des situations formelles et informelles.",
+    "dictionary": [
+      {
+        "type": "interjection",
+        "meaning_fr": "Formule de salutation utilisée lorsqu'on rencontre quelqu'un pendant la journée.",
+        "meaning_fa": "عبارت سلام و احوالپرسی که هنگام دیدار با کسی در طول روز استفاده می‌شود."
+      },
+      {
+        "type": "interjection",
+        "meaning_fr": "Peut signifier « bon matin » ou « bon après-midi » selon le contexte.",
+        "meaning_fa": "بسته به زمان روز می‌تواند به معنی «صبح بخیر» یا «عصر بخیر» باشد."
+      },
+      {
+        "type": "noun",
+        "meaning_fr": "Action ou parole utilisée pour saluer quelqu'un.",
+        "meaning_fa": "خود عمل سلام کردن یا جمله‌ی سلام."
+      }
+    ],
+    "synonyms": [
+      "salut",
+      "coucou"
+    ],
+    "antonyms": [
+      "au revoir"
+    ],
+    "examples": [
+      {
+        "fr": "Bonjour Madame Dupont, j'espère que vous passez une excellente journée et que tout se déroule comme prévu pour votre réunion de cet après-midi.",
+        "fa": "سلام خانم دوپون، امیدوارم روز فوق‌العاده‌ای داشته باشید و همه چیز برای جلسه‌ی بعدازظهرتان طبق برنامه پیش برود."
+      },
+      {
+        "fr": "Quand Paul est entré dans la salle de classe, il a dit bonjour à tous ses camarades avant de s'asseoir à sa place.",
+        "fa": "وقتی پل وارد کلاس شد، قبل از اینکه روی صندلی خود بنشیند به تمام همکلاسی‌هایش سلام کرد."
+      },
+      {
+        "fr": "Je passe toujours dire bonjour à mes voisins lorsque je les vois dans le jardin le matin.",
+        "fa": "من همیشه وقتی صبح همسایه‌هایم را در باغ می‌بینم به آن‌ها سلام می‌کنم."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "bonjour à tous",
+        "fa": "سلام به همه"
+      },
+      {
+        "fr": "bonjour monsieur",
+        "fa": "سلام آقا"
+      },
+      {
+        "fr": "bonjour madame",
+        "fa": "سلام خانم"
+      },
+      {
+        "fr": "dire bonjour",
+        "fa": "سلام کردن"
+      }
+    ]
+  }
+]
