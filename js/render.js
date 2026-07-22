@@ -264,7 +264,7 @@ ${found.usage || "-"}
 
 </div>
 
-<div class="dictionary-card">
+<div id="dictionary" class="dictionary-card">
 
 <h2>📖 Dictionary</h2>
 
