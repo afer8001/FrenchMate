@@ -63,7 +63,16 @@ examplesHTML+=`
 <div class="example-item">
 
 <div class="example-fr">
+
 ${ex.fr}
+
+<button
+onclick="speakFrench('${ex.fr}')">
+
+🔊
+
+</button>
+
 </div>
 
 <div class="example-fa">
