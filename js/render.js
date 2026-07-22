@@ -284,7 +284,7 @@ ${examplesHTML}
 
 
 
-<div class="section-card">
+<div id="phrases" class="section-card">
 
 <h2>💬 Phrases</h2>
 
@@ -294,7 +294,7 @@ ${phrasesHTML}
 
 
 
-<div class="section-card">
+<div id="synonyms" class="section-card">
 
 <h2>🔄 Synonyms</h2>
 
@@ -306,7 +306,7 @@ ${synonymsHTML}
 
 
 
-<div class="section-card">
+<div id="antonyms" class="section-card">
 
 <h2>⚡ Antonyms</h2>
 
