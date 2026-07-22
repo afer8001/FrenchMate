@@ -130,7 +130,16 @@ found.synonyms.forEach(item=>{
 
 synonymsHTML+=`
 
-<li>${item}</li>
+<li>
+
+<a href="#"
+onclick="openWord('${item}')">
+
+${item}
+
+</a>
+
+</li>
 
 `;
 
