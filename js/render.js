@@ -98,7 +98,16 @@ phrasesHTML+=`
 <div class="example-item">
 
 <div class="example-fr">
+
 ${item.fr}
+
+<button
+onclick="speakFrench('${item.fr}')">
+
+🔊
+
+</button>
+
 </div>
 
 <div class="example-fa">
