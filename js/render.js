@@ -274,7 +274,7 @@ ${dictionaryHTML}
 
 
 
-<div class="section-card">
+<div id="examples" class="section-card">
 
 <h2>📝 Examples</h2>
 
