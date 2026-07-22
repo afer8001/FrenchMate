@@ -212,6 +212,20 @@ ${found.english || "-"}
 ${found.pronunciation || "-"}
 </div>
 
+<div class="dictionary-meta">
+
+${found.type || "-"}
+
+•
+
+${found.gender || "-"}
+
+•
+
+${found.level || "-"}
+
+</div>
+
 </div>
 
 
