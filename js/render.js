@@ -156,6 +156,13 @@ ${isFavorite(found.word)
 
 </button>
 
+<button
+onclick="speakFrench('${found.word}')">
+
+🔊
+
+</button>
+
 </h1>
 
 <div class="header-fa">
