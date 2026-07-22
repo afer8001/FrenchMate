@@ -240,6 +240,30 @@ ${found.usage || "-"}
 
 </div>
 
+<div class="shortcut-card">
+
+<a href="#dictionary">
+📖 Dictionary
+</a>
+
+<a href="#examples">
+📝 Examples
+</a>
+
+<a href="#phrases">
+💬 Phrases
+</a>
+
+<a href="#synonyms">
+🔄 Synonyms
+</a>
+
+<a href="#antonyms">
+⚡ Antonyms
+</a>
+
+</div>
+
 <div class="dictionary-card">
 
 <h2>📖 Dictionary</h2>
