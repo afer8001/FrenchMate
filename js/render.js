@@ -228,17 +228,6 @@ ${found.level || "-"}
 
 </div>
 
-<div class="section-card">
-
-<h2>📌 Usage</h2>
-
-<p>
-
-${found.usage || "-"}
-
-</p>
-
-</div>
 
 <div class="shortcut-card">
 
@@ -261,6 +250,18 @@ ${found.usage || "-"}
 <button onclick="goToSection('antonyms')">
 ⚡ Antonyms
 </button>
+
+</div>
+
+<div class="section-card">
+
+<h2>📌 Usage</h2>
+
+<p>
+
+${found.usage || "-"}
+
+</p>
 
 </div>
 
