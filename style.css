@@ -329,6 +329,8 @@ box-shadow:var(--shadow);
 
 margin-top:28px;
 
+  border-top:6px solid var(--primary);
+  
 }
 
 .section-card h2{
