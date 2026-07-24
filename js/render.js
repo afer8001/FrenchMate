@@ -175,6 +175,14 @@ ${item}
 
 document.getElementById("content").innerHTML=`
 
+<button
+class="home-btn"
+onclick="goHome()">
+
+🏠 Home
+
+</button>
+
 <div class="header-card">
 
 <h1>
