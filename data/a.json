@@ -1,6 +1,176 @@
 [
   {
-    "word":"abandon",
-    "meaning":"ترک کردن"
+    "word": "abandonner",
+    "meaning": "ترک کردن",
+    "english": "to abandon, to leave",
+    "type": "verb",
+    "gender": "-",
+    "level": "A2",
+    "pronunciation": "آباندونه",
+    "usage": "Quitter quelqu’un ou quelque chose définitivement.",
+    "dictionary": [
+      {
+        "type": "verb",
+        "meaning_fr": "Quitter définitivement.",
+        "meaning_fa": "برای همیشه ترک کردن."
+      }
+    ],
+    "synonyms": [
+      "quitter",
+      "laisser"
+    ],
+    "antonyms": [
+      "garder"
+    ],
+    "examples": [
+      {
+        "fr": "Il abandonne son travail.",
+        "fa": "او کارش را ترک می‌کند."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "abandonner un projet",
+        "fa": "رها کردن یک پروژه"
+      }
+    ]
+  },
+
+  {
+    "word": "abeille",
+    "meaning": "زنبور",
+    "english": "bee",
+    "type": "noun",
+    "gender": "feminine",
+    "level": "A1",
+    "pronunciation": "آبِی",
+    "usage": "Insecte qui produit du miel.",
+    "dictionary": [
+      {
+        "type": "noun",
+        "meaning_fr": "Insecte volant.",
+        "meaning_fa": "حشره‌ای که عسل تولید می‌کند."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "L'abeille fait du miel.",
+        "fa": "زنبور عسل تولید می‌کند."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "une abeille travaille",
+        "fa": "یک زنبور کار می‌کند"
+      }
+    ]
+  },
+
+  {
+    "word": "acheter",
+    "meaning": "خریدن",
+    "english": "to buy",
+    "type": "verb",
+    "gender": "-",
+    "level": "A1",
+    "pronunciation": "آشُته",
+    "usage": "Obtenir quelque chose contre de l’argent.",
+    "dictionary": [
+      {
+        "type": "verb",
+        "meaning_fr": "Payer pour obtenir.",
+        "meaning_fa": "با پول چیزی را خریدن."
+      }
+    ],
+    "synonyms": [
+      "payer"
+    ],
+    "antonyms": [
+      "vendre"
+    ],
+    "examples": [
+      {
+        "fr": "Je vais acheter du pain.",
+        "fa": "من می‌روم نان بخرم."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "acheter une voiture",
+        "fa": "خریدن یک ماشین"
+      }
+    ]
+  },
+
+  {
+    "word": "acteur",
+    "meaning": "بازیگر",
+    "english": "actor",
+    "type": "noun",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "آکتِغ",
+    "usage": "Personne qui joue dans un film ou une pièce.",
+    "dictionary": [
+      {
+        "type": "noun",
+        "meaning_fr": "Personne qui joue un rôle.",
+        "meaning_fa": "کسی که نقش بازی می‌کند."
+      }
+    ],
+    "synonyms": [
+      "comédien"
+    ],
+    "antonyms": [],
+    "examples": [
+      {
+        "fr": "Cet acteur est très célèbre.",
+        "fa": "این بازیگر خیلی معروف است."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "acteur principal",
+        "fa": "بازیگر اصلی"
+      }
+    ]
+  },
+
+  {
+    "word": "amour",
+    "meaning": "عشق",
+    "english": "love",
+    "type": "noun",
+    "gender": "masculine",
+    "level": "A1",
+    "pronunciation": "آموق",
+    "usage": "Sentiment profond d’affection.",
+    "dictionary": [
+      {
+        "type": "noun",
+        "meaning_fr": "Sentiment d'affection.",
+        "meaning_fa": "احساس عمیق محبت و عشق."
+      }
+    ],
+    "synonyms": [
+      "affection"
+    ],
+    "antonyms": [
+      "haine"
+    ],
+    "examples": [
+      {
+        "fr": "L'amour est important.",
+        "fa": "عشق مهم است."
+      }
+    ],
+    "phrases": [
+      {
+        "fr": "avec amour",
+        "fa": "با عشق"
+      }
+    ]
   }
 ]
