@@ -253,18 +253,6 @@ ${found.level || "-"}
 
 </div>
 
-<div class="section-card">
-
-<h2>📌 Usage</h2>
-
-<p>
-
-${found.usage || "-"}
-
-</p>
-
-</div>
-
 <div id="dictionary" class="dictionary-card">
 
 <h2>📖 Dictionary</h2>
