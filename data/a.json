@@ -1,176 +1,72 @@
-[
-  {
-    "word": "abandonner",
-    "meaning": "ترک کردن",
-    "english": "to abandon, to leave",
-    "type": "verb",
-    "gender": "-",
-    "level": "A2",
-    "pronunciation": "آباندونه",
-    "usage": "Quitter quelqu’un ou quelque chose définitivement.",
-    "dictionary": [
-      {
-        "type": "verb",
-        "meaning_fr": "Quitter définitivement.",
-        "meaning_fa": "برای همیشه ترک کردن."
-      }
-    ],
-    "synonyms": [
-      "quitter",
-      "laisser"
-    ],
-    "antonyms": [
-      "garder"
-    ],
-    "examples": [
-      {
-        "fr": "Il abandonne son travail.",
-        "fa": "او کارش را ترک می‌کند."
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "abandonner un projet",
-        "fa": "رها کردن یک پروژه"
-      }
-    ]
-  },
+{
+  "word": "acheter",
 
-  {
-    "word": "abeille",
-    "meaning": "زنبور",
-    "english": "bee",
-    "type": "noun",
-    "gender": "feminine",
-    "level": "A1",
-    "pronunciation": "آبِی",
-    "usage": "Insecte qui produit du miel.",
-    "dictionary": [
-      {
-        "type": "noun",
-        "meaning_fr": "Insecte volant.",
-        "meaning_fa": "حشره‌ای که عسل تولید می‌کند."
-      }
-    ],
-    "synonyms": [],
-    "antonyms": [],
-    "examples": [
-      {
-        "fr": "L'abeille fait du miel.",
-        "fa": "زنبور عسل تولید می‌کند."
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "une abeille travaille",
-        "fa": "یک زنبور کار می‌کند"
-      }
-    ]
-  },
+  "meaning": "خریدن",
 
-  {
-    "word": "acheter",
-    "meaning": "خریدن",
-    "english": "to buy",
-    "type": "verb",
-    "gender": "-",
-    "level": "A1",
-    "pronunciation": "آشُته",
-    "usage": "Obtenir quelque chose contre de l’argent.",
-    "dictionary": [
-      {
-        "type": "verb",
-        "meaning_fr": "Payer pour obtenir.",
-        "meaning_fa": "با پول چیزی را خریدن."
-      }
-    ],
-    "synonyms": [
-      "payer"
-    ],
-    "antonyms": [
-      "vendre"
-    ],
-    "examples": [
-      {
-        "fr": "Je vais acheter du pain.",
-        "fa": "من می‌روم نان بخرم."
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "acheter une voiture",
-        "fa": "خریدن یک ماشین"
-      }
-    ]
-  },
+  "english": "to buy",
 
-  {
-    "word": "acteur",
-    "meaning": "بازیگر",
-    "english": "actor",
-    "type": "noun",
-    "gender": "masculine",
-    "level": "A1",
-    "pronunciation": "آکتِغ",
-    "usage": "Personne qui joue dans un film ou une pièce.",
-    "dictionary": [
-      {
-        "type": "noun",
-        "meaning_fr": "Personne qui joue un rôle.",
-        "meaning_fa": "کسی که نقش بازی می‌کند."
-      }
-    ],
-    "synonyms": [
-      "comédien"
-    ],
-    "antonyms": [],
-    "examples": [
-      {
-        "fr": "Cet acteur est très célèbre.",
-        "fa": "این بازیگر خیلی معروف است."
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "acteur principal",
-        "fa": "بازیگر اصلی"
-      }
-    ]
-  },
+  "type": "Verb",
 
-  {
-    "word": "amour",
-    "meaning": "عشق",
-    "english": "love",
-    "type": "noun",
-    "gender": "masculine",
-    "level": "A1",
-    "pronunciation": "آموق",
-    "usage": "Sentiment profond d’affection.",
-    "dictionary": [
-      {
-        "type": "noun",
-        "meaning_fr": "Sentiment d'affection.",
-        "meaning_fa": "احساس عمیق محبت و عشق."
-      }
-    ],
-    "synonyms": [
-      "affection"
-    ],
-    "antonyms": [
-      "haine"
-    ],
-    "examples": [
-      {
-        "fr": "L'amour est important.",
-        "fa": "عشق مهم است."
-      }
-    ],
-    "phrases": [
-      {
-        "fr": "avec amour",
-        "fa": "با عشق"
-      }
-    ]
-  }
-]
+  "gender": "-",
+
+  "pronunciation": "اشُته",
+
+  "usage": "برای زمانی که چیزی را با پول تهیه می‌کنیم.",
+
+  "dictionary":[
+    {
+      "type":"Verb",
+      "meaning_fr":"Acheter quelque chose avec de l'argent.",
+      "meaning_fa":"خریدن چیزی با پرداخت پول."
+    },
+    {
+      "type":"Verb",
+      "meaning_fr":"Se procurer un objet.",
+      "meaning_fa":"تهیه کردن یا به دست آوردن چیزی."
+    }
+  ],
+
+  "examples":[
+    {
+      "fr":"J'achète une voiture.",
+      "fa":"من یک ماشین می‌خرم."
+    },
+    {
+      "fr":"Elle achète du pain.",
+      "fa":"او نان می‌خرد."
+    },
+    {
+      "fr":"Nous achetons des livres.",
+      "fa":"ما کتاب می‌خریم."
+    }
+  ],
+
+  "phrases":[
+    {
+      "fr":"acheter en ligne",
+      "fa":"آنلاین خرید کردن"
+    },
+    {
+      "fr":"acheter un cadeau",
+      "fa":"خریدن هدیه"
+    },
+    {
+      "fr":"acheter une maison",
+      "fa":"خریدن خانه"
+    }
+  ],
+
+  "synonyms":[
+    "acquérir",
+    "obtenir",
+    "se procurer",
+    "prendre",
+    "payer"
+  ],
+
+  "antonyms":[
+    "vendre",
+    "céder",
+    "offrir"
+  ]
+}
