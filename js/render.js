@@ -242,33 +242,25 @@ ${found.usage || "-"}
 
 <div class="shortcut-card">
 
-<a href="#dictionary">
+<button onclick="goToSection('dictionary')">
 📖 Dictionary
-</a>
+</button>
 
-<a href="#examples">
+<button onclick="goToSection('examples')">
 📝 Examples
-</a>
+</button>
 
-<a href="#phrases">
+<button onclick="goToSection('phrases')">
 💬 Phrases
-</a>
+</button>
 
-<a href="#synonyms">
+<button onclick="goToSection('synonyms')">
 🔄 Synonyms
-</a>
+</button>
 
-<a href="#antonyms">
+<button onclick="goToSection('antonyms')">
 ⚡ Antonyms
-</a>
-
-</div>
-
-<div id="dictionary" class="dictionary-card">
-
-<h2>📖 Dictionary</h2>
-
-${dictionaryHTML}
+</button>
 
 </div>
 
