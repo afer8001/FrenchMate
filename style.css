@@ -659,19 +659,20 @@ font-size:16px;
 
 .example-fa{
 
-margin-top:10px;
+margin-top:6px;
 
 font-size:16px;
 
-line-height:1.9;
+text-align:left;
 
-direction:rtl;
-
-text-align:right;
+direction:ltr;
 
 color:#6b7280;
 
+padding-left:4px;
+
 }
+
 
 /* ================================= */
 /* LISTS */
