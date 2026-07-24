@@ -597,13 +597,18 @@ font-size:17px;
 
 line-height:1.9;
 
-direction:rtl;
+text-align:left;
 
-text-align:right;
+direction:ltr;
 
 color:#4b5563;
 
+padding-left:4px;
+
+margin-top:6px;
+
 }
+
 
 /* ================================= */
 /* EXAMPLES */
