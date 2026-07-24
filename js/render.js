@@ -264,7 +264,13 @@ ${found.usage || "-"}
 
 </div>
 
+<div id="dictionary" class="dictionary-card">
 
+<h2>📖 Dictionary</h2>
+
+${dictionaryHTML}
+
+</div>
 
 <div id="examples" class="section-card">
 
