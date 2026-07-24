@@ -331,3 +331,9 @@ block:"start"
 });
 
 }
+
+function goHome(){
+
+location.reload();
+
+}
