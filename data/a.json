@@ -1,441 +1,315 @@
-[
-  [
+{
+  "word": "aller",
+  "meaning": "رفتن، شدن، آمدن (اندازه/برازنده بودن)، حال داشتن، کار کردن",
+  "english": "to go, to fit, to be doing (health/state), to function",
+  "pronunciation": "[ale]",
+  "type": "Verbe du 3ème groupe (فعل گروه سوم - بی‌قاعده)",
+  "gender": "",
+  "usage": "فعل aller یکی از پرکاربردترین و بنیادی‌ترین افعال زبان فرانسوی است. نکات گرامری کلیدی:\n\n1. صرف زمان حال (Présent):\n- Je vais\n- Tu vas\n- Il / Elle / On va\n- Nous allons\n- Vous allez\n- Ils / Elles vont\n\n2. زمان گذشته مرکب (Passé composé):\nاین فعل با فعل کمکی être صرف می‌شود و اسم مفعول آن (Allé) با فاعل از نظر جنسیت و تعداد تطابق دارد:\n- Je suis allé(e)\n- Tu es allé(e)\n- Il est allé / Elle est allée\n- Nous sommes allé(e)s\n- Vous êtes allé(e)(s)\n- Ils sont allés / Elles sont allées\n\n3. ساختار آینده نزدیک (Futur proche):\nترکیب صرف فعل aller در زمان حال + مصدر فعل اصلی (Infinitif) برای بیان کاری که به زودی انجام می‌شود:\n- Je vais parler (من می‌خواهم صحبت کنم / در حال صحبت کردن خواهم بود)\n- Tu vas comprendre (تو متوجه خواهی شد)\n\n4. افعال حرکتی و حرف اضافه مناسب:\n- برای کشورها/شهرهای زنانه یا با حرف علت: en (ex: en France, en Italie)\n- برای کشورهای مردانه: au (ex: au Canada, au Japon)\n- برای کشورهای جمع: aux (ex: aux États-Unis)\n- برای شهرها: à (ex: à Paris, à Téhéran)\n- برای اشخاص: chez (ex: chez le médecin, chez Ali)\n\n5. حالت ضمیری (S'en aller):\nبه معنی «ترک کردن / راهی شدن / رفتن از محلی» است (Je m'en vais).",
+  "dictionary": [
     {
-      "word": "aller",
-      "english": "to go",
-      "meaning": "رفتن",
-      "pronunciation": "/a.le/",
-      "type": "Verb",
-      "gender": "-",
-      "usage": "Le verbe « aller » est l'un des verbes les plus utilisés en français. Il exprime principalement le déplacement, mais il est également utilisé pour parler de l'état, du futur proche, des habitudes et de nombreuses expressions courantes.",
-      "dictionary": [
-        {
-          "meaning_fr": "Se déplacer d'un endroit vers un autre.",
-          "meaning_fa": "رفتن یا حرکت کردن از یک مکان به مکان دیگر."
-        },
-        {
-          "meaning_fr": "Se rendre quelque part.",
-          "meaning_fa": "به جایی رفتن."
-        },
-        {
-          "meaning_fr": "Partir.",
-          "meaning_fa": "حرکت کردن، عازم شدن."
-        },
-        {
-          "meaning_fr": "Fonctionner correctement.",
-          "meaning_fa": "درست کار کردن (برای وسایل یا سیستم‌ها)."
-        },
-        {
-          "meaning_fr": "Être en bonne ou mauvaise santé.",
-          "meaning_fa": "حال کسی خوب یا بد بودن."
-        }
-      ],
-      "examples": [],
-      "phrases": [],
-      "synonyms": [],
-      "antonyms": []
+      "number": 1,
+      "meaning_fr": "Se déplacer d'un lieu à un autre, se rendre quelque part.",
+      "meaning_fa": "حرکت کردن یا جابجا شدن از یک مکان به مکان دیگر؛ رفتن به جایی."
+    },
+    {
+      "number": 2,
+      "meaning_fr": "S'exprimer sur l'état de santé, le bien-être ou la situation générale d'une personne.",
+      "meaning_fa": "بیان وضعیت سلامتی، حال عمومی یا شرایط زندگی یک فرد (چطور بودن/حال داشتن)."
+    },
+    {
+      "number": 3,
+      "meaning_fr": "Convenir, seoir à quelqu'un en parlant d'un vêtement, d'une coiffure ou d'un style.",
+      "meaning_fa": "مناسب بودن، آمدن و برازنده بودن (درباره لباس، رنگ، آرایش یا سبک)."
+    },
+    {
+      "number": 4,
+      "meaning_fr": "Fonctionner, marcher correctement en parlant d'un mécanisme ou d'une affaire.",
+      "meaning_fa": "کار کردن، درست پیش رفتن و فعال بودن (برای دستگاه، ماشین یا امور کاری)."
+    },
+    {
+      "number": 5,
+      "meaning_fr": "Servir d'auxiliaire pour exprimer le futur proche (aller + infinitif).",
+      "meaning_fa": "استفاده به عنوان فعل کمکی برای ساخت زمان آینده نزدیک (قصد انجام کاری را داشتن)."
+    },
+    {
+      "number": 6,
+      "meaning_fr": "Mener, conduire à un endroit précis en parlant d'un chemin ou d'une route.",
+      "meaning_fa": "منتهی شدن، هدایت کردن یا کشیده شدن به یک مسیر یا مکان (برای راه و جاده)."
+    },
+    {
+      "number": 7,
+      "meaning_fr": "Atteindre un certain niveau, une limite ou un montant.",
+      "meaning_fa": "رسیدن به یک حد، میزان، قیمت یا مرحله مشخص."
+    },
+    {
+      "number": 8,
+      "meaning_fr": "S'accorder, être en harmonie avec quelque chose d'autre.",
+      "meaning_fa": "هماهنگ بودن، سازگار بودن و ست شدن با چیز دیگر."
+    },
+    {
+      "number": 9,
+      "meaning_fr": "S'étendre ou s'étirer d'un point à un autre dans l'espace ou le temps.",
+      "meaning_fa": "امتداد داشتن یا ادامه یافتن از یک نقطه تا نقطه دیگر در زمان یا مکان."
+    },
+    {
+      "number": 10,
+      "meaning_fr": "Quitter un lieu, partir (dans la forme pronominale 's'en aller').",
+      "meaning_fa": "ترک کردن، رفتن از جایی و راهی شدن (در ساختار ضمیری s'en aller)."
+    },
+    {
+      "number": 11,
+      "meaning_fr": "Agir ou entreprendre une action (dans l'expression 'y aller').",
+      "meaning_fa": "اقدام کردن، دست به کار شدن یا پیش رفتن (در عبارت y aller)."
+    },
+    {
+      "number": 12,
+      "meaning_fr": "Progresser ou évoluer d'une certaine manière (ex: aller vers le mieux).",
+      "meaning_fa": "پیشرفت کردن یا رو به سمتی حرکت کردن (مثلاً رو به بهبود رفتن)."
     }
   ],
-  {
-    "meaning_fr": "Suivre une direction.",
-    "meaning_fa": "در مسیری حرکت کردن یا جهتی را دنبال کردن."
-  },
-  {
-    "meaning_fr": "Accompagner quelqu'un.",
-    "meaning_fa": "همراه کسی رفتن یا او را همراهی کردن."
-  },
-  {
-    "meaning_fr": "Fréquenter un lieu.",
-    "meaning_fa": "به طور منظم به جایی رفت‌وآمد داشتن."
-  },
-  {
-    "meaning_fr": "Convenir à quelqu'un.",
-    "meaning_fa": "به کسی آمدن یا مناسب بودن."
-  },
-  {
-    "meaning_fr": "Se dérouler d'une certaine manière.",
-    "meaning_fa": "به شکل خاصی پیش رفتن."
-  },
-  {
-    "meaning_fr": "Être compatible avec.",
-    "meaning_fa": "با چیزی سازگار بودن."
-  },
-  {
-    "meaning_fr": "Se comporter.",
-    "meaning_fa": "رفتار کردن."
-  },
-  {
-    "meaning_fr": "Exprimer une évolution.",
-    "meaning_fa": "نشان دادن روند یا تغییر."
-  },
-  {
-    "meaning_fr": "Être orienté vers.",
-    "meaning_fa": "به سمتی متمایل بودن."
-  },
-  {
-    "meaning_fr": "Servir à.",
-    "meaning_fa": "برای منظوری به کار رفتن."
-  },
-  {
-    "fr": "Je vais à l'école tous les jours.",
-    "fa": "من هر روز به مدرسه می‌روم."
-  },
-  {
-    "fr": "Nous allons au cinéma ce soir.",
-    "fa": "ما امشب به سینما می‌رویم."
-  },
-  {
-    "fr": "Ils vont en France chaque été.",
-    "fa": "آن‌ها هر تابستان به فرانسه می‌روند."
-  },
-  {
-    "fr": "Tu vas très vite.",
-    "fa": "تو خیلی سریع حرکت می‌کنی."
-  },
-  {
-    "fr": "Elle va au travail en métro.",
-    "fa": "او با مترو به محل کار می‌رود."
-  },
-  {
-    "fr": "Je vais faire mes devoirs.",
-    "fa": "من می‌خواهم تکالیفم را انجام بدهم."
-  },
-  {
-    "fr": "Nous allons manger dans une heure.",
-    "fa": "ما تا یک ساعت دیگر غذا خواهیم خورد."
-  },
-  {
-    "fr": "Comment va ton père ?",
-    "fa": "حال پدرت چطور است؟"
-  },
-  {
-    "fr": "Ça va très bien aujourd'hui.",
-    "fa": "امروز همه چیز خیلی خوب است."
-  },
-  {
-    "fr": "Le projet va avancer rapidement.",
-    "fa": "پروژه به‌سرعت پیش خواهد رفت."
-  },
-  {
-    "fr": "Cette robe te va très bien.",
-    "fa": "این لباس خیلی به تو می‌آید."
-  },
-  {
-    "fr": "Le train va partir dans cinq minutes.",
-    "fa": "قطار تا پنج دقیقه دیگر حرکت می‌کند."
-  },
-  {
-    "fr": "Je vais souvent à la bibliothèque.",
-    "fa": "من اغلب به کتابخانه می‌روم."
-  },
-  {
-    "fr": "Ils vont chercher leurs enfants.",
-    "fa": "آن‌ها می‌روند تا بچه‌هایشان را بیاورند."
-  },
-  {
-    "fr": "Vous allez comprendre rapidement.",
-    "fa": "شما خیلی زود متوجه خواهید شد."
-  },
-  {
-    "fr": "Je vais toujours à pied quand il fait beau.",
-    "fa": "وقتی هوا خوب است همیشه پیاده می‌روم."
-  },
-  {
-    "fr": "Elle va acheter du pain.",
-    "fa": "او می‌رود نان بخرد."
-  },
-  {
-    "fr": "Nous allons visiter le musée demain.",
-    "fa": "ما فردا از موزه بازدید خواهیم کرد."
-  },
-  {
-    "fr": "Ils vont arriver bientôt.",
-    "fa": "آن‌ها به‌زودی خواهند رسید."
-  },
-  {
-    "fr": "Tu vas réussir ton examen.",
-    "fa": "تو در امتحانت موفق خواهی شد."
-  },
-  {
-    "fr": "Je vais rester ici quelques minutes.",
-    "fa": "من چند دقیقه اینجا می‌مانم."
-  },
-  {
-    "fr": "Le bébé va mieux aujourd'hui.",
-    "fa": "حال نوزاد امروز بهتر است."
-  },
-  {
-    "fr": "Ça ne va pas du tout.",
-    "fa": "اصلاً خوب نیست."
-  },
-  {
-    "fr": "Comment ça va au travail ?",
-    "fa": "کارها در محل کار چطور پیش می‌رود؟"
-  },
-  {
-    "fr": "Tout va changer bientôt.",
-    "fa": "همه‌چیز به‌زودی تغییر خواهد کرد."
-  },
-  {
-    "fr": "Cette couleur va parfaitement avec tes yeux.",
-    "fa": "این رنگ کاملاً با چشمانت هماهنگ است."
-  },
-  {
-    "fr": "Le temps va se refroidir ce soir.",
-    "fa": "هوا امشب سردتر خواهد شد."
-  },
-  {
-    "fr": "Nous allons prendre le bus.",
-    "fa": "ما سوار اتوبوس خواهیم شد."
-  },
-  {
-    "fr": "Ils vont jouer au football après l'école.",
-    "fa": "آن‌ها بعد از مدرسه فوتبال بازی خواهند کرد."
-  },
-  {
-    "fr": "Je vais te montrer quelque chose.",
-    "fa": "می‌خواهم چیزی به تو نشان بدهم."
-  },
-  {
-    "fr": "Je vais rentrer à la maison après le travail.",
-    "fa": "بعد از کار به خانه برمی‌گردم."
-  },
-  {
-    "fr": "Elle va préparer le dîner.",
-    "fa": "او شام را آماده خواهد کرد."
-  },
-  {
-    "fr": "Nous allons étudier ensemble ce weekend.",
-    "fa": "آخر هفته با هم درس خواهیم خواند."
-  },
-  {
-    "fr": "Ils vont ouvrir un nouveau magasin.",
-    "fa": "آن‌ها یک فروشگاه جدید افتتاح خواهند کرد."
-  },
-  {
-    "fr": "Tu vas devenir un excellent professeur.",
-    "fa": "تو یک معلم عالی خواهی شد."
-  },
-  {
-    "fr": "Je vais essayer encore une fois.",
-    "fa": "یک بار دیگر تلاش می‌کنم."
-  },
-  {
-    "fr": "Ça va beaucoup mieux maintenant.",
-    "fa": "الان خیلی بهتر شده است."
-  },
-  {
-    "fr": "Tout va bien chez toi ?",
-    "fa": "همه چیز در خانه‌ات خوب است؟"
-  },
-  {
-    "fr": "Le spectacle va commencer dans quelques minutes.",
-    "fa": "نمایش تا چند دقیقه دیگر شروع می‌شود."
-  },
-  {
-    "fr": "Le téléphone ne va plus.",
-    "fa": "تلفن دیگر کار نمی‌کند."
-  },
-  {
-    "fr": "Je vais souvent au parc avec mes amis.",
-    "fa": "من اغلب با دوستانم به پارک می‌روم."
-  },
-  {
-    "fr": "Nous allons prendre un café ensemble.",
-    "fa": "ما با هم یک قهوه خواهیم نوشید."
-  },
-  {
-    "fr": "Ils vont construire une nouvelle école.",
-    "fa": "آن‌ها یک مدرسه‌ی جدید خواهند ساخت."
-  },
-  {
-    "fr": "Tu vas adorer cette ville.",
-    "fa": "تو عاشق این شهر خواهی شد."
-  },
-  {
-    "fr": "Je vais répondre à ton message ce soir.",
-    "fa": "امشب به پیامت پاسخ خواهم داد."
-  },
-  {
-    "fr": "Je vais apprendre le français cette année.",
-    "fa": "امسال زبان فرانسوی یاد خواهم گرفت."
-  },
-  {
-    "fr": "Elle va rendre visite à sa grand-mère.",
-    "fa": "او به دیدن مادربزرگش خواهد رفت."
-  },
-  {
-    "fr": "Nous allons voyager en Europe l'été prochain.",
-    "fa": "تابستان آینده به اروپا سفر خواهیم کرد."
-  },
-  {
-    "fr": "Ils vont finir leur projet demain.",
-    "fa": "آن‌ها فردا پروژه‌شان را تمام خواهند کرد."
-  },
-  {
-    "fr": "Tu vas trouver la réponse facilement.",
-    "fa": "تو پاسخ را به‌راحتی پیدا خواهی کرد."
-  },
-  {
-    "fr": "Je vais écrire une lettre à mon ami.",
-    "fa": "برای دوستم نامه خواهم نوشت."
-  },
-  {
-    "fr": "Le film va durer deux heures.",
-    "fa": "فیلم دو ساعت طول خواهد کشید."
-  },
-  {
-    "fr": "Tout va très vite aujourd'hui.",
-    "fa": "امروز همه چیز خیلی سریع پیش می‌رود."
-  },
-  {
-    "fr": "Ça va être difficile au début.",
-    "fa": "اوایل سخت خواهد بود."
-  },
-  {
-    "fr": "Je vais prendre une douche.",
-    "fa": "می‌روم دوش بگیرم."
-  },
-  {
-    "fr": "Nous allons discuter de ce problème.",
-    "fa": "درباره این مشکل صحبت خواهیم کرد."
-  },
-  {
-    "fr": "Ils vont rencontrer le directeur.",
-    "fa": "آن‌ها مدیر را ملاقات خواهند کرد."
-  },
-  {
-    "fr": "Tu vas recevoir une bonne nouvelle.",
-    "fa": "یک خبر خوب دریافت خواهی کرد."
-  },
-  {
-    "fr": "Je vais t'aider si tu veux.",
-    "fa": "اگر بخواهی کمکت خواهم کرد."
-  },
-  {
-    "fr": "Le match va commencer bientôt.",
-    "fa": "مسابقه به‌زودی شروع خواهد شد."
-  },
-  [
+  "examples": [
+    {
+      "fr": "Je vais à l'école tous les matins.",
+      "fa": "من هر روز صبح به مدرسه می‌روم. (A1)"
+    },
+    {
+      "fr": "Comment vas-tu aujourd'hui ?",
+      "fa": "امروز چطوری؟ (A1)"
+    },
+    {
+      "fr": "Nous allons au cinéma ce soir.",
+      "fa": "ما امشب به سینما می‌رویم. (A1)"
+    },
+    {
+      "fr": "Elle va chez le médecin.",
+      "fa": "او به مطب پزشک می‌رود. (A1)"
+    },
+    {
+      "fr": "Ils vont en France cet été.",
+      "fa": "آن‌ها این تابستان به فرانسه می‌روند. (A1)"
+    },
+    {
+      "fr": "Tu vas bien ?",
+      "fa": "حالت خوبه؟ (A1)"
+    },
+    {
+      "fr": "Le train va à Paris.",
+      "fa": "قطار به پاریس می‌رود. (A1)"
+    },
+    {
+      "fr": "Je vais manger une pomme.",
+      "fa": "من می‌خواهم یک سیب بخورم. (A1)"
+    },
+    {
+      "fr": "Cette robe te va très bien.",
+      "fa": "این پیراهن خیلی بهت می‌آید. (A2)"
+    },
+    {
+      "fr": "Nous sommes allés au restaurant hier soir.",
+      "fa": "ما دیشب به رستوران رفتیم. (A2)"
+    },
+    {
+      "fr": "Comment ça va au travail ?",
+      "fa": "کارها چطور پیش می‌رود؟ (A2)"
+    },
+    {
+      "fr": "Il va acheter une nouvelle voiture la semaine prochaine.",
+      "fa": "او هفته آینده یک ماشین جدید خواهد خرید. (A2)"
+    },
+    {
+      "fr": "Elle est allée au supermarché pour faire des courses.",
+      "fa": "او برای خرید به سوپرمارکت رفت. (A2)"
+    },
+    {
+      "fr": "Les enfants vont se coucher tôt ce soir.",
+      "fa": "بچه‌ها امشب زود به رختخواب خواهند رفت. (A2)"
+    },
+    {
+      "fr": "Cette couleur va bien avec tes yeux.",
+      "fa": "این رنگ با چشمانت خیلی ست می‌شود. (A2)"
+    },
+    {
+      "fr": "Est-ce que tout va bien chez toi ?",
+      "fa": "آیا همه چیز در خانه شما خوب پیش می‌رود؟ (A2)"
+    },
+    {
+      "fr": "Si tout va bien, nous arriverons avant la nuit.",
+      "fa": "اگر همه چیز خوب پیش برود، قبل از تاریکی هوا می‌رسیم. (B1)"
+    },
+    {
+      "fr": "Il va falloir prendre une décision rapidement.",
+      "fa": "باید سریعاً تصمیمی گرفته شود. (B1)"
+    },
+    {
+      "fr": "Elle s'en va demain matin pour un long voyage.",
+      "fa": "او فردا صبح برای یک سفر طولانی راهی می‌شود. (B1)"
+    },
+    {
+      "fr": "Ce chemin va jusqu'à la rivière.",
+      "fa": "این مسیر تا نهر امتداد دارد. (B1)"
+    },
+    {
+      "fr": "Je ne sais pas comment les choses vont tourner.",
+      "fa": "نمی‌دانم اوضاع چطور پیش خواهد رفت. (B1)"
+    },
+    {
+      "fr": "Le rouge et le noir vont toujours très bien ensemble.",
+      "fa": "قرمز و مشکی همیشه خیلی خوب با هم هماهنگ می‌شوند. (B1)"
+    },
+    {
+      "fr": "Nous sommes allés lui rendre visite à l'hôpital.",
+      "fa": "ما به ملاقات او در بیمارستان رفتیم. (B1)"
+    },
+    {
+      "fr": "Vas-y, n'aie pas peur de prendre la parole !",
+      "fa": "برو پیش، از صحبت کردن نترس! (B1)"
+    },
+    {
+      "fr": "Il est allé jusqu'à contester la décision du directeur.",
+      "fa": "او حتی تا جایی پیش رفت که تصمیم مدیر را به چالش کشید. (B2)"
+    },
+    {
+      "fr": "Les dépenses vont s'élever à plus de mille euros.",
+      "fa": "هزینه‌ها به بیش از هزار یورو خواهد رسید. (B2)"
+    },
+    {
+      "fr": "Ce projet va à l'encontre de nos valeurs fondamentales.",
+      "fa": "این پروژه بر خلاف ارزش‌های بنیادی ما پیش می‌رود. (B2)"
+    },
+    {
+      "fr": "Il va sans dire que votre présence est indispensable.",
+      "fa": "بدیهی است که حضور شما ضروری است. (B2)"
+    },
+    {
+      "fr": "Quoi qu'il arrive, la vie va son train.",
+      "fa": "هر اتفاقی بیفتد، زندگی روال عادی خود را طی می‌کند. (B2)"
+    },
+    {
+      "fr": "Elle a décidé de laisser aller les choses sans intervenir.",
+      "fa": "او تصمیم گرفت بگذارد امور به حال خود پیش بروند بدون اینکه مداخله کند. (B2)"
+    },
+    {
+      "fr": "N'y allez pas par quatre chemins, dites-nous la vérité.",
+      "fa": "حاشیه نروید، حقیقت را به ما بگویید. (B2)"
+    },
+    {
+      "fr": "Les années vont et viennent, mais les souvenirs restent.",
+      "fa": "سال‌ها می‌آیند و می‌روند، اما خاطرات باقی می‌مانند. (B2)"
+    }
+  ],
+  "phrases": [
     {
       "fr": "aller bien",
-      "fa": "حال خوب بودن / خوب پیش رفتن"
+      "fa": "حال خوب داشتن / خوب پیش رفتن"
     },
     {
       "fr": "aller mal",
-      "fa": "حال بد بودن / بد پیش رفتن"
+      "fa": "حال بد داشتن / بد پیش رفتن"
     },
     {
-      "fr": "Comment ça va ?",
-      "fa": "حالت چطوره؟"
+      "fr": "aller à",
+      "fa": "به جایی رفتن / به کسی آمدن (اندازه و زیبایی لباس)"
     },
     {
-      "fr": "Ça va bien.",
-      "fa": "حالم خوب است."
+      "fr": "aller chez",
+      "fa": "به نزدِ / به خانه کسی رفتن"
     },
     {
-      "fr": "Ça va mal.",
-      "fa": "حالم خوب نیست."
+      "fr": "aller + infinitif",
+      "fa": "قصد انجام کاری را داشتن (آینده نزدیک)"
     },
     {
-      "fr": "Ça va mieux.",
-      "fa": "بهتر شده است."
+      "fr": "s'en aller",
+      "fa": "ترک کردن / راهی شدن / رفتن"
     },
     {
-      "fr": "Ça va très bien.",
-      "fa": "خیلی خوبم."
+      "fr": "y aller",
+      "fa": "دست به کار شدن / رفتن به آنجا / پیش رفتن"
     },
     {
-      "fr": "aller chercher",
-      "fa": "دنبال چیزی یا کسی رفتن / آوردن"
+      "fr": "aller-retour",
+      "fa": "رفت و برگشت (بلیط/مسیر)"
     },
     {
-      "fr": "aller voir",
-      "fa": "رفتن برای دیدن"
+      "fr": "aller simple",
+      "fa": "یک‌سره / فقط رفت"
     },
     {
-      "fr": "aller faire",
-      "fa": "رفتن برای انجام دادن کاری"
+      "fr": "aller sans dire",
+      "fa": "بدیهی بودن / نیاز به گفتن نداشتن"
     },
     {
-      "fr": "aller au travail",
-      "fa": "به محل کار رفتن"
+      "fr": "aller droit au but",
+      "fa": "رک و راست سر اصل مطلب رفتن"
     },
     {
-      "fr": "aller à l'école",
-      "fa": "به مدرسه رفتن"
+      "fr": "aller ensemble",
+      "fa": "با هم ست بودن / جور بودن"
     },
     {
-      "fr": "aller à la maison",
-      "fa": "به خانه رفتن"
+      "fr": "y aller fort",
+      "fa": "زیاده‌روی کردن / تند رفتن"
     },
     {
-      "fr": "aller en vacances",
-      "fa": "به تعطیلات رفتن"
+      "fr": "aller de soi",
+      "fa": "بدیهی بودن / خودبه‌خود روشن بودن"
     },
     {
-      "fr": "aller au cinéma",
-      "fa": "به سینما رفتن"
+      "fr": "laisser aller",
+      "fa": "به حال خود رها کردن / بی‌خیال شدن"
+    },
+    {
+      "fr": "aller à l'encontre de",
+      "fa": "مخالف/برخلافِ چیزی بودن"
+    },
+    {
+      "fr": "aller trop loin",
+      "fa": "از حد گذشتن / زیاده‌روی کردن"
+    },
+    {
+      "fr": "y aller de bon cœur",
+      "fa": "با رضایت و از ته دل کاری را انجام دادن"
+    },
+    {
+      "fr": "comment ça va ?",
+      "fa": "چطوری؟ / اوضاع چطور پیش می‌ره؟"
+    },
+    {
+      "fr": "aller au-delà de",
+      "fa": "فراتر رفتن از"
+    },
+    {
+      "fr": "n'y aller pas de main morte",
+      "fa": "شدیداً و بدون رحم برخورد کردن"
+    },
+    {
+      "fr": "aller bon train",
+      "fa": "با سرعت و به خوبی پیش رفتن"
     }
   ],
-  {
-    "fr": "aller avec",
-    "fa": "با چیزی هماهنگ یا ست بودن"
-  },
-  {
-    "fr": "aller de soi",
-    "fa": "بدیهی بودن"
-  },
-  {
-    "fr": "aller jusqu'à",
-    "fa": "تا جایی ادامه داشتن / پیش رفتن"
-  },
-  {
-    "fr": "aller trop loin",
-    "fa": "زیاده‌روی کردن"
-  },
-  {
-    "fr": "aller au bout de",
-    "fa": "تا انتهای کاری ادامه دادن"
-  },
-  {
-    "fr": "s'en aller",
-    "fa": "رفتن / ترک کردن"
-  },
-  {
-    "fr": "y aller",
-    "fa": "رفتن (به آنجا)"
-  },
-  {
-    "fr": "allons-y",
-    "fa": "بزن بریم!"
-  },
-  {
-    "fr": "vas-y",
-    "fa": "برو جلو / ادامه بده"
-  },
-  {
-    "fr": "allez-y",
-    "fa": "بفرمایید / ادامه بدهید"
-  },
-  {
-    "fr": "ça va de soi",
-    "fa": "این کاملاً بدیهی است."
-  },
-  {
-    "fr": "ça va sans dire",
-    "fa": "نیازی به گفتن نیست."
-  },
-  {
-    "fr": "aller bon train",
-    "fa": "به‌سرعت پیش رفتن"
-  },
-  {
-    "fr": "aller droit au but",
-    "fa": "مستقیم رفتن سر اصل مطلب"
-  },
-  {
-    "fr": "aller à contre-courant",
-    "fa": "برخلاف جریان حرکت کردن"
-  }
-]
+  "synonyms": [
+    "se déplacer",
+    "se rendre",
+    "marcher",
+    "courir",
+    "partir",
+    "cheminer",
+    "s'acheminer",
+    "circuler",
+    "naviguer",
+    "progresser",
+    "fonctionner",
+    "seoir",
+    "convenir"
+  ],
+  "antonyms": [
+    "venir",
+    "revenir",
+    "arriver",
+    "rester",
+    "demeurer",
+    "s'arrêter",
+    "retourner"
+  ]
+}
